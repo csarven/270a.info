@@ -1,0 +1,233 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix : <http://270a.info/void.ttl#> .
+@prefix oecd-dataset: <http://oecd.270a.info/dataset/> .
+@prefix bfs-dataset: <http://bfs.270a.info/dataset/> .
+@prefix fao-dataset: <http://fao.270a.info/dataset/> .
+@prefix ecb-dataset: <http://ecb.270a.info/dataset/> .
+@prefix imf-dataset: <http://imf.270a.info/dataset/> .
+@prefix uis-dataset: <http://uis.270a.info/dataset/> .
+@prefix frb-dataset: <http://frb.270a.info/dataset/> .
+@prefix worldbank-dataset: <http://worldbank.270a.info/dataset/> .
+@prefix transparency-dataset: <http://transparency.270a.info/dataset/> .
+
+
+<http://csarven.ca/#i>
+    rdfs:label "Sarven Capadisli"@en ;
+    .
+
+<http://creativecommons.org/publicdomain/zero/1.0/>
+    rdfs:label "CC0 1.0 Universal"@en ;
+    .
+
+<http://270a.info/void.ttl>
+    a void:DatasetDescription ;
+    dcterms:title "270a.info Linked Dataspaces"@en ;
+    dcterms:creator <http://csarven.ca/#i> ;
+    foaf:primaryTopic :270a-dataset .
+
+
+:270a-dataset
+    a void:Dataset ;
+    dcterms:title "270a.info"@en ;
+    foaf:homepage <http://270a.info/> ;
+    dcterms:publisher <http://csarven.ca/#i> ;
+    dcterms:modified "2014-04-23"^^xsd:date ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    void:subset
+#        :u270a-void ,
+        worldbank-dataset:worldbank ,
+        transparency-dataset:transparency ,
+        oecd-dataset:oecd ,
+        fao-dataset:fao ,
+        bfs-dataset:bfs ,
+        ecb-dataset:ecb ,
+        imf-dataset:imf ,
+        uis-dataset:uis ,
+        frb-dataset:frb ;
+    void:triples 0 ;
+    dcterms:subject
+        <http://dbpedia.org/resource/Central_bank> ,
+        <http://dbpedia.org/resource/Climate_change> ,
+        <http://dbpedia.org/resource/Communication> ,
+        <http://dbpedia.org/resource/Cultural_heritage> ,
+        <http://dbpedia.org/resource/Economics> ,
+        <http://dbpedia.org/resource/Education> ,
+        <http://dbpedia.org/resource/Environment> ,
+        <http://dbpedia.org/resource/Finance> ,
+        <http://dbpedia.org/resource/Foreign_investment> ,
+        <http://dbpedia.org/resource/Government> ,
+        <http://dbpedia.org/resource/International_Bank_for_Reconstruction_and_Development> ,
+        <http://dbpedia.org/resource/International_Development_Association> ,
+        <http://dbpedia.org/resource/International_financial_institution> ,
+        <http://dbpedia.org/resource/International_trade> ,
+        <http://dbpedia.org/resource/Non-governmental_organization> ,
+        <http://dbpedia.org/resource/Regional_science> ,
+        <http://dbpedia.org/resource/Regional_science> ,
+        <http://dbpedia.org/resource/Science_and_technology> ,
+        <http://dbpedia.org/resource/Corruption_Perceptions_Index> ,
+        <http://dbpedia.org/resource/Statistical_survey> ,
+
+        <http://dbpedia.org/resource/Transparency_International> ,
+        <http://dbpedia.org/resource/World_Bank> ,
+
+        <http://purl.org/linked-data/sdmx/2009/subject#1.8> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#1.10> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.4.6> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.5> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.6> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#3.3> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#3.4> ;
+    void:feature
+        <http://www.w3.org/ns/formats/RDF_XML> ,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    .
+
+#:u270a-void
+#    a sd:Graph, void:Dataset ;
+#    dcterms:title "270a.info's SD+VoID"@en ;
+#    void:triples 0 ;
+#    void:dataDump <http://270a.info/void.ttl> ;
+#    .
+
+worldbank-dataset:worldbank
+    a void:Dataset ;
+    dcterms:title "World Bank"@en ;
+    foaf:homepage <http://worldbank.270a.info/> ;
+    void:triples 173639128 ;
+    void:sparqlEndpoint <http://worldbank.270a.info/sparql> ;
+    dcterms:subject
+        <http://dbpedia.org/resource/International_financial_institution> ,
+        <http://dbpedia.org/resource/Foreign_investment> ,
+        <http://dbpedia.org/resource/International_trade> ,
+        <http://dbpedia.org/resource/International_Bank_for_Reconstruction_and_Development> ,
+        <http://dbpedia.org/resource/International_Development_Association> ,
+        <http://dbpedia.org/resource/Statistical_survey> ,
+        <http://dbpedia.org/resource/Finance> ,
+        <http://dbpedia.org/resource/Climate_change> ,
+        <http://dbpedia.org/resource/Environment> ;
+    .
+transparency-dataset:transparency
+    a void:Dataset ;
+    dcterms:title "Transparency International"@en ;
+    foaf:homepage <http://transparency.270a.info/> ;
+    void:triples 51406 ;
+    void:sparqlEndpoint <http://transparency.270a.info/sparql> ;
+    dcterms:subject
+        <http://dbpedia.org/resource/Transparency_International> ,
+        <http://dbpedia.org/resource/Non-governmental_organization> ,
+        <http://dbpedia.org/resource/Government> ,
+        <http://dbpedia.org/resource/World_Bank> ,
+        <http://dbpedia.org/resource/Statistical_survey> ,
+        <http://dbpedia.org/resource/Corruption_Perceptions_Index> ;
+    .
+oecd-dataset:oecd
+    a void:Dataset ;
+    dcterms:title "Organisation for Economic Co-operation and Development"@en ;
+    foaf:homepage <http://oecd.270a.info/> ;
+    void:triples 304995160 ;
+    void:sparqlEndpoint <http://oecd.270a.info/sparql> ;
+    dcterms:subject
+        <http://dbpedia.org/resource/Statistical_survey> ,
+        <http://dbpedia.org/resource/Finance> ,
+        <http://dbpedia.org/resource/Economics> ,
+        <http://dbpedia.org/resource/Regional_science> ;
+    .
+fao-dataset:fao
+    a void:Dataset ;
+    dcterms:title "Food and Agriculture Organization of the United Nations"@en ;
+    foaf:homepage <http://fao.270a.info/> ;
+    void:triples 53000000 ;
+    void:sparqlEndpoint <http://fao.270a.info/sparql> ;
+    dcterms:subject
+        <http://dbpedia.org/resource/Statistical_survey> ,
+        <http://dbpedia.org/resource/Finance> ,
+        <http://dbpedia.org/resource/Economics> ,
+        <http://dbpedia.org/resource/Regional_science> ;
+    .
+bfs-dataset:bfs
+    a void:Dataset ;
+    dcterms:title "Swiss Federal Statistics Office"@en ;
+    foaf:homepage <http://bfs.270a.info/> ;
+    void:triples 1050000 ;
+    void:sparqlEndpoint <http://bfs.270a.info/sparql> ;
+    dcterms:subject
+        <http://dbpedia.org/resource/Statistical_survey> ,
+        <http://dbpedia.org/resource/Finance> ,
+        <http://dbpedia.org/resource/Economics> ,
+        <http://dbpedia.org/resource/Regional_science> ;
+    .
+ecb-dataset:ecb
+    a void:Dataset ;
+    dcterms:title "European Central Bank"@en ;
+    foaf:homepage <http://ecb.270a.info/> ;
+    void:triples 468899474 ;
+    void:sparqlEndpoint <http://ecb.270a.info/sparql> ;
+    dcterms:subject
+        <http://dbpedia.org/resource/Statistical_survey> ,
+        <http://dbpedia.org/resource/Finance> ,
+        <http://dbpedia.org/resource/Economics> ,
+        <http://dbpedia.org/resource/Regional_science> ,
+        <http://dbpedia.org/resource/Central_bank> ;
+    .
+imf-dataset:imf
+    a void:Dataset ;
+    dcterms:title "International Monetary Fund"@en ;
+    foaf:homepage <http://imf.270a.info/> ;
+    void:triples 35688446 ;
+    void:sparqlEndpoint <http://imf.270a.info/sparql> ;
+    dcterms:subject
+        <http://dbpedia.org/resource/Statistical_survey> ,
+        <http://dbpedia.org/resource/Finance> ,
+        <http://dbpedia.org/resource/Economics> ,
+        <http://dbpedia.org/resource/Regional_science> ,
+        <http://dbpedia.org/resource/Central_bank> ;
+    .
+uis-dataset:uis
+    a void:Dataset ;
+    dcterms:title "UNESCO Institute for Statistics"@en ;
+    foaf:homepage <http://uis.270a.info/> ;
+    void:triples 10437212 ;
+    void:sparqlEndpoint <http://uis.270a.info/sparql> ;
+    dcterms:subject
+        <http://dbpedia.org/resource/Statistical_survey> ,
+        <http://dbpedia.org/resource/Finance> ,
+        <http://dbpedia.org/resource/Education> ,
+        <http://dbpedia.org/resource/Science_and_technology> ,
+        <http://dbpedia.org/resource/Cultural_heritage> ,
+        <http://dbpedia.org/resource/Communication> ;
+    .
+frb-dataset:frb
+    a void:Dataset ;
+    dcterms:title "Federal Reserve Board"@en ;
+    foaf:homepage <http://frb.270a.info/> ;
+    void:triples 185266900 ;
+    void:sparqlEndpoint <http://frb.270a.info/sparql> ;
+    dcterms:subject
+        <http://dbpedia.org/resource/Statistical_survey> ,
+        <http://dbpedia.org/resource/Finance> ,
+        <http://dbpedia.org/resource/Economics> ,
+        <http://dbpedia.org/resource/Regional_science> ,
+        <http://dbpedia.org/resource/Central_bank> ;
+    .
+
+#<http://dbpedia.org/void/Dataset>
+#    rdf:type void:Dataset ;
+#    dcterms:title "DBpedia"@en ;
+##TODO: Get a real count?
+#    void:triples 1000000000 ;
+#    void:sparqlEndpoint <http://dbpedia.org/sparql> ;
+#    foaf:homepage <http://dbpedia.org/> ;
+#    .
+
+

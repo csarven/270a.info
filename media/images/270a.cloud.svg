@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="-26.698831868761182 5 639.6108516422825 480" id="svg2">
+  <title id="title2997">270a Cloud</title>
+  <metadata id="metadata29">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title>270a Cloud</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>http://csarven.ca/#i</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>http://csarven.ca/#i</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:date>2013-10-07</dc:date>
+        <dc:identifier>http://270a.info/media/images/270a.cloud.svg</dc:identifier>
+        <dc:source>http://270a.info/media/images/270a.cloud.svg</dc:source>
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+        <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <style type="text/css" id="style6">
+.dataset circle { fill: #fff; stroke: #0000EE; stroke-width: 1; }
+
+.dataset.media circle { fill: #E2EAFF; stroke: #2866C4; }
+.dataset.geographic circle { fill: #FFEFA6; stroke: #996633; }
+.dataset.publications circle { fill: #E4FFC9; stroke: #30C32D; }
+.dataset.usergeneratedcontent circle { fill: #FFE9D8; stroke: #FF5D33; }
+.dataset.government circle { fill: #C5FFE5; stroke: #11C2A2; }
+.dataset.crossdomain circle { fill: #E6F6F4; stroke: #2E4439; }
+.dataset.lifesciences circle { fill: #F4D6E2; stroke: #C31A8A; }
+
+.dataset circle { stroke-width: 2; }
+.dataset.legal circle { fill: #FFF; stroke: #EB0; }
+#.dataset.legal text { fill: #996633; }
+.dataset.business circle { fill: #FFF; stroke: #EB0; }
+#.dataset.business text { fill: #607; }
+.dataset.eu-institution circle { fill: #FFF; stroke: #EB0; }
+#.dataset.eu-institution text { fill: #30C32D; }
+.dataset.thirdparty circle { fill: #FFF; stroke: #28C466; }
+#.dataset.thirdparty text { fill: #050; }
+.dataset.producer circle { fill: #FFF; stroke: #2866C4; }
+#.dataset.producer text { fill: #007; }
+.dataset.non-eu circle { fill: #FFF; stroke: #DDD; }
+.dataset.non-eu text { fill: #333; }
+.shadow.weak { fill-opacity: 0.2; }
+#.links.weak, .weak .arrowhead { stroke-opacity: 0.4; fill-opacity: 0.4; }
+.links.weak, .weak .arrowhead { stroke: #AAA; fill: #AAA; }
+
+.shadow { fill-opacity: 0.6; }
+.links { stroke: #363636; stroke-linecap: square; }
+.width1 { stroke-width: 1; }
+.width2 { stroke-width: 2; }
+.width3 { stroke-width: 4; }
+.arrowhead { fill: #363636; }
+
+
+.label, .footer-text, #layer-legend text { font-weight:bold;font-family:sans-serif; text-rendering: geometricPrecision; }
+.label { text-anchor: middle; }
+.footer-text { text-anchor: end; }
+#layer-legend text { text-anchor: end; fill: #363636; }
+  </style>
+  <defs id="defs">
+    
+    
+    
+    
+  <circle id="shadow-size1" cx="0" cy="0" r="21" class="shadow" filter="url(#shadow-filter1)"/><circle id="shadow-size1-weak" cx="0" cy="0" r="21" class="shadow weak" filter="url(#shadow-filter1)"/><filter id="shadow-filter1" filterUnits="userSpaceOnUse" x="-29" y="-29" width="58" height="58">
+      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
+    </filter><circle id="shadow-size2" cx="0" cy="0" r="24" class="shadow" filter="url(#shadow-filter2)"/><circle id="shadow-size2-weak" cx="0" cy="0" r="24" class="shadow weak" filter="url(#shadow-filter2)"/><filter id="shadow-filter2" filterUnits="userSpaceOnUse" x="-32" y="-32" width="64" height="64">
+      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
+    </filter><circle id="shadow-size3" cx="0" cy="0" r="29" class="shadow" filter="url(#shadow-filter3)"/><circle id="shadow-size3-weak" cx="0" cy="0" r="29" class="shadow weak" filter="url(#shadow-filter3)"/><filter id="shadow-filter3" filterUnits="userSpaceOnUse" x="-37" y="-37" width="74" height="74">
+      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
+    </filter><circle id="shadow-size4" cx="0" cy="0" r="36" class="shadow" filter="url(#shadow-filter4)"/><circle id="shadow-size4-weak" cx="0" cy="0" r="36" class="shadow weak" filter="url(#shadow-filter4)"/><filter id="shadow-filter4" filterUnits="userSpaceOnUse" x="-44" y="-44" width="88" height="88">
+      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
+    </filter><circle id="shadow-size5" cx="0" cy="0" r="45" class="shadow" filter="url(#shadow-filter5)"/><circle id="shadow-size5-weak" cx="0" cy="0" r="45" class="shadow weak" filter="url(#shadow-filter5)"/><filter id="shadow-filter5" filterUnits="userSpaceOnUse" x="-53" y="-53" width="106" height="106">
+      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
+    </filter><circle id="shadow-size6" cx="0" cy="0" r="56" class="shadow" filter="url(#shadow-filter6)"/><circle id="shadow-size6-weak" cx="0" cy="0" r="56" class="shadow weak" filter="url(#shadow-filter6)"/><filter id="shadow-filter6" filterUnits="userSpaceOnUse" x="-64" y="-64" width="128" height="128">
+      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
+    </filter><circle id="shadow-size7" cx="0" cy="0" r="69" class="shadow" filter="url(#shadow-filter7)"/><circle id="shadow-size7-weak" cx="0" cy="0" r="69" class="shadow weak" filter="url(#shadow-filter7)"/><filter id="shadow-filter7" filterUnits="userSpaceOnUse" x="-77" y="-77" width="154" height="154">
+      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
+    </filter><circle id="shadow-size8" cx="0" cy="0" r="84" class="shadow" filter="url(#shadow-filter8)"/><circle id="shadow-size8-weak" cx="0" cy="0" r="84" class="shadow weak" filter="url(#shadow-filter8)"/><filter id="shadow-filter8" filterUnits="userSpaceOnUse" x="-92" y="-92" width="184" height="184">
+      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
+    </filter><marker markerUnits="userSpaceOnUse" refX="13" refY="5" markerWidth="7" markerHeight="7" orient="auto" viewBox="0 0 13 10" id="arrowhead-start-width1" style="overflow:visible">
+      <path d="M 13,0 0,5 13,10 z" id="arrowhead-start" style="fill:#363636"/>
+    </marker><marker markerUnits="userSpaceOnUse" refX="13" refY="5" markerWidth="7" markerHeight="7" orient="auto" viewBox="0 0 13 10" id="arrowhead-start-width1-weak" style="overflow:visible" class="weak">
+      <path d="M 13,0 0,5 13,10 z" id="arrowhead-start" style="fill:#363636"/>
+    </marker><marker markerUnits="userSpaceOnUse" refX="0" refY="5" markerWidth="7" markerHeight="7" orient="auto" viewBox="0 0 13 10" id="arrowhead-end-width1" style="overflow:visible">
+      <path d="M 0,0 13,5 0,10 z" id="arrowhead-end" style="fill:#363636"/>
+    </marker><marker markerUnits="userSpaceOnUse" refX="0" refY="5" markerWidth="7" markerHeight="7" orient="auto" viewBox="0 0 13 10" id="arrowhead-end-width1-weak" style="overflow:visible" class="weak">
+      <path d="M 0,0 13,5 0,10 z" id="arrowhead-end" style="fill:#363636"/>
+    </marker><marker markerUnits="userSpaceOnUse" refX="13" refY="5" markerWidth="10" markerHeight="10" orient="auto" viewBox="0 0 13 10" id="arrowhead-start-width2" style="overflow:visible">
+      <path d="M 13,0 0,5 13,10 z" id="arrowhead-start" style="fill:#363636"/>
+    </marker><marker markerUnits="userSpaceOnUse" refX="13" refY="5" markerWidth="10" markerHeight="10" orient="auto" viewBox="0 0 13 10" id="arrowhead-start-width2-weak" style="overflow:visible" class="weak">
+      <path d="M 13,0 0,5 13,10 z" id="arrowhead-start" style="fill:#363636"/>
+    </marker><marker markerUnits="userSpaceOnUse" refX="0" refY="5" markerWidth="10" markerHeight="10" orient="auto" viewBox="0 0 13 10" id="arrowhead-end-width2" style="overflow:visible">
+      <path d="M 0,0 13,5 0,10 z" id="arrowhead-end" style="fill:#363636"/>
+    </marker><marker markerUnits="userSpaceOnUse" refX="0" refY="5" markerWidth="10" markerHeight="10" orient="auto" viewBox="0 0 13 10" id="arrowhead-end-width2-weak" style="overflow:visible" class="weak">
+      <path d="M 0,0 13,5 0,10 z" id="arrowhead-end" style="fill:#363636"/>
+    </marker><marker markerUnits="userSpaceOnUse" refX="13" refY="5" markerWidth="14" markerHeight="14" orient="auto" viewBox="0 0 13 10" id="arrowhead-start-width3" style="overflow:visible">
+      <path d="M 13,0 0,5 13,10 z" id="arrowhead-start" style="fill:#363636"/>
+    </marker><marker markerUnits="userSpaceOnUse" refX="13" refY="5" markerWidth="14" markerHeight="14" orient="auto" viewBox="0 0 13 10" id="arrowhead-start-width3-weak" style="overflow:visible" class="weak">
+      <path d="M 13,0 0,5 13,10 z" id="arrowhead-start" style="fill:#363636"/>
+    </marker><marker markerUnits="userSpaceOnUse" refX="0" refY="5" markerWidth="14" markerHeight="14" orient="auto" viewBox="0 0 13 10" id="arrowhead-end-width3" style="overflow:visible">
+      <path d="M 0,0 13,5 0,10 z" id="arrowhead-end" style="fill:#363636"/>
+    </marker><marker markerUnits="userSpaceOnUse" refX="0" refY="5" markerWidth="14" markerHeight="14" orient="auto" viewBox="0 0 13 10" id="arrowhead-end-width3-weak" style="overflow:visible" class="weak">
+      <path d="M 0,0 13,5 0,10 z" id="arrowhead-end" style="fill:#363636"/>
+    </marker></defs>
+  <g transform="translate(2,4)" id="layer-shadows">  <use id="shadow-world-bank-linked-data" x="445.80360111584105" y="250.43724493854117" a0:href="#shadow-size6" xmlns:a0="http://www.w3.org/1999/xlink"/>
+    <use id="shadow-transparency-linked-data" x="140.7014089144966" y="365.7219416812321" a1:href="#shadow-size4" xmlns:a1="http://www.w3.org/1999/xlink"/>
+    <use id="shadow-imf-linked-data" x="255.05811133532035" y="432" a2:href="#shadow-size5" xmlns:a2="http://www.w3.org/1999/xlink"/>
+    <use id="shadow-ecb-linked-data" x="300.6840014284418" y="295.5034913249968" a3:href="#shadow-size6" xmlns:a3="http://www.w3.org/1999/xlink"/>
+    <use id="shadow-bfs-linked-data" x="400.49535113983745" y="395.7541609881448" a4:href="#shadow-size4" xmlns:a4="http://www.w3.org/1999/xlink"/>
+    <use id="shadow-fao-linked-data" x="180.70589992689477" y="230.4793979487626" a5:href="#shadow-size5" xmlns:a5="http://www.w3.org/1999/xlink"/>
+    <use id="shadow-oecd-linked-data" x="315.2855721880066" y="165.7680899875336" a6:href="#shadow-size6" xmlns:a6="http://www.w3.org/1999/xlink"/>
+    <use id="shadow-dbpedia" x="535.9120197735213" y="140.44026805196864" a7:href="#shadow-size7-weak" xmlns:a7="http://www.w3.org/1999/xlink"/>
+    <use id="shadow-nasa" x="415.80360111584105" y="90.43724493854117" a8:href="#shadow-size5-weak" xmlns:a8="http://www.w3.org/1999/xlink"/>
+    <use id="shadow-eunis" x="95.38626532471346" y="155.8726104231204" a9:href="#shadow-size4-weak" xmlns:a9="http://www.w3.org/1999/xlink"/>
+    <use id="shadow-the-eurostat-linked-data" x="50.30116813123882" y="275.7823948656967" a10:href="#shadow-size7-weak" xmlns:a10="http://www.w3.org/1999/xlink"/>
+    <use id="shadow-geonames-semantic-web" x="530.803601115841" y="345.4372449385412" a11:href="#shadow-size5-weak" xmlns:a11="http://www.w3.org/1999/xlink"/>
+    <use id="shadow-humanitarian-response" x="195.55666277176988" y="110.26734442981028" a12:href="#shadow-size4-weak" xmlns:a12="http://www.w3.org/1999/xlink"/>
+    <use id="shadow-iati" x="300.0564161699834" y="49" a13:href="#shadow-size4-weak" xmlns:a13="http://www.w3.org/1999/xlink"/>
+  </g>
+  <g id="layer-links">  <line x1="384.06403985023235" y1="273.7659091679853" x2="183.73201222082997" y2="349.4625696425287" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-world-bank-linked-data to-transparency-linked-data bidi"/>
+    <line x1="397.99803115885436" y1="295.9413928932898" x2="294.8960862994759" y2="394.0798767043761" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-world-bank-linked-data to-imf-linked-data bidi"/>
+    <line x1="426.15825556077965" y1="313.44566023381924" x2="414.1875616782135" y2="351.83920487325406" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-world-bank-linked-data to-bfs-linked-data bidi"/>
+    <line x1="379.9898475847815" y1="245.48246480689568" x2="235.550694536111" y2="234.60838139180055" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-world-bank-linked-data to-fao-linked-data bidi"/>
+    <line x1="382.7729506388612" y1="270.01113316875234" x2="363.71465190542165" y2="275.9296030947856" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-world-bank-linked-data to-ecb-linked-data bidi"/>
+    <line x1="481.2910713080576" y1="207.11704803967493" x2="487.7504530840845" y2="199.2319638432871" marker-end="url(#arrowhead-end-width1)" class="links width1 from-world-bank-linked-data to-dbpedia"/>
+    <line x1="435.4834431530307" y1="195.39640247021913" x2="425.3866049384507" y2="141.54659865912592" marker-end="url(#arrowhead-end-width1)" class="links width1 from-world-bank-linked-data to-nasa"/>
+    <line x1="483.1441132461513" y1="292.17075849594676" x2="496.1302684234101" y2="306.68469663523604" marker-end="url(#arrowhead-end-width1)" class="links width1 from-world-bank-linked-data to-geonames-semantic-web"/>
+    <line x1="389.9182353462645" y1="254.01857050327916" x2="126.1455931042355" y2="270.9220244564092" marker-end="url(#arrowhead-end-width1)" class="links width1 from-world-bank-linked-data to-the-eurostat-linked-data"/>
+    <line x1="396.9458958243115" y1="223.07075751969177" x2="233.07240076348018" y2="131.28089726928383" marker-end="url(#arrowhead-end-width1)" class="links width1 from-world-bank-linked-data to-humanitarian-response"/>
+    <line x1="412.97695657868576" y1="205.06752586919654" x2="325.2625896538705" y2="83.83746285681812" marker-end="url(#arrowhead-end-width1)" class="links width1 from-world-bank-linked-data to-iati"/>
+    <line x1="180.5002168694759" y1="388.78825663101713" x2="207.47258008480162" y2="404.42071038612664" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-transparency-linked-data to-imf-linked-data bidi"/>
+    <line x1="153.74926956728095" y1="321.61124759934853" x2="165.10519697247867" y2="283.22044522057996" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-transparency-linked-data to-fao-linked-data bidi"/>
+    <line x1="182.82276007655696" y1="347.23433025405217" x2="240.24901932635518" y2="322.02919467703765" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-transparency-linked-data to-ecb-linked-data bidi"/>
+    <line x1="171.97699483171095" y1="347.893937711776" x2="469.8857828371799" y2="178.0771653208205" marker-end="url(#arrowhead-end-width1)" class="links width1 from-transparency-linked-data to-dbpedia"/>
+    <line x1="115.1806188554909" y1="340.3312096168714" x2="104.17839158913975" y2="329.3850514460138" marker-end="url(#arrowhead-end-width1)" class="links width1 from-transparency-linked-data to-the-eurostat-linked-data"/>
+    <line x1="176.65283834943256" y1="363.85252423592453" x2="478.87375859871133" y2="348.1375145817633" marker-end="url(#arrowhead-end-width1)" class="links width1 from-transparency-linked-data to-geonames-semantic-web"/>
+    <line x1="148.25960272721213" y1="330.5243038870643" x2="186.52882016213746" y2="152.30896735062183" marker-end="url(#arrowhead-end-width1)" class="links width1 from-transparency-linked-data to-humanitarian-response"/>
+    <line x1="156.8817926850844" y1="333.563036522062" x2="280.7298466662257" y2="87.41202560678653" marker-end="url(#arrowhead-end-width1)" class="links width1 from-transparency-linked-data to-iati"/>
+    <line x1="308.4257315612719" y1="418.6997326561227" x2="355.8606142235871" y2="406.87802094847854" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-imf-linked-data to-bfs-linked-data bidi"/>
+    <line x1="236.02001976814907" y1="380.40008653611903" x2="199.74399149406608" y2="282.07931141264356" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-imf-linked-data to-fao-linked-data bidi"/>
+    <line x1="272.49433135577266" y1="379.83700323602585" x2="279.760537403899" y2="358.0990874417658" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-imf-linked-data to-ecb-linked-data bidi"/>
+    <line x1="286.27733250477564" y1="399.5907385216412" x2="483.1862240206633" y2="195.17590965986352" marker-end="url(#arrowhead-end-width1)" class="links width1 from-imf-linked-data to-dbpedia"/>
+    <line x1="219.2815749016673" y1="404.7045893818851" x2="110.72376299696401" y2="321.8813105762906" marker-end="url(#arrowhead-end-width1)" class="links width1 from-imf-linked-data to-the-eurostat-linked-data"/>
+    <line x1="297.9922848826015" y1="418.52199043582686" x2="481.19077835009386" y2="361.01183376825236" marker-end="url(#arrowhead-end-width1)" class="links width1 from-imf-linked-data to-geonames-semantic-web"/>
+    <line x1="246.8745563924068" y1="387.7503736908851" x2="203.3765041616651" y2="152.55032068074235" marker-end="url(#arrowhead-end-width1)" class="links width1 from-imf-linked-data to-humanitarian-response"/>
+    <line x1="260.30900184322553" y1="387.3074038696118" x2="295.0388985735407" y2="91.70625852459318" marker-end="url(#arrowhead-end-width1)" class="links width1 from-imf-linked-data to-iati"/>
+    <line x1="334.7411498259853" y1="218.27980771579482" x2="385.5562468821038" y2="355.43266344680137" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-bfs-linked-data"/>
+    <line x1="264.81683393607614" y1="190.03548497047592" x2="227.56972830368733" y2="207.9453883217447" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-fao-linked-data"/>
+    <line x1="309.02238021556855" y1="221.4167416002761" x2="307.7300923974346" y2="232.89875826066148" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-ecb-linked-data"/>
+    <line x1="370.920169588362" y1="159.38126197197178" x2="460.40792330161037" y2="149.10810607308827" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-dbpedia"/>
+    <line x1="263.56587516654696" y1="187.24069905137168" x2="120.49218551750542" y2="246.64099685048785" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-the-eurostat-linked-data"/>
+    <line x1="358.2990139142758" y1="201.62675464282776" x2="490.86254808430533" y2="312.13991347291096" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-geonames-semantic-web"/>
+    <line x1="360.09791143128825" y1="132.184548608682" x2="374.1921432470795" y2="121.62196193318913" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-nasa"/>
+    <line x1="264.47886854703967" y1="142.21646870281185" x2="234.56895306751238" y2="128.35162505915014" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-humanitarian-response"/>
+    <line x1="308.04326264150126" y1="110.23837764870912" x2="305.61747528604997" y2="91.63888626016882" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-iati"/>
+    <line x1="347.25045527435105" y1="342.27490755560495" x2="368.0399439139007" y2="363.1559011910542" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-ecb-linked-data to-bfs-linked-data bidi"/>
+    <line x1="242.6580156679113" y1="264.0553597983272" x2="229.06088806067018" y2="256.6861742209873" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-ecb-linked-data to-fao-linked-data bidi"/>
+    <line x1="347.4392336498155" y1="264.68226065642324" x2="472.4584903302284" y2="182.26908110217568" marker-end="url(#arrowhead-end-width1)" class="links width1 from-ecb-linked-data to-dbpedia"/>
+    <line x1="244.85690186307573" y1="291.1063383689685" x2="126.06651754137843" y2="281.7499595917351" marker-end="url(#arrowhead-end-width1)" class="links width1 from-ecb-linked-data to-the-eurostat-linked-data"/>
+    <line x1="355.4104276683287" y1="307.3786027354307" x2="479.98620532166035" y2="334.4103557717097" marker-end="url(#arrowhead-end-width1)" class="links width1 from-ecb-linked-data to-geonames-semantic-web"/>
+    <line x1="328.0969862649143" y1="246.67185954440473" x2="390.34868662483086" y2="135.7809030205195" marker-end="url(#arrowhead-end-width1)" class="links width1 from-ecb-linked-data to-nasa"/>
+    <line x1="273.0434228814337" y1="246.8003249229375" x2="216.78067844179395" y2="147.6644186313915" marker-end="url(#arrowhead-end-width1)" class="links width1 from-ecb-linked-data to-humanitarian-response"/>
+    <line x1="300.5414287598615" y1="239.5036728160572" x2="300.165891611929" y2="91.99986064079289" marker-end="url(#arrowhead-end-width1)" class="links width1 from-ecb-linked-data to-iati"/>
+    <line x1="224.32631782928996" y1="219.42231234629025" x2="462.241980649476" y2="159.1144570694775" marker-end="url(#arrowhead-end-width1)" class="links width1 from-fao-linked-data to-dbpedia"/>
+    <line x1="146.8305268290377" y1="200.85746186279786" x2="127.75606628488805" y2="184.17801601637558" marker-end="url(#arrowhead-end-width1)" class="links width1 from-fao-linked-data to-eunis"/>
+    <line x1="138.1979669258736" y1="245.2467820089371" x2="122.09234386629677" y2="250.84192400851305" marker-end="url(#arrowhead-end-width1)" class="links width1 from-fao-linked-data to-the-eurostat-linked-data"/>
+    <line x1="223.46001702750277" y1="244.51811124263313" x2="481.3988435773607" y2="329.2147317989575" marker-end="url(#arrowhead-end-width1)" class="links width1 from-fao-linked-data to-geonames-semantic-web"/>
+    <line x1="186.22317033366238" y1="185.81890391590838" x2="190.28460438308088" y2="152.94292761675985" marker-end="url(#arrowhead-end-width1)" class="links width1 from-fao-linked-data to-humanitarian-response"/>
+    <line x1="205.43230548083028" y1="192.8814609258047" x2="276.4289619740005" y2="84.92691759971532" marker-end="url(#arrowhead-end-width1)" class="links width1 from-fao-linked-data to-iati"/>
+    <line x1="371.7225619872131" y1="374.1179273884948" x2="222.2665953695744" y2="261.7317353704792" marker-end="url(#arrowhead-end-width1)" class="links width1 from-bfs-linked-data to-fao-linked-data"/>
+    <line x1="417.36367586400684" y1="363.9507080152367" x2="500.30111202249697" y2="207.58089099477456" marker-end="url(#arrowhead-end-width1)" class="links width1 from-bfs-linked-data to-dbpedia"/>
+    <line x1="366.4384692991759" y1="384.0867362812433" x2="122.19902979485778" y2="300.4136248024886" marker-end="url(#arrowhead-end-width1)" class="links width1 from-bfs-linked-data to-the-eurostat-linked-data"/>
+    <line x1="434.07863518508555" y1="382.7863919920458" x2="482.2944130504827" y2="364.16846682179533" marker-end="url(#arrowhead-end-width1)" class="links width1 from-bfs-linked-data to-geonames-semantic-web"/>
+    <line x1="379.5016783860295" y1="366.5092348588823" x2="220.63243856104063" y2="145.198783973096" marker-end="url(#arrowhead-end-width1)" class="links width1 from-bfs-linked-data to-humanitarian-response"/>
+    <line x1="390.4794886387863" y1="361.17551875973976" x2="312.01980749068343" y2="90.30226710615045" marker-end="url(#arrowhead-end-width1)" class="links width1 from-bfs-linked-data to-iati"/>
+  </g>
+  <g id="layer-datasets">  <a id="dataset-world-bank-linked-data" class="dataset eu" a14:href="http://worldbank.270a.info/" xmlns:a14="http://www.w3.org/1999/xlink" target="_blank" transform="translate(445.80360111584105 250.43724493854117)"><circle r="56"/><text class="label" x="0" y="-3" font-size="12">World</text><text class="label" x="0" y="10" font-size="12">Bank</text></a>
+    <a id="dataset-transparency-linked-data" class="dataset eu" a15:href="http://transparency.270a.info/" xmlns:a15="http://www.w3.org/1999/xlink" target="_blank" transform="translate(140.7014089144966 365.7219416812321)"><circle r="36"/><text class="label" x="0" y="-2.5" font-size="10">Transparency</text><text class="label" x="0" y="8.5" font-size="10">International</text></a>
+    <a id="dataset-imf-linked-data" class="dataset eu" a16:href="http://imf.270a.info/" xmlns:a16="http://www.w3.org/1999/xlink" target="_blank" transform="translate(255.05811133532035 432)"><circle r="45"/><text class="label" x="0" y="-9.5" font-size="12">International</text><text class="label" x="0" y="3.5" font-size="12">Monetary</text><text class="label" x="0" y="16.5" font-size="12">Fund</text></a>
+    <a id="dataset-ecb-linked-data" class="dataset eu" a17:href="http://ecb.270a.info/" xmlns:a17="http://www.w3.org/1999/xlink" target="_blank" transform="translate(300.6840014284418 295.5034913249968)"><circle r="56"/><text class="label" x="0" y="-9.5" font-size="12">European</text><text class="label" x="0" y="3.5" font-size="12">Central</text><text class="label" x="0" y="16.5" font-size="12">Bank</text></a>
+    <a id="dataset-bfs-linked-data" class="dataset eu" a18:href="http://bfs.270a.info/" xmlns:a18="http://www.w3.org/1999/xlink" target="_blank" transform="translate(400.49535113983745 395.7541609881448)"><circle r="36"/><text class="label" x="0" y="-14.75" font-size="11">Swiss</text><text class="label" x="0" y="-2.75" font-size="11">Federal</text><text class="label" x="0" y="9.25" font-size="11">Statistical</text><text class="label" x="0" y="21.25" font-size="11">Office</text></a>
+    <a id="dataset-fao-linked-data" class="dataset eu" a19:href="http://fao.270a.info/" xmlns:a19="http://www.w3.org/1999/xlink" target="_blank" transform="translate(180.70589992689477 230.4793979487626)"><circle r="45"/><text class="label" x="0" y="-9.5" font-size="12">Food and</text><text class="label" x="0" y="3.5" font-size="12">Agriculture</text><text class="label" x="0" y="16.5" font-size="12">Organization</text></a>
+    <a id="dataset-oecd-linked-data" class="dataset eu" a20:href="http://oecd.270a.info/" xmlns:a20="http://www.w3.org/1999/xlink" target="_blank" transform="translate(315.2855721880066 165.7680899875336)"><circle r="56"/><text class="label" x="0" y="-16" font-size="12">Organisation</text><text class="label" x="0" y="-3" font-size="12">for Economic</text><text class="label" x="0" y="10" font-size="12">Co-operation and</text><text class="label" x="0" y="23" font-size="12">Development</text></a>
+    <a id="dataset-dbpedia" class="dataset non-eu" a21:href="http://dbpedia.org/" xmlns:a21="http://www.w3.org/1999/xlink" target="_blank" transform="translate(535.9120197735213 140.44026805196864)"><circle r="69"/><text class="label" x="0" y="4.25" font-size="15">DBpedia</text></a>
+    <a id="dataset-nasa" class="dataset non-eu" a22:href="http://datahub.io/dataset/nasa" xmlns:a22="http://www.w3.org/1999/xlink" target="_blank" transform="translate(415.80360111584105 90.43724493854117)"><circle r="45"/><text class="label" x="0" y="3.75" font-size="13">NASA</text></a>
+    <a id="dataset-eunis" class="dataset non-eu" a23:href="http://eunis.eea.europa.eu/" xmlns:a23="http://www.w3.org/1999/xlink" target="_blank" transform="translate(95.38626532471346 155.8726104231204)"><circle r="36"/><text class="label" x="0" y="3.5" font-size="12">EUNIS</text></a>
+    <a id="dataset-the-eurostat-linked-data" class="dataset non-eu" a24:href="http://eurostat.linked-statistics.org/" xmlns:a24="http://www.w3.org/1999/xlink" target="_blank" transform="translate(50.30116813123882 275.7823948656967)"><circle r="69"/><text class="label" x="0" y="4.25" font-size="15">Eurostat</text></a>
+    <a id="dataset-geonames-semantic-web" class="dataset non-eu" a25:href="http://sws.geonames.org/" xmlns:a25="http://www.w3.org/1999/xlink" target="_blank" transform="translate(530.803601115841 345.4372449385412)"><circle r="45"/><text class="label" x="0" y="3.75" font-size="13">Geonames</text></a>
+    <a id="dataset-humanitarian-response" class="dataset non-eu" a26:href="http://hxl.humanitarianresponse.info/" xmlns:a26="http://www.w3.org/1999/xlink" target="_blank" transform="translate(195.55666277176988 110.26734442981028)"><circle r="36"/><text class="label" x="0" y="-2.5" font-size="10">Humanitarian</text><text class="label" x="0" y="8.5" font-size="10">Response</text></a>
+    <a id="dataset-iati" class="dataset non-eu" a27:href="http://eculture.cs.vu.nl:1987/iati/" xmlns:a27="http://www.w3.org/1999/xlink" target="_blank" transform="translate(300.0564161699834 49)"><circle r="36"/><text class="label" x="0" y="-12.25" font-size="9">International</text><text class="label" x="0" y="-2.25" font-size="9">Aid</text><text class="label" x="0" y="7.75" font-size="9">Transparency</text><text class="label" x="0" y="17.75" font-size="9">Initiative</text></a>
+  </g>
+  <g transform="translate(610.44206,700.06888)" id="layer-legend">
+    <g id="g21">
+      <text x="-43.539318" y="-262.08978" id="text23" style="font-size:10px;font-weight:bold;text-anchor:end;fill:#222222;font-family:sans-serif">Published by 270a.info</text>
+      <circle cx="-22" cy="-257" r="13" transform="translate(-0.5393184,-8.089781)" id="circle25" style="fill:#ffffff;stroke:#0000ee;stroke-width:2"/>
+    </g>
+  </g>
+  <g transform="translate(562.91851,488.54194)" id="layer-footer">
+    <text x="-36.95591" y="-21.263573" id="date-text" style="font-size:10px;font-weight:bold;text-anchor:end;fill:#222222;font-family:sans-serif">2013-10</text>
+    <g transform="matrix(0.3,0,0,0.3,-29.71312,-33.966704)" id="cc-logo">
+      <circle cx="37.785" cy="28.500999" r="28.836" id="circle3662" style="fill:#ffffff"/>
+      <path d="m 37.441,-3.5 c 8.951,0 16.572,3.125 22.857,9.372 3.008,3.009 5.295,6.448 6.857,10.314 1.561,3.867 2.344,7.971 2.344,12.314 0,4.381 -0.773,8.486 -2.314,12.313 -1.543,3.828 -3.82,7.21 -6.828,10.143 -3.123,3.085 -6.666,5.448 -10.629,7.086 -3.961,1.638 -8.057,2.457 -12.285,2.457 -4.228,0 -8.276,-0.808 -12.143,-2.429 C 21.434,56.452 17.967,54.109 14.9,51.043 11.833,47.977 9.5,44.519 7.9,40.671 6.3,36.823 5.5,32.767 5.5,28.5 5.5,24.271 6.309,20.205 7.928,16.3 9.547,12.395 11.9,8.9 14.985,5.814 21.08,-0.394 28.565,-3.5 37.441,-3.5 z m 0.116,5.772 c -7.314,0 -13.467,2.553 -18.458,7.657 -2.515,2.553 -4.448,5.419 -5.8,8.6 -1.354,3.181 -2.029,6.505 -2.029,9.972 0,3.429 0.675,6.734 2.029,9.913 1.353,3.183 3.285,6.021 5.8,8.516 2.514,2.496 5.351,4.399 8.515,5.715 3.161,1.314 6.476,1.971 9.943,1.971 3.428,0 6.75,-0.665 9.973,-1.999 3.219,-1.335 6.121,-3.257 8.713,-5.771 4.99,-4.876 7.484,-10.99 7.484,-18.344 0,-3.543 -0.648,-6.895 -1.943,-10.057 C 60.491,15.283 58.604,12.465 56.13,9.987 50.984,4.844 44.795,2.272 37.557,2.272 z m -0.401,20.915 -4.287,2.229 c -0.458,-0.951 -1.019,-1.619 -1.685,-2 -0.667,-0.38 -1.286,-0.571 -1.858,-0.571 -2.856,0 -4.286,1.885 -4.286,5.657 0,1.714 0.362,3.084 1.085,4.113 0.724,1.029 1.791,1.544 3.201,1.544 1.867,0 3.181,-0.915 3.944,-2.743 l 3.942,2 c -0.838,1.563 -2,2.791 -3.486,3.686 -1.484,0.896 -3.123,1.343 -4.914,1.343 -2.857,0 -5.163,-0.875 -6.915,-2.629 -1.752,-1.752 -2.628,-4.19 -2.628,-7.313 0,-3.048 0.886,-5.466 2.657,-7.257 1.771,-1.79 4.009,-2.686 6.715,-2.686 3.963,-0.002 6.8,1.541 8.515,4.627 z m 18.457,0 -4.229,2.229 c -0.457,-0.951 -1.02,-1.619 -1.686,-2 -0.668,-0.38 -1.307,-0.571 -1.914,-0.571 -2.857,0 -4.287,1.885 -4.287,5.657 0,1.714 0.363,3.084 1.086,4.113 0.723,1.029 1.789,1.544 3.201,1.544 1.865,0 3.18,-0.915 3.941,-2.743 l 4,2 c -0.875,1.563 -2.057,2.791 -3.541,3.686 -1.486,0.896 -3.105,1.343 -4.857,1.343 -2.896,0 -5.209,-0.875 -6.941,-2.629 -1.736,-1.752 -2.602,-4.19 -2.602,-7.313 0,-3.048 0.885,-5.466 2.658,-7.257 1.77,-1.79 4.008,-2.686 6.713,-2.686 3.962,-0.002 6.783,1.541 8.458,4.627 z" id="path3664"/>
+    </g>
+    <g transform="matrix(0.3,0,0,0.3,-7.71312,-33.966704)" id="by-logo">
+      <circle cx="37.637001" cy="28.806" r="28.275999" id="circle3667" style="fill:#ffffff"/>
+      <path d="m 37.443,-3.5 c 8.988,0 16.57,3.085 22.742,9.257 6.208,6.21 9.315,13.791 9.315,22.743 0,8.991 -3.049,16.476 -9.145,22.456 C 53.879,57.319 46.242,60.5 37.443,60.5 28.794,60.5 21.29,57.356 14.929,51.07 8.644,44.784 5.5,37.262 5.5,28.5 5.5,19.739 8.644,12.158 14.929,5.758 21.101,-0.415 28.604,-3.5 37.443,-3.5 z m 0.114,5.772 c -7.276,0 -13.428,2.553 -18.457,7.657 -5.22,5.334 -7.829,11.525 -7.829,18.572 0,7.086 2.59,13.22 7.77,18.398 5.181,5.182 11.352,7.771 18.514,7.771 7.123,0 13.334,-2.607 18.629,-7.828 5.029,-4.838 7.543,-10.952 7.543,-18.343 0,-7.276 -2.553,-13.465 -7.656,-18.571 C 50.967,4.824 44.795,2.272 37.557,2.272 z m 8.572,18.285 V 33.642 H 42.473 V 49.184 H 32.529 V 33.643 H 28.873 V 20.557 c 0,-0.572 0.2,-1.057 0.599,-1.457 0.401,-0.399 0.887,-0.6 1.457,-0.6 h 13.144 c 0.533,0 1.01,0.2 1.428,0.6 0.417,0.4 0.628,0.886 0.628,1.457 z M 33.042,12.329 c 0,-3.008 1.485,-4.514 4.458,-4.514 2.973,0 4.457,1.504 4.457,4.514 0,2.971 -1.486,4.457 -4.457,4.457 -2.971,0 -4.458,-1.486 -4.458,-4.457 z" id="path3669"/>
+    </g>
+    <g transform="matrix(0.3,0,0,0.3,14.28688,-33.966704)" id="sa-logo">
+      <circle cx="36.944" cy="28.631001" r="29.105" id="circle3672" style="fill:#ffffff"/>
+      <path d="m 37.443,-3.5 c 8.951,0 16.531,3.105 22.742,9.315 6.208,6.172 9.315,13.733 9.315,22.685 0,8.954 -3.049,16.457 -9.145,22.514 C 53.918,57.338 46.279,60.5 37.443,60.5 28.794,60.5 21.29,57.357 14.929,51.071 8.644,44.786 5.5,37.264 5.5,28.501 5.5,19.778 8.644,12.216 14.929,5.816 21.138,-0.395 28.643,-3.5 37.443,-3.5 z m 0.114,5.772 c -7.276,0 -13.428,2.572 -18.457,7.715 -5.22,5.296 -7.829,11.467 -7.829,18.513 0,7.125 2.59,13.257 7.77,18.4 5.181,5.182 11.352,7.771 18.514,7.771 7.123,0 13.334,-2.609 18.629,-7.828 5.029,-4.876 7.543,-10.99 7.543,-18.343 0,-7.313 -2.553,-13.485 -7.656,-18.513 C 51.004,4.842 44.832,2.272 37.557,2.272 z M 23.271,23.985 c 0.609,-3.924 2.189,-6.962 4.742,-9.114 2.552,-2.152 5.656,-3.228 9.314,-3.228 5.027,0 9.029,1.62 12,4.856 2.971,3.238 4.457,7.391 4.457,12.457 0,4.915 -1.543,9 -4.627,12.256 -3.088,3.256 -7.086,4.886 -12.002,4.886 -3.619,0 -6.743,-1.085 -9.371,-3.257 -2.629,-2.172 -4.209,-5.257 -4.743,-9.257 H 31.1 c 0.19,3.886 2.533,5.829 7.029,5.829 2.246,0 4.057,-0.972 5.428,-2.914 1.373,-1.942 2.059,-4.534 2.059,-7.771 0,-3.391 -0.629,-5.971 -1.885,-7.743 -1.258,-1.771 -3.066,-2.657 -5.43,-2.657 -4.268,0 -6.667,1.885 -7.2,5.656 h 2.343 l -6.342,6.343 -6.343,-6.343 2.512,10e-4 0,0 z" id="path3674"/>
+    </g>
+  </g>
+</svg>
