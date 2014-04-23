@@ -13,7 +13,8 @@ Consists of:
 * http://frb.270a.info/
 
 See also:
-* 270a.info interlinks: https://github.com/csarven/270a.info.interlinks
+* 270a.info's VoID: http://270a.info/.well-known/void
+* Interlinks in the dataspaces: https://github.com/csarven/270a.info.interlinks
 * http://csarven.ca/statistical-linked-dataspaces
 * http://csarven.ca/linked-sdmx-data
 * http://csarven.ca/linked-statistical-data-analysis
