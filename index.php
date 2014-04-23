@@ -58,7 +58,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'."\n";
 
                             <p id="stats-analysis"><a rel="rdfs:seeAlso" property="rdfs:label" href="http://stats.270a.info/">Stats Analysis</a> is a human and machine-friendly Web based application which uses the statistical data from above linked dataspaces, makes federated queries and generates analysis. You can read more about it at <a rel="rdfs:seeAlso" property="rdfs:label" href="http://csarven.ca/linked-statistical-data-analysis">Linked Statistical Data Analysis</a>.</p>
 
-                            <p>See also 270a.info's <a href="/.well-known/void">VoID</a>.</p>
+                            <p>See also 270a.info's <a rel="rdfs:seeAlso" property="rdfs:label" href="/.well-known/void">VoID</a>.</p>
                         </div>
                     </div>
                 </div>
