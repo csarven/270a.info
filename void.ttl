@@ -80,14 +80,36 @@
 
         <http://dbpedia.org/resource/Transparency_International> ,
         <http://dbpedia.org/resource/World_Bank> ,
+        <http://dbpedia.org/resource/European_Central_Bank> ,
+        <http://dbpedia.org/resource/OECD> ,
+        <http://dbpedia.org/resource/International_Monetary_Fund> ,
+        <http://dbpedia.org/resource/UNESCO_Institute_for_Statistics> ,
+        <http://dbpedia.org/resource/Federal_Reserve_Board_of_Governors> ,
+        <http://dbpedia.org/resource/Food_and_Agriculture_Organization> ,
+        <http://dbpedia.org/resource/Federal_Statistical_Office_(Switzerland)> ,
 
+        <http://purl.org/linked-data/sdmx/2009/subject#1.2> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#1.3> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#1.4> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#1.6> ,
         <http://purl.org/linked-data/sdmx/2009/subject#1.8> ,
         <http://purl.org/linked-data/sdmx/2009/subject#1.10> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.4.1> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.4.2> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.4.3> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.4.4> ,
         <http://purl.org/linked-data/sdmx/2009/subject#2.4.6> ,
         <http://purl.org/linked-data/sdmx/2009/subject#2.5> ,
         <http://purl.org/linked-data/sdmx/2009/subject#2.6> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.7> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#2.9> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#3.1> ,
         <http://purl.org/linked-data/sdmx/2009/subject#3.3> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#3.3.1> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#3.3.2> ,
+        <http://purl.org/linked-data/sdmx/2009/subject#3.3.3> ,
         <http://purl.org/linked-data/sdmx/2009/subject#3.4> ;
+
     void:feature
         <http://www.w3.org/ns/formats/RDF_XML> ,
         <http://www.w3.org/ns/formats/Turtle> ;
@@ -145,7 +167,7 @@ oecd-dataset:oecd
     .
 fao-dataset:fao
     a void:Dataset ;
-    dcterms:title "Food and Agriculture Organization of the United Nations"@en ;
+    dcterms:title "Food and Agriculture Organization"@en ;
     foaf:homepage <http://fao.270a.info/> ;
     void:triples 53000000 ;
     void:sparqlEndpoint <http://fao.270a.info/sparql> ;
@@ -221,13 +243,448 @@ frb-dataset:frb
         <http://dbpedia.org/resource/Central_bank> ;
     .
 
-#<http://dbpedia.org/void/Dataset>
-#    rdf:type void:Dataset ;
-#    dcterms:title "DBpedia"@en ;
-##TODO: Get a real count?
-#    void:triples 1000000000 ;
-#    void:sparqlEndpoint <http://dbpedia.org/sparql> ;
-#    foaf:homepage <http://dbpedia.org/> ;
-#    .
+<http://dbpedia.org/void/Dataset>
+    rdf:type void:Dataset ;
+    dcterms:title "DBpedia"@en ;
+    #TODO: What's the count?
+    void:sparqlEndpoint <http://dbpedia.org/sparql> ;
+    foaf:homepage <http://dbpedia.org/> ;
+    .
+#TODO: What's the real VoID URL?
+<http://sws.geonames.org/>
+    rdf:type void:Dataset ;
+    dcterms:title "Geonames"@en ;
+    #TODO: What's the count?
+    foaf:homepage <http://sws.geonames.org/> ;
+    .
+<http://eurostat.linked-statistics.org/void.ttl#eurostat>
+    rdf:type void:Dataset ;
+    dcterms:title "Eurostat"@en ;
+    void:sparqlEndpoint <http://eurostat.linked-statistics.org/sparql> ;
+    #TODO: What's the count?
+    foaf:homepage <http://eurostat.linked-statistics.org/> ;
+    .
+#TODO: What's the real VoID URL?
+<http://data.nasa.gov/>
+    rdf:type void:Dataset ;
+    dcterms:title "NASA"@en ;
+    #TODO: What's the count?
+    foaf:homepage <http://data.nasa.gov/> ;
+    .
+#TODO: What's the real VoID URL?
+<http://purl.org/collections/iati/void.ttl#IATI>
+    rdf:type void:Dataset ;
+    dcterms:title "International Aid Transparency Initiative"@en ;
+    void:sparqlEndpoint <http://semanticweb.cs.vu.nl/iati/user/query> ;
+    #TODO: What's the count?
+    foaf:homepage <http://semanticweb.cs.vu.nl/iati/home> ;
+    .
+#TODO: What's the real VoID URL?
+<http://hxl.humanitarianresponse.info/>
+    rdf:type void:Dataset ;
+    dcterms:title "Humanitarian Response"@en ;
+    void:sparqlEndpoint <http://hxl.humanitarianresponse.info/sparql> ;
+    #TODO: What's the count?
+    foaf:homepage <http://hxl.humanitarianresponse.info/> ;
+    .
+#TODO: What's the real VoID URL?
+<http://eunis.eea.europa.eu/>
+    rdf:type void:Dataset ;
+    dcterms:title "EUNIS"@en ;
+    void:sparqlEndpoint <http://semantic.eea.europa.eu/sparql> ;
+    #TODO: What's the count?
+    foaf:homepage <http://eunis.eea.europa.eu/> ;
+    .
 
 
+### Derived using scripts/get.void-linksets.sh
+<http://uis.270a.info/void.ttl#linkset-uis-oecd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://uis.270a.info/void.ttl#linkset-uis-oecd> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://uis.270a.info/void.ttl#linkset-uis-oecd> <http://rdfs.org/ns/void#objectsTarget> <http://oecd.270a.info/dataset/oecd> .
+<http://uis.270a.info/void.ttl#linkset-uis-oecd> <http://rdfs.org/ns/void#subjectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://uis.270a.info/void.ttl#linkset-uis-oecd> <http://rdfs.org/ns/void#triples> "17337"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://uis.270a.info/void.ttl#linkset-uis-frb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://uis.270a.info/void.ttl#linkset-uis-frb> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://uis.270a.info/void.ttl#linkset-uis-frb> <http://rdfs.org/ns/void#objectsTarget> <http://frb.270a.info/dataset/frb> .
+<http://uis.270a.info/void.ttl#linkset-uis-frb> <http://rdfs.org/ns/void#subjectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://uis.270a.info/void.ttl#linkset-uis-frb> <http://rdfs.org/ns/void#triples> "800"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://uis.270a.info/void.ttl#linkset-uis-bfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://uis.270a.info/void.ttl#linkset-uis-bfs> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://uis.270a.info/void.ttl#linkset-uis-bfs> <http://rdfs.org/ns/void#objectsTarget> <http://bfs.270a.info/dataset/bfs> .
+<http://uis.270a.info/void.ttl#linkset-uis-bfs> <http://rdfs.org/ns/void#subjectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://uis.270a.info/void.ttl#linkset-uis-bfs> <http://rdfs.org/ns/void#triples> "849"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://uis.270a.info/void.ttl#linkset-uis-fao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://uis.270a.info/void.ttl#linkset-uis-fao> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://uis.270a.info/void.ttl#linkset-uis-fao> <http://rdfs.org/ns/void#objectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://uis.270a.info/void.ttl#linkset-uis-fao> <http://rdfs.org/ns/void#subjectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://uis.270a.info/void.ttl#linkset-uis-fao> <http://rdfs.org/ns/void#triples> "825"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://uis.270a.info/void.ttl#linkset-uis-worldbank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://uis.270a.info/void.ttl#linkset-uis-worldbank> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://uis.270a.info/void.ttl#linkset-uis-worldbank> <http://rdfs.org/ns/void#objectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://uis.270a.info/void.ttl#linkset-uis-worldbank> <http://rdfs.org/ns/void#subjectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://uis.270a.info/void.ttl#linkset-uis-worldbank> <http://rdfs.org/ns/void#triples> "964"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://uis.270a.info/void.ttl#linkset-uis-imf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://uis.270a.info/void.ttl#linkset-uis-imf> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://uis.270a.info/void.ttl#linkset-uis-imf> <http://rdfs.org/ns/void#objectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://uis.270a.info/void.ttl#linkset-uis-imf> <http://rdfs.org/ns/void#subjectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://uis.270a.info/void.ttl#linkset-uis-imf> <http://rdfs.org/ns/void#triples> "119"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://uis.270a.info/void.ttl#linkset-uis-ecb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://uis.270a.info/void.ttl#linkset-uis-ecb> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://uis.270a.info/void.ttl#linkset-uis-ecb> <http://rdfs.org/ns/void#objectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://uis.270a.info/void.ttl#linkset-uis-ecb> <http://rdfs.org/ns/void#subjectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://uis.270a.info/void.ttl#linkset-uis-ecb> <http://rdfs.org/ns/void#triples> "855"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://uis.270a.info/void.ttl#linkset-uis-transparency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://uis.270a.info/void.ttl#linkset-uis-transparency> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://uis.270a.info/void.ttl#linkset-uis-transparency> <http://rdfs.org/ns/void#objectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://uis.270a.info/void.ttl#linkset-uis-transparency> <http://rdfs.org/ns/void#subjectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://uis.270a.info/void.ttl#linkset-uis-transparency> <http://rdfs.org/ns/void#triples> "854"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://uis.270a.info/void.ttl#linkset-uis-dbpedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://uis.270a.info/void.ttl#linkset-uis-dbpedia> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://uis.270a.info/void.ttl#linkset-uis-dbpedia> <http://rdfs.org/ns/void#objectsTarget> <http://dbpedia.org/void/Dataset> .
+<http://uis.270a.info/void.ttl#linkset-uis-dbpedia> <http://rdfs.org/ns/void#subjectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://uis.270a.info/void.ttl#linkset-uis-dbpedia> <http://rdfs.org/ns/void#triples> "964"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://frb.270a.info/void.ttl#linkset-frb-uis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://frb.270a.info/void.ttl#linkset-frb-uis> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://frb.270a.info/void.ttl#linkset-frb-uis> <http://rdfs.org/ns/void#objectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://frb.270a.info/void.ttl#linkset-frb-uis> <http://rdfs.org/ns/void#subjectsTarget> <http://frb.270a.info/dataset/frb> .
+<http://frb.270a.info/void.ttl#linkset-frb-uis> <http://rdfs.org/ns/void#triples> "34"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://frb.270a.info/void.ttl#linkset-frb-dbpedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://frb.270a.info/void.ttl#linkset-frb-dbpedia> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://frb.270a.info/void.ttl#linkset-frb-dbpedia> <http://rdfs.org/ns/void#objectsTarget> <http://dbpedia.org/void/Dataset> .
+<http://frb.270a.info/void.ttl#linkset-frb-dbpedia> <http://rdfs.org/ns/void#subjectsTarget> <http://frb.270a.info/dataset/frb> .
+<http://frb.270a.info/void.ttl#linkset-frb-dbpedia> <http://rdfs.org/ns/void#triples> "280"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://frb.270a.info/void.ttl#linkset-frb-oecd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://frb.270a.info/void.ttl#linkset-frb-oecd> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://frb.270a.info/void.ttl#linkset-frb-oecd> <http://rdfs.org/ns/void#objectsTarget> <http://oecd.270a.info/dataset/oecd> .
+<http://frb.270a.info/void.ttl#linkset-frb-oecd> <http://rdfs.org/ns/void#subjectsTarget> <http://frb.270a.info/dataset/frb> .
+<http://frb.270a.info/void.ttl#linkset-frb-oecd> <http://rdfs.org/ns/void#triples> "34"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://frb.270a.info/void.ttl#linkset-frb-ecb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://frb.270a.info/void.ttl#linkset-frb-ecb> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://frb.270a.info/void.ttl#linkset-frb-ecb> <http://rdfs.org/ns/void#objectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://frb.270a.info/void.ttl#linkset-frb-ecb> <http://rdfs.org/ns/void#subjectsTarget> <http://frb.270a.info/dataset/frb> .
+<http://frb.270a.info/void.ttl#linkset-frb-ecb> <http://rdfs.org/ns/void#triples> "276"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://frb.270a.info/void.ttl#linkset-frb-worldbank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://frb.270a.info/void.ttl#linkset-frb-worldbank> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://frb.270a.info/void.ttl#linkset-frb-worldbank> <http://rdfs.org/ns/void#objectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://frb.270a.info/void.ttl#linkset-frb-worldbank> <http://rdfs.org/ns/void#subjectsTarget> <http://frb.270a.info/dataset/frb> .
+<http://frb.270a.info/void.ttl#linkset-frb-worldbank> <http://rdfs.org/ns/void#triples> "280"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://frb.270a.info/void.ttl#linkset-frb-nasa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://frb.270a.info/void.ttl#linkset-frb-nasa> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://frb.270a.info/void.ttl#linkset-frb-nasa> <http://rdfs.org/ns/void#objectsTarget> <http://data.nasa.gov/> .
+<http://frb.270a.info/void.ttl#linkset-frb-nasa> <http://rdfs.org/ns/void#subjectsTarget> <http://frb.270a.info/dataset/frb> .
+<http://frb.270a.info/void.ttl#linkset-frb-nasa> <http://rdfs.org/ns/void#triples> "34"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://fao.270a.info/void.ttl#linkset-fao-ecb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://fao.270a.info/void.ttl#linkset-fao-ecb> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://fao.270a.info/void.ttl#linkset-fao-ecb> <http://rdfs.org/ns/void#objectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://fao.270a.info/void.ttl#linkset-fao-ecb> <http://rdfs.org/ns/void#subjectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://fao.270a.info/void.ttl#linkset-fao-ecb> <http://rdfs.org/ns/void#triples> "210"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://fao.270a.info/void.ttl#linkset-fao-dbpedia-species> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://fao.270a.info/void.ttl#linkset-fao-dbpedia-species> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://fao.270a.info/void.ttl#linkset-fao-dbpedia-species> <http://rdfs.org/ns/void#objectsTarget> <http://dbpedia.org/void/Dataset> .
+<http://fao.270a.info/void.ttl#linkset-fao-dbpedia-species> <http://rdfs.org/ns/void#subjectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://fao.270a.info/void.ttl#linkset-fao-dbpedia-species> <http://rdfs.org/ns/void#triples> "673"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://fao.270a.info/void.ttl#linkset-fao-uis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://fao.270a.info/void.ttl#linkset-fao-uis> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://fao.270a.info/void.ttl#linkset-fao-uis> <http://rdfs.org/ns/void#objectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://fao.270a.info/void.ttl#linkset-fao-uis> <http://rdfs.org/ns/void#subjectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://fao.270a.info/void.ttl#linkset-fao-uis> <http://rdfs.org/ns/void#triples> "167"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://fao.270a.info/void.ttl#linkset-fao-dbpedia-country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://fao.270a.info/void.ttl#linkset-fao-dbpedia-country> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://fao.270a.info/void.ttl#linkset-fao-dbpedia-country> <http://rdfs.org/ns/void#objectsTarget> <http://dbpedia.org/void/Dataset> .
+<http://fao.270a.info/void.ttl#linkset-fao-dbpedia-country> <http://rdfs.org/ns/void#subjectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://fao.270a.info/void.ttl#linkset-fao-dbpedia-country> <http://rdfs.org/ns/void#triples> "211"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://fao.270a.info/void.ttl#linkset-fao-frb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://fao.270a.info/void.ttl#linkset-fao-frb> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://fao.270a.info/void.ttl#linkset-fao-frb> <http://rdfs.org/ns/void#objectsTarget> <http://frb.270a.info/dataset/frb> .
+<http://fao.270a.info/void.ttl#linkset-fao-frb> <http://rdfs.org/ns/void#subjectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://fao.270a.info/void.ttl#linkset-fao-frb> <http://rdfs.org/ns/void#triples> "167"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://fao.270a.info/void.ttl#linkset-fao-geonames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://fao.270a.info/void.ttl#linkset-fao-geonames> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://fao.270a.info/void.ttl#linkset-fao-geonames> <http://rdfs.org/ns/void#objectsTarget> <http://sws.geonames.org/> .
+<http://fao.270a.info/void.ttl#linkset-fao-geonames> <http://rdfs.org/ns/void#subjectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://fao.270a.info/void.ttl#linkset-fao-geonames> <http://rdfs.org/ns/void#triples> "220"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://fao.270a.info/void.ttl#linkset-fao-eunis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://fao.270a.info/void.ttl#linkset-fao-eunis> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://fao.270a.info/void.ttl#linkset-fao-eunis> <http://rdfs.org/ns/void#objectsTarget> <http://eunis.eea.europa.eu/> .
+<http://fao.270a.info/void.ttl#linkset-fao-eunis> <http://rdfs.org/ns/void#subjectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://fao.270a.info/void.ttl#linkset-fao-eunis> <http://rdfs.org/ns/void#triples> "359"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://fao.270a.info/void.ttl#linkset-fao-eurostat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://fao.270a.info/void.ttl#linkset-fao-eurostat> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://fao.270a.info/void.ttl#linkset-fao-eurostat> <http://rdfs.org/ns/void#objectsTarget> <http://eurostat.linked-statistics.org/void.ttl#eurostat> .
+<http://fao.270a.info/void.ttl#linkset-fao-eurostat> <http://rdfs.org/ns/void#subjectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://fao.270a.info/void.ttl#linkset-fao-eurostat> <http://rdfs.org/ns/void#triples> "178"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://fao.270a.info/void.ttl#linkset-fao-worldbank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://fao.270a.info/void.ttl#linkset-fao-worldbank> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://fao.270a.info/void.ttl#linkset-fao-worldbank> <http://rdfs.org/ns/void#objectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://fao.270a.info/void.ttl#linkset-fao-worldbank> <http://rdfs.org/ns/void#subjectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://fao.270a.info/void.ttl#linkset-fao-worldbank> <http://rdfs.org/ns/void#triples> "178"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://fao.270a.info/void.ttl#linkset-fao-transparency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://fao.270a.info/void.ttl#linkset-fao-transparency> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://fao.270a.info/void.ttl#linkset-fao-transparency> <http://rdfs.org/ns/void#objectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://fao.270a.info/void.ttl#linkset-fao-transparency> <http://rdfs.org/ns/void#subjectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://fao.270a.info/void.ttl#linkset-fao-transparency> <http://rdfs.org/ns/void#triples> "167"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://fao.270a.info/void.ttl#linkset-fao-imf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://fao.270a.info/void.ttl#linkset-fao-imf> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://fao.270a.info/void.ttl#linkset-fao-imf> <http://rdfs.org/ns/void#objectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://fao.270a.info/void.ttl#linkset-fao-imf> <http://rdfs.org/ns/void#subjectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://fao.270a.info/void.ttl#linkset-fao-imf> <http://rdfs.org/ns/void#triples> "23"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://fao.270a.info/void.ttl#linkset-transparency-hr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://fao.270a.info/void.ttl#linkset-transparency-hr> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://fao.270a.info/void.ttl#linkset-transparency-hr> <http://rdfs.org/ns/void#objectsTarget> <http://hxl.humanitarianresponse.info/> .
+<http://fao.270a.info/void.ttl#linkset-transparency-hr> <http://rdfs.org/ns/void#subjectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://fao.270a.info/void.ttl#linkset-transparency-hr> <http://rdfs.org/ns/void#triples> "207"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-worldbank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-worldbank> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-worldbank> <http://rdfs.org/ns/void#objectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-worldbank> <http://rdfs.org/ns/void#subjectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-worldbank> <http://rdfs.org/ns/void#triples> "188"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-dbpedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-dbpedia> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-dbpedia> <http://rdfs.org/ns/void#objectsTarget> <http://dbpedia.org/void/Dataset> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-dbpedia> <http://rdfs.org/ns/void#subjectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-dbpedia> <http://rdfs.org/ns/void#triples> "234"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-uis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-uis> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-uis> <http://rdfs.org/ns/void#objectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-uis> <http://rdfs.org/ns/void#subjectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-uis> <http://rdfs.org/ns/void#triples> "855"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-transparency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-transparency> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-transparency> <http://rdfs.org/ns/void#objectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-transparency> <http://rdfs.org/ns/void#subjectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-transparency> <http://rdfs.org/ns/void#triples> "167"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-geonames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-geonames> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-geonames> <http://rdfs.org/ns/void#objectsTarget> <http://sws.geonames.org/> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-geonames> <http://rdfs.org/ns/void#subjectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-geonames> <http://rdfs.org/ns/void#triples> "252"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-eurostat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-eurostat> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-eurostat> <http://rdfs.org/ns/void#objectsTarget> <http://eurostat.linked-statistics.org/void.ttl#eurostat> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-eurostat> <http://rdfs.org/ns/void#subjectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-eurostat> <http://rdfs.org/ns/void#triples> "238"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-imf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-imf> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-imf> <http://rdfs.org/ns/void#objectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-imf> <http://rdfs.org/ns/void#subjectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-imf> <http://rdfs.org/ns/void#triples> "26"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-frb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-frb> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-frb> <http://rdfs.org/ns/void#objectsTarget> <http://frb.270a.info/dataset/frb> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-frb> <http://rdfs.org/ns/void#subjectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-frb> <http://rdfs.org/ns/void#triples> "276"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-bfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-bfs> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-bfs> <http://rdfs.org/ns/void#objectsTarget> <http://bfs.270a.info/dataset/bfs> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-bfs> <http://rdfs.org/ns/void#subjectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-bfs> <http://rdfs.org/ns/void#triples> "221"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-hr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-hr> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-hr> <http://rdfs.org/ns/void#objectsTarget> <http://hxl.humanitarianresponse.info/> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-hr> <http://rdfs.org/ns/void#subjectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-hr> <http://rdfs.org/ns/void#triples> "229"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-fao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-fao> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-fao> <http://rdfs.org/ns/void#objectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-fao> <http://rdfs.org/ns/void#subjectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://ecb.270a.info/void.ttl#linkset-ecb-fao> <http://rdfs.org/ns/void#triples> "210"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://imf.270a.info/void.ttl#linkset-imf-worldbank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://imf.270a.info/void.ttl#linkset-imf-worldbank> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://imf.270a.info/void.ttl#linkset-imf-worldbank> <http://rdfs.org/ns/void#objectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://imf.270a.info/void.ttl#linkset-imf-worldbank> <http://rdfs.org/ns/void#subjectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://imf.270a.info/void.ttl#linkset-imf-worldbank> <http://rdfs.org/ns/void#triples> "26"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://imf.270a.info/void.ttl#linkset-imf-fao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://imf.270a.info/void.ttl#linkset-imf-fao> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://imf.270a.info/void.ttl#linkset-imf-fao> <http://rdfs.org/ns/void#objectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://imf.270a.info/void.ttl#linkset-imf-fao> <http://rdfs.org/ns/void#subjectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://imf.270a.info/void.ttl#linkset-imf-fao> <http://rdfs.org/ns/void#triples> "23"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://imf.270a.info/void.ttl#linkset-imf-eurostat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://imf.270a.info/void.ttl#linkset-imf-eurostat> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://imf.270a.info/void.ttl#linkset-imf-eurostat> <http://rdfs.org/ns/void#objectsTarget> <http://eurostat.linked-statistics.org/void.ttl#eurostat> .
+<http://imf.270a.info/void.ttl#linkset-imf-eurostat> <http://rdfs.org/ns/void#subjectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://imf.270a.info/void.ttl#linkset-imf-eurostat> <http://rdfs.org/ns/void#triples> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://imf.270a.info/void.ttl#linkset-imf-dbpedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://imf.270a.info/void.ttl#linkset-imf-dbpedia> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://imf.270a.info/void.ttl#linkset-imf-dbpedia> <http://rdfs.org/ns/void#objectsTarget> <http://dbpedia.org/void/Dataset> .
+<http://imf.270a.info/void.ttl#linkset-imf-dbpedia> <http://rdfs.org/ns/void#subjectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://imf.270a.info/void.ttl#linkset-imf-dbpedia> <http://rdfs.org/ns/void#triples> "25"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://imf.270a.info/void.ttl#linkset-imf-uis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://imf.270a.info/void.ttl#linkset-imf-uis> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://imf.270a.info/void.ttl#linkset-imf-uis> <http://rdfs.org/ns/void#objectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://imf.270a.info/void.ttl#linkset-imf-uis> <http://rdfs.org/ns/void#subjectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://imf.270a.info/void.ttl#linkset-imf-uis> <http://rdfs.org/ns/void#triples> "119"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://imf.270a.info/void.ttl#linkset-imf-geonames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://imf.270a.info/void.ttl#linkset-imf-geonames> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://imf.270a.info/void.ttl#linkset-imf-geonames> <http://rdfs.org/ns/void#objectsTarget> <http://sws.geonames.org/> .
+<http://imf.270a.info/void.ttl#linkset-imf-geonames> <http://rdfs.org/ns/void#subjectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://imf.270a.info/void.ttl#linkset-imf-geonames> <http://rdfs.org/ns/void#triples> "26"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://imf.270a.info/void.ttl#linkset-imf-transparency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://imf.270a.info/void.ttl#linkset-imf-transparency> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://imf.270a.info/void.ttl#linkset-imf-transparency> <http://rdfs.org/ns/void#objectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://imf.270a.info/void.ttl#linkset-imf-transparency> <http://rdfs.org/ns/void#subjectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://imf.270a.info/void.ttl#linkset-imf-transparency> <http://rdfs.org/ns/void#triples> "23"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://imf.270a.info/void.ttl#linkset-imf-bfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://imf.270a.info/void.ttl#linkset-imf-bfs> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://imf.270a.info/void.ttl#linkset-imf-bfs> <http://rdfs.org/ns/void#objectsTarget> <http://bfs.270a.info/dataset/bfs> .
+<http://imf.270a.info/void.ttl#linkset-imf-bfs> <http://rdfs.org/ns/void#subjectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://imf.270a.info/void.ttl#linkset-imf-bfs> <http://rdfs.org/ns/void#triples> "24"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://imf.270a.info/void.ttl#linkset-imf-hr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://imf.270a.info/void.ttl#linkset-imf-hr> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://imf.270a.info/void.ttl#linkset-imf-hr> <http://rdfs.org/ns/void#objectsTarget> <http://hxl.humanitarianresponse.info/> .
+<http://imf.270a.info/void.ttl#linkset-imf-hr> <http://rdfs.org/ns/void#subjectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://imf.270a.info/void.ttl#linkset-imf-hr> <http://rdfs.org/ns/void#triples> "22"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://imf.270a.info/void.ttl#linkset-imf-ecb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://imf.270a.info/void.ttl#linkset-imf-ecb> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://imf.270a.info/void.ttl#linkset-imf-ecb> <http://rdfs.org/ns/void#objectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://imf.270a.info/void.ttl#linkset-imf-ecb> <http://rdfs.org/ns/void#subjectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://imf.270a.info/void.ttl#linkset-imf-ecb> <http://rdfs.org/ns/void#triples> "26"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-transparency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-transparency> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-transparency> <http://rdfs.org/ns/void#subjectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-transparency> <http://rdfs.org/ns/void#objectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-transparency> <http://rdfs.org/ns/void#triples> "182"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-dbpedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-dbpedia> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2002/07/owl#sameAs> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-dbpedia> <http://rdfs.org/ns/void#subjectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-dbpedia> <http://rdfs.org/ns/void#objectsTarget> <http://dbpedia.org/void/Dataset> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-dbpedia> <http://rdfs.org/ns/void#triples> "380"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-eurostat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-eurostat> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2002/07/owl#sameAs> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-eurostat> <http://rdfs.org/ns/void#subjectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-eurostat> <http://rdfs.org/ns/void#objectsTarget> <http://eurostat.linked-statistics.org/void.ttl#eurostat> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-eurostat> <http://rdfs.org/ns/void#triples> "216"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-geonames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-geonames> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2002/07/owl#sameAs> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-geonames> <http://rdfs.org/ns/void#subjectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-geonames> <http://rdfs.org/ns/void#objectsTarget> <http://sws.geonames.org/> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-geonames> <http://rdfs.org/ns/void#triples> "216"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-bfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-bfs> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-bfs> <http://rdfs.org/ns/void#subjectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-bfs> <http://rdfs.org/ns/void#objectsTarget> <http://bfs.270a.info/dataset/bfs> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-bfs> <http://rdfs.org/ns/void#triples> "185"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-ecb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-ecb> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-ecb> <http://rdfs.org/ns/void#subjectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-ecb> <http://rdfs.org/ns/void#objectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-ecb> <http://rdfs.org/ns/void#triples> "188"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-imf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-imf> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-imf> <http://rdfs.org/ns/void#subjectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-imf> <http://rdfs.org/ns/void#objectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-imf> <http://rdfs.org/ns/void#triples> "26"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-fao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-fao> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-fao> <http://rdfs.org/ns/void#subjectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-fao> <http://rdfs.org/ns/void#objectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-fao> <http://rdfs.org/ns/void#triples> "178"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-iati> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-iati> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-iati> <http://rdfs.org/ns/void#subjectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-iati> <http://rdfs.org/ns/void#objectsTarget> <http://purl.org/collections/iati/void.ttl#IATI> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-iati> <http://rdfs.org/ns/void#triples> "212"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-hr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-hr> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-hr> <http://rdfs.org/ns/void#subjectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-hr> <http://rdfs.org/ns/void#objectsTarget> <http://hxl.humanitarianresponse.info/> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-hr> <http://rdfs.org/ns/void#triples> "183"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-nasa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-nasa> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-nasa> <http://rdfs.org/ns/void#subjectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-nasa> <http://rdfs.org/ns/void#objectsTarget> <http://data.nasa.gov/> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-nasa> <http://rdfs.org/ns/void#triples> "170"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-uis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-uis> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-uis> <http://rdfs.org/ns/void#subjectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-uis> <http://rdfs.org/ns/void#objectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-uis> <http://rdfs.org/ns/void#triples> "964"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-frb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-frb> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-frb> <http://rdfs.org/ns/void#subjectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-frb> <http://rdfs.org/ns/void#objectsTarget> <http://frb.270a.info/dataset/frb> .
+<http://worldbank.270a.info/void.ttl#linkset-worldbank-frb> <http://rdfs.org/ns/void#triples> "280"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-dbpedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-dbpedia> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2002/07/owl#sameAs> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-dbpedia> <http://rdfs.org/ns/void#subjectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-dbpedia> <http://rdfs.org/ns/void#objectsTarget> <http://dbpedia.org/void/Dataset> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-dbpedia> <http://rdfs.org/ns/void#triples> "183"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-worldbank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-worldbank> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2002/07/owl#sameAs> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-worldbank> <http://rdfs.org/ns/void#subjectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-worldbank> <http://rdfs.org/ns/void#objectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-worldbank> <http://rdfs.org/ns/void#triples> "182"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-ecb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-ecb> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-ecb> <http://rdfs.org/ns/void#subjectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-ecb> <http://rdfs.org/ns/void#objectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-ecb> <http://rdfs.org/ns/void#triples> "167"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-imf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-imf> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-imf> <http://rdfs.org/ns/void#subjectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-imf> <http://rdfs.org/ns/void#objectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-imf> <http://rdfs.org/ns/void#triples> "23"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-fao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-fao> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-fao> <http://rdfs.org/ns/void#subjectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-fao> <http://rdfs.org/ns/void#objectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-fao> <http://rdfs.org/ns/void#triples> "167"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-eurostat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-eurostat> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2002/07/owl#sameAs> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-eurostat> <http://rdfs.org/ns/void#subjectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-eurostat> <http://rdfs.org/ns/void#objectsTarget> <http://eurostat.linked-statistics.org/void.ttl#eurostat> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-eurostat> <http://rdfs.org/ns/void#triples> "183"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-geonames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-geonames> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2002/07/owl#sameAs> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-geonames> <http://rdfs.org/ns/void#subjectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-geonames> <http://rdfs.org/ns/void#objectsTarget> <http://transparency.270a.info/void.ttl#geonames> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-geonames> <http://rdfs.org/ns/void#triples> "183"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-iati> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-iati> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-iati> <http://rdfs.org/ns/void#subjectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-iati> <http://rdfs.org/ns/void#objectsTarget> <http://purl.org/collections/iati/void.ttl#IATI> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-iati> <http://rdfs.org/ns/void#triples> "163"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-hr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-hr> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-hr> <http://rdfs.org/ns/void#subjectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-hr> <http://rdfs.org/ns/void#objectsTarget> <http://hxl.humanitarianresponse.info/> .
+<http://transparency.270a.info/void.ttl#linkset-transparency-hr> <http://rdfs.org/ns/void#triples> "182"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-geonames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-geonames> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-geonames> <http://rdfs.org/ns/void#objectsTarget> <http://sws.geonames.org/> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-geonames> <http://rdfs.org/ns/void#subjectsTarget> <http://bfs.270a.info/dataset/bfs> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-geonames> <http://rdfs.org/ns/void#triples> "220"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-ecb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-ecb> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-ecb> <http://rdfs.org/ns/void#objectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-ecb> <http://rdfs.org/ns/void#subjectsTarget> <http://bfs.270a.info/dataset/bfs> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-ecb> <http://rdfs.org/ns/void#triples> "221"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-hr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-hr> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-hr> <http://rdfs.org/ns/void#objectsTarget> <http://hxl.humanitarianresponse.info/> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-hr> <http://rdfs.org/ns/void#subjectsTarget> <http://bfs.270a.info/dataset/bfs> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-hr> <http://rdfs.org/ns/void#triples> "211"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-worldbank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-worldbank> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-worldbank> <http://rdfs.org/ns/void#objectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-worldbank> <http://rdfs.org/ns/void#subjectsTarget> <http://bfs.270a.info/dataset/bfs> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-worldbank> <http://rdfs.org/ns/void#triples> "185"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-uis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-uis> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-uis> <http://rdfs.org/ns/void#objectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-uis> <http://rdfs.org/ns/void#subjectsTarget> <http://bfs.270a.info/dataset/bfs> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-uis> <http://rdfs.org/ns/void#triples> "849"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-imf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-imf> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-imf> <http://rdfs.org/ns/void#objectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-imf> <http://rdfs.org/ns/void#subjectsTarget> <http://bfs.270a.info/dataset/bfs> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-imf> <http://rdfs.org/ns/void#triples> "24"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-dbpedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-dbpedia> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-dbpedia> <http://rdfs.org/ns/void#objectsTarget> <http://dbpedia.org/void/Dataset> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-dbpedia> <http://rdfs.org/ns/void#subjectsTarget> <http://bfs.270a.info/dataset/bfs> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-dbpedia> <http://rdfs.org/ns/void#triples> "261"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-eurostat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-eurostat> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-eurostat> <http://rdfs.org/ns/void#objectsTarget> <http://eurostat.linked-statistics.org/void.ttl#eurostat> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-eurostat> <http://rdfs.org/ns/void#subjectsTarget> <http://bfs.270a.info/dataset/bfs> .
+<http://bfs.270a.info/void.ttl#linkset-bfs-eurostat> <http://rdfs.org/ns/void#triples> "185"^^<http://www.w3.org/2001/XMLSchema#integer> .
