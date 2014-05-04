@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="-26.698831868761182 5 639.6108516422825 480" id="svg2">
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   viewBox="0 0 640 480"
+   style="position: relative;"
+   version="1.1"
+   width="100%"
+   height="100%"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="void.svg">
   <title id="title2997">270a Cloud</title>
   <metadata id="metadata29">
     <rdf:RDF>
@@ -19,7 +34,7 @@
             <dc:title>http://csarven.ca/#i</dc:title>
           </cc:Agent>
         </dc:publisher>
-        <dc:date>2013-10-07</dc:date>
+        <dc:date>2014-05-05</dc:date>
         <dc:identifier>http://270a.info/media/images/270a.cloud.svg</dc:identifier>
         <dc:source>http://270a.info/media/images/270a.cloud.svg</dc:source>
         <dc:language>en</dc:language>
@@ -34,7 +49,32 @@
       </cc:License>
     </rdf:RDF>
   </metadata>
-  <style type="text/css" id="style6">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     id="namedview340"
+     showgrid="false"
+     inkscape:zoom="1.3523417"
+     inkscape:cx="214.43403"
+     inkscape:cy="248.96795"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <style
+     type="text/css"
+     id="style6">
+text {
+font-family:sans-serif;
+}
 .dataset circle { fill: #fff; stroke: #0000EE; stroke-width: 1; }
 
 .dataset.media circle { fill: #E2EAFF; stroke: #2866C4; }
@@ -64,7 +104,7 @@
 
 .shadow { fill-opacity: 0.6; }
 .links { stroke: #363636; stroke-linecap: square; }
-.width1 { stroke-width: 1; }
+.width1 { stroke-width: 0.5; }
 .width2 { stroke-width: 2; }
 .width3 { stroke-width: 4; }
 .arrowhead { fill: #363636; }
@@ -75,158 +115,1397 @@
 .footer-text { text-anchor: end; }
 #layer-legend text { text-anchor: end; fill: #363636; }
   </style>
-  <defs id="defs">
-    
-    
-    
-    
-  <circle id="shadow-size1" cx="0" cy="0" r="21" class="shadow" filter="url(#shadow-filter1)"/><circle id="shadow-size1-weak" cx="0" cy="0" r="21" class="shadow weak" filter="url(#shadow-filter1)"/><filter id="shadow-filter1" filterUnits="userSpaceOnUse" x="-29" y="-29" width="58" height="58">
-      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
-    </filter><circle id="shadow-size2" cx="0" cy="0" r="24" class="shadow" filter="url(#shadow-filter2)"/><circle id="shadow-size2-weak" cx="0" cy="0" r="24" class="shadow weak" filter="url(#shadow-filter2)"/><filter id="shadow-filter2" filterUnits="userSpaceOnUse" x="-32" y="-32" width="64" height="64">
-      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
-    </filter><circle id="shadow-size3" cx="0" cy="0" r="29" class="shadow" filter="url(#shadow-filter3)"/><circle id="shadow-size3-weak" cx="0" cy="0" r="29" class="shadow weak" filter="url(#shadow-filter3)"/><filter id="shadow-filter3" filterUnits="userSpaceOnUse" x="-37" y="-37" width="74" height="74">
-      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
-    </filter><circle id="shadow-size4" cx="0" cy="0" r="36" class="shadow" filter="url(#shadow-filter4)"/><circle id="shadow-size4-weak" cx="0" cy="0" r="36" class="shadow weak" filter="url(#shadow-filter4)"/><filter id="shadow-filter4" filterUnits="userSpaceOnUse" x="-44" y="-44" width="88" height="88">
-      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
-    </filter><circle id="shadow-size5" cx="0" cy="0" r="45" class="shadow" filter="url(#shadow-filter5)"/><circle id="shadow-size5-weak" cx="0" cy="0" r="45" class="shadow weak" filter="url(#shadow-filter5)"/><filter id="shadow-filter5" filterUnits="userSpaceOnUse" x="-53" y="-53" width="106" height="106">
-      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
-    </filter><circle id="shadow-size6" cx="0" cy="0" r="56" class="shadow" filter="url(#shadow-filter6)"/><circle id="shadow-size6-weak" cx="0" cy="0" r="56" class="shadow weak" filter="url(#shadow-filter6)"/><filter id="shadow-filter6" filterUnits="userSpaceOnUse" x="-64" y="-64" width="128" height="128">
-      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
-    </filter><circle id="shadow-size7" cx="0" cy="0" r="69" class="shadow" filter="url(#shadow-filter7)"/><circle id="shadow-size7-weak" cx="0" cy="0" r="69" class="shadow weak" filter="url(#shadow-filter7)"/><filter id="shadow-filter7" filterUnits="userSpaceOnUse" x="-77" y="-77" width="154" height="154">
-      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
-    </filter><circle id="shadow-size8" cx="0" cy="0" r="84" class="shadow" filter="url(#shadow-filter8)"/><circle id="shadow-size8-weak" cx="0" cy="0" r="84" class="shadow weak" filter="url(#shadow-filter8)"/><filter id="shadow-filter8" filterUnits="userSpaceOnUse" x="-92" y="-92" width="184" height="184">
-      <feGaussianBlur stdDeviation="4" id="feGaussianBlur11"/>
-    </filter><marker markerUnits="userSpaceOnUse" refX="13" refY="5" markerWidth="7" markerHeight="7" orient="auto" viewBox="0 0 13 10" id="arrowhead-start-width1" style="overflow:visible">
-      <path d="M 13,0 0,5 13,10 z" id="arrowhead-start" style="fill:#363636"/>
-    </marker><marker markerUnits="userSpaceOnUse" refX="13" refY="5" markerWidth="7" markerHeight="7" orient="auto" viewBox="0 0 13 10" id="arrowhead-start-width1-weak" style="overflow:visible" class="weak">
-      <path d="M 13,0 0,5 13,10 z" id="arrowhead-start" style="fill:#363636"/>
-    </marker><marker markerUnits="userSpaceOnUse" refX="0" refY="5" markerWidth="7" markerHeight="7" orient="auto" viewBox="0 0 13 10" id="arrowhead-end-width1" style="overflow:visible">
-      <path d="M 0,0 13,5 0,10 z" id="arrowhead-end" style="fill:#363636"/>
-    </marker><marker markerUnits="userSpaceOnUse" refX="0" refY="5" markerWidth="7" markerHeight="7" orient="auto" viewBox="0 0 13 10" id="arrowhead-end-width1-weak" style="overflow:visible" class="weak">
-      <path d="M 0,0 13,5 0,10 z" id="arrowhead-end" style="fill:#363636"/>
-    </marker><marker markerUnits="userSpaceOnUse" refX="13" refY="5" markerWidth="10" markerHeight="10" orient="auto" viewBox="0 0 13 10" id="arrowhead-start-width2" style="overflow:visible">
-      <path d="M 13,0 0,5 13,10 z" id="arrowhead-start" style="fill:#363636"/>
-    </marker><marker markerUnits="userSpaceOnUse" refX="13" refY="5" markerWidth="10" markerHeight="10" orient="auto" viewBox="0 0 13 10" id="arrowhead-start-width2-weak" style="overflow:visible" class="weak">
-      <path d="M 13,0 0,5 13,10 z" id="arrowhead-start" style="fill:#363636"/>
-    </marker><marker markerUnits="userSpaceOnUse" refX="0" refY="5" markerWidth="10" markerHeight="10" orient="auto" viewBox="0 0 13 10" id="arrowhead-end-width2" style="overflow:visible">
-      <path d="M 0,0 13,5 0,10 z" id="arrowhead-end" style="fill:#363636"/>
-    </marker><marker markerUnits="userSpaceOnUse" refX="0" refY="5" markerWidth="10" markerHeight="10" orient="auto" viewBox="0 0 13 10" id="arrowhead-end-width2-weak" style="overflow:visible" class="weak">
-      <path d="M 0,0 13,5 0,10 z" id="arrowhead-end" style="fill:#363636"/>
-    </marker><marker markerUnits="userSpaceOnUse" refX="13" refY="5" markerWidth="14" markerHeight="14" orient="auto" viewBox="0 0 13 10" id="arrowhead-start-width3" style="overflow:visible">
-      <path d="M 13,0 0,5 13,10 z" id="arrowhead-start" style="fill:#363636"/>
-    </marker><marker markerUnits="userSpaceOnUse" refX="13" refY="5" markerWidth="14" markerHeight="14" orient="auto" viewBox="0 0 13 10" id="arrowhead-start-width3-weak" style="overflow:visible" class="weak">
-      <path d="M 13,0 0,5 13,10 z" id="arrowhead-start" style="fill:#363636"/>
-    </marker><marker markerUnits="userSpaceOnUse" refX="0" refY="5" markerWidth="14" markerHeight="14" orient="auto" viewBox="0 0 13 10" id="arrowhead-end-width3" style="overflow:visible">
-      <path d="M 0,0 13,5 0,10 z" id="arrowhead-end" style="fill:#363636"/>
-    </marker><marker markerUnits="userSpaceOnUse" refX="0" refY="5" markerWidth="14" markerHeight="14" orient="auto" viewBox="0 0 13 10" id="arrowhead-end-width3-weak" style="overflow:visible" class="weak">
-      <path d="M 0,0 13,5 0,10 z" id="arrowhead-end" style="fill:#363636"/>
-    </marker></defs>
-  <g transform="translate(2,4)" id="layer-shadows">  <use id="shadow-world-bank-linked-data" x="445.80360111584105" y="250.43724493854117" a0:href="#shadow-size6" xmlns:a0="http://www.w3.org/1999/xlink"/>
-    <use id="shadow-transparency-linked-data" x="140.7014089144966" y="365.7219416812321" a1:href="#shadow-size4" xmlns:a1="http://www.w3.org/1999/xlink"/>
-    <use id="shadow-imf-linked-data" x="255.05811133532035" y="432" a2:href="#shadow-size5" xmlns:a2="http://www.w3.org/1999/xlink"/>
-    <use id="shadow-ecb-linked-data" x="300.6840014284418" y="295.5034913249968" a3:href="#shadow-size6" xmlns:a3="http://www.w3.org/1999/xlink"/>
-    <use id="shadow-bfs-linked-data" x="400.49535113983745" y="395.7541609881448" a4:href="#shadow-size4" xmlns:a4="http://www.w3.org/1999/xlink"/>
-    <use id="shadow-fao-linked-data" x="180.70589992689477" y="230.4793979487626" a5:href="#shadow-size5" xmlns:a5="http://www.w3.org/1999/xlink"/>
-    <use id="shadow-oecd-linked-data" x="315.2855721880066" y="165.7680899875336" a6:href="#shadow-size6" xmlns:a6="http://www.w3.org/1999/xlink"/>
-    <use id="shadow-dbpedia" x="535.9120197735213" y="140.44026805196864" a7:href="#shadow-size7-weak" xmlns:a7="http://www.w3.org/1999/xlink"/>
-    <use id="shadow-nasa" x="415.80360111584105" y="90.43724493854117" a8:href="#shadow-size5-weak" xmlns:a8="http://www.w3.org/1999/xlink"/>
-    <use id="shadow-eunis" x="95.38626532471346" y="155.8726104231204" a9:href="#shadow-size4-weak" xmlns:a9="http://www.w3.org/1999/xlink"/>
-    <use id="shadow-the-eurostat-linked-data" x="50.30116813123882" y="275.7823948656967" a10:href="#shadow-size7-weak" xmlns:a10="http://www.w3.org/1999/xlink"/>
-    <use id="shadow-geonames-semantic-web" x="530.803601115841" y="345.4372449385412" a11:href="#shadow-size5-weak" xmlns:a11="http://www.w3.org/1999/xlink"/>
-    <use id="shadow-humanitarian-response" x="195.55666277176988" y="110.26734442981028" a12:href="#shadow-size4-weak" xmlns:a12="http://www.w3.org/1999/xlink"/>
-    <use id="shadow-iati" x="300.0564161699834" y="49" a13:href="#shadow-size4-weak" xmlns:a13="http://www.w3.org/1999/xlink"/>
+  <line
+     x1="111.5168"
+     y1="139.36903"
+     x2="92.672264"
+     y2="152.25897"
+     class="links"
+     style="stroke:#363636;stroke-width:1.23802686;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line5" />
+  <line
+     x1="183.36908"
+     y1="126.36151"
+     x2="538.80219"
+     y2="213.99509"
+     class="links"
+     style="stroke:#363636;stroke-width:1.830477;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line7" />
+  <line
+     x1="182.87073"
+     y1="105.37774"
+     x2="325.93445"
+     y2="62.80661"
+     class="links"
+     style="stroke:#363636;stroke-width:2.14504862;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line9" />
+  <line
+     x1="177.08311"
+     y1="93.538879"
+     x2="198.40787"
+     y2="78.309219"
+     class="links"
+     style="stroke:#363636;stroke-width:2.30775118;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line11" />
+  <line
+     x1="184.33336"
+     y1="120.76851"
+     x2="399.63074"
+     y2="142.31071"
+     class="links"
+     style="stroke:#363636;stroke-width:2.09247899;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line13" />
+  <line
+     x1="183.81419"
+     y1="109.24171"
+     x2="456.80042"
+     y2="56.813129"
+     class="links"
+     style="stroke:#363636;stroke-width:2.79442382;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line15" />
+  <line
+     x1="180.67828"
+     y1="133.91658"
+     x2="212.27956"
+     y2="148.89314"
+     class="links"
+     style="stroke:#363636;stroke-width:0.69702083;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line17" />
+  <line
+     x1="125.24019"
+     y1="151.82637"
+     x2="69.956734"
+     y2="252.23885"
+     class="links"
+     style="stroke:#363636;stroke-width:2.09220219;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line19" />
+  <line
+     x1="464.30676"
+     y1="228.36748"
+     x2="494.70337"
+     y2="96.112228"
+     class="links"
+     style="stroke:#363636;stroke-width:1.41810966;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line21" />
+  <line
+     x1="480.40585"
+     y1="236.17329"
+     x2="539.13794"
+     y2="163.0997"
+     class="links"
+     style="stroke:#363636;stroke-width:1.56796217;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line23" />
+  <line
+     x1="416.24097"
+     y1="258.9418"
+     x2="100.28571"
+     y2="190.9993"
+     class="links"
+     style="stroke:#363636;stroke-width:2.01051235;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line25" />
+  <line
+     x1="415.38861"
+     y1="265.5278"
+     x2="194.01344"
+     y2="255.42641"
+     class="links"
+     style="stroke:#363636;stroke-width:1.83792293;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line27" />
+  <line
+     x1="441.38663"
+     y1="229.86635"
+     x2="391.30823"
+     y2="95.402138"
+     class="links"
+     style="stroke:#363636;stroke-width:2.24689317;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line29" />
+  <line
+     x1="419.48566"
+     y1="249.63214"
+     x2="374.29657"
+     y2="227.30441"
+     class="links"
+     style="stroke:#363636;stroke-width:2.29418516;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line31" />
+  <line
+     x1="456.68521"
+     y1="227.37349"
+     x2="457.32532"
+     y2="208.25078"
+     class="links"
+     style="stroke:#363636;stroke-width:1.01366937;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line33" />
+  <line
+     x1="493.51498"
+     y1="255.3842"
+     x2="539.63843"
+     y2="240.92299"
+     class="links"
+     style="stroke:#363636;stroke-width:2.19146013;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line35" />
+  <line
+     x1="423.93414"
+     y1="183.59653"
+     x2="285.07416"
+     y2="322.11798"
+     class="links"
+     style="stroke:#363636;stroke-width:1.51675427;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line37" />
+  <line
+     x1="413.73096"
+     y1="127.77853"
+     x2="284.6983"
+     y2="69.756058"
+     class="links"
+     style="stroke:#363636;stroke-width:2.41565323;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line39" />
+  <line
+     x1="482.56161"
+     y1="192.56091"
+     x2="530.20062"
+     y2="283.36508"
+     class="links"
+     style="stroke:#363636;stroke-width:2.83831477;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line41" />
+  <line
+     x1="480.28568"
+     y1="102.88645"
+     x2="484.94995"
+     y2="92.780586"
+     class="links"
+     style="stroke:#363636;stroke-width:0.86125565;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line43" />
+  <line
+     x1="508.19156"
+     y1="137.66351"
+     x2="521.60248"
+     y2="134.74828"
+     class="links"
+     style="stroke:#363636;stroke-width:2.06482244;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line45" />
+  <line
+     x1="411.88824"
+     y1="164.06512"
+     x2="191.50978"
+     y2="237.36653"
+     class="links"
+     style="stroke:#363636;stroke-width:1.72176206;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line47" />
+  <line
+     x1="426.79633"
+     y1="110.31872"
+     x2="406.39398"
+     y2="86.511833"
+     class="links"
+     style="stroke:#363636;stroke-width:2.31059861;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line49" />
+  <line
+     x1="410.67215"
+     y1="159.78041"
+     x2="381.1973"
+     y2="166.74387"
+     class="links"
+     style="stroke:#363636;stroke-width:2.28891277;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line51" />
+  <line
+     x1="409.58102"
+     y1="143.30632"
+     x2="194.28368"
+     y2="121.76411"
+     class="links"
+     style="stroke:#363636;stroke-width:2.33685303;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line53" />
+  <line
+     x1="412.24838"
+     y1="165.10922"
+     x2="92.926071"
+     y2="279.21439"
+     class="links"
+     style="stroke:#363636;stroke-width:1.82677007;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line55" />
+  <line
+     x1="409.4877"
+     y1="152.21928"
+     x2="101.24805"
+     y2="176.55275"
+     class="links"
+     style="stroke:#363636;stroke-width:0.80781573;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line57" />
+  <line
+     x1="502.07849"
+     y1="174.22258"
+     x2="544.60254"
+     y2="200.02615"
+     class="links"
+     style="stroke:#363636;stroke-width:2.17155933;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line59" />
+  <line
+     x1="457.65988"
+     y1="198.25638"
+     x2="457.01978"
+     y2="217.37909"
+     class="links"
+     style="stroke:#363636;stroke-width:0.42379725;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line61" />
+  <line
+     x1="353.84634"
+     y1="83.180649"
+     x2="338.63403"
+     y2="109.50922"
+     class="links"
+     style="stroke:#363636;stroke-width:1.86588693;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line63" />
+  <line
+     x1="413.85617"
+     y1="48.193752"
+     x2="455.90497"
+     y2="47.823242"
+     class="links"
+     style="stroke:#363636;stroke-width:0.56355757;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line65" />
+  <line
+     x1="335.5191"
+     y1="59.954529"
+     x2="192.45538"
+     y2="102.52566"
+     class="links"
+     style="stroke:#363636;stroke-width:1.19623506;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line67" />
+  <line
+     x1="387.81812"
+     y1="86.030952"
+     x2="437.89651"
+     y2="220.49516"
+     class="links"
+     style="stroke:#363636;stroke-width:2.28982282;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line69" />
+  <line
+     x1="341.92706"
+     y1="72.638367"
+     x2="85.755173"
+     y2="265.92401"
+     class="links"
+     style="stroke:#363636;stroke-width:0.61732423;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line71" />
+  <line
+     x1="333.85828"
+     y1="48.755169"
+     x2="289.09595"
+     y2="48.989021"
+     class="links"
+     style="stroke:#363636;stroke-width:2.80357051;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line73" />
+  <line
+     x1="404.62131"
+     y1="74.111816"
+     x2="548.89386"
+     y2="194.00734"
+     class="links"
+     style="stroke:#363636;stroke-width:0.93961817;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line75" />
+  <line
+     x1="336.83698"
+     y1="63.69429"
+     x2="97.679062"
+     y2="161.55257"
+     class="links"
+     style="stroke:#363636;stroke-width:2.25315213;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line77" />
+  <line
+     x1="343.9834"
+     y1="75.145523"
+     x2="181.40834"
+     y2="219.89813"
+     class="links"
+     style="stroke:#363636;stroke-width:1.07247138;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line79" />
+  <line
+     x1="399.88675"
+     y1="78.918709"
+     x2="420.28906"
+     y2="102.72559"
+     class="links"
+     style="stroke:#363636;stroke-width:0.43862846;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line81" />
+  <line
+     x1="220.36731"
+     y1="219.61957"
+     x2="189.84114"
+     y2="233.03304"
+     class="links"
+     style="stroke:#363636;stroke-width:0.77254033;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line83" />
+  <line
+     x1="360.38593"
+     y1="143.3826"
+     x2="464.16708"
+     y2="74.916527"
+     class="links"
+     style="stroke:#363636;stroke-width:0.52191371;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line85" />
+  <line
+     x1="221.3161"
+     y1="153.17577"
+     x2="189.71483"
+     y2="138.1992"
+     class="links"
+     style="stroke:#363636;stroke-width:1.48436558;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line87" />
+  <line
+     x1="269.53696"
+     y1="263.72937"
+     x2="256.57886"
+     y2="304.79898"
+     class="links"
+     style="stroke:#363636;stroke-width:1.22843099;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line89" />
+  <line
+     x1="333.6312"
+     y1="118.16784"
+     x2="348.84351"
+     y2="91.839264"
+     class="links"
+     style="stroke:#363636;stroke-width:0.78861731;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line91" />
+  <line
+     x1="213.64137"
+     y1="185.14243"
+     x2="101.38257"
+     y2="181.92163"
+     class="links"
+     style="stroke:#363636;stroke-width:2.47176528;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line93" />
+  <line
+     x1="220.3381"
+     y1="219.55302"
+     x2="91.635811"
+     y2="275.96655"
+     class="links"
+     style="stroke:#363636;stroke-width:1.7263844;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line95" />
+  <line
+     x1="365.33121"
+     y1="222.87466"
+     x2="410.52029"
+     y2="245.20241"
+     class="links"
+     style="stroke:#363636;stroke-width:1.56197631;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line97" />
+  <line
+     x1="264.25168"
+     y1="113.01781"
+     x2="257.44464"
+     y2="95.762062"
+     class="links"
+     style="stroke:#363636;stroke-width:2.84995914;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line99" />
+  <line
+     x1="372.92908"
+     y1="197.84062"
+     x2="537.77301"
+     y2="219.46194"
+     class="links"
+     style="stroke:#363636;stroke-width:2.58037114;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line101" />
+  <line
+     x1="371.46521"
+     y1="169.04308"
+     x2="400.94006"
+     y2="162.07962"
+     class="links"
+     style="stroke:#363636;stroke-width:1.98859537;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line103" />
+  <line
+     x1="350.92871"
+     y1="334.16626"
+     x2="178.95953"
+     y2="153.04559"
+     class="links"
+     style="stroke:#363636;stroke-width:1.47506034;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line105" />
+  <line
+     x1="464.75027"
+     y1="360.56564"
+     x2="506.55594"
+     y2="345.04443"
+     class="links"
+     style="stroke:#363636;stroke-width:2.8103056;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line107" />
+  <line
+     x1="429.32321"
+     y1="321.7774"
+     x2="433.77838"
+     y2="312.45981"
+     class="links"
+     style="stroke:#363636;stroke-width:2.70588779;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line109" />
+  <line
+     x1="366.13989"
+     y1="323.18942"
+     x2="336.0206"
+     y2="266.81693"
+     class="links"
+     style="stroke:#363636;stroke-width:1.82845652;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line111" />
+  <line
+     x1="336.93735"
+     y1="352.7981"
+     x2="188.48669"
+     y2="276.09836"
+     class="links"
+     style="stroke:#363636;stroke-width:2.44449306;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line113" />
+  <line
+     x1="329.35983"
+     y1="379.22635"
+     x2="305.28357"
+     y2="377.25821"
+     class="links"
+     style="stroke:#363636;stroke-width:2.6370635;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line115" />
+  <line
+     x1="416.3862"
+     y1="317.09061"
+     x2="444.53912"
+     y2="206.43204"
+     class="links"
+     style="stroke:#363636;stroke-width:1.51242518;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line117" />
+  <line
+     x1="393.88342"
+     y1="315.12625"
+     x2="377.60321"
+     y2="98.405708"
+     class="links"
+     style="stroke:#363636;stroke-width:1.77556741;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line119" />
+  <line
+     x1="420.23904"
+     y1="318.18912"
+     x2="490.82306"
+     y2="95.054428"
+     class="links"
+     style="stroke:#363636;stroke-width:1.6613239;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line121" />
+  <line
+     x1="331.24295"
+     y1="367.84918"
+     x2="94.330536"
+     y2="308.2395"
+     class="links"
+     style="stroke:#363636;stroke-width:1.10861027;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line123" />
+  <line
+     x1="369.00366"
+     y1="321.74274"
+     x2="260.6134"
+     y2="94.383682"
+     class="links"
+     style="stroke:#363636;stroke-width:1.50503337;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line125" />
+  <line
+     x1="338.78403"
+     y1="349.45126"
+     x2="94.505348"
+     y2="205.82932"
+     class="links"
+     style="stroke:#363636;stroke-width:0.86693132;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line127" />
+  <line
+     x1="452.60602"
+     y1="339.76312"
+     x2="549.14917"
+     y2="258.2261"
+     class="links"
+     style="stroke:#363636;stroke-width:1.29180562;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line129" />
+  <line
+     x1="178.83646"
+     y1="233.37421"
+     x2="462.43921"
+     y2="72.099045"
+     class="links"
+     style="stroke:#363636;stroke-width:0.81185335;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line131" />
+  <line
+     x1="173.93976"
+     y1="226.54796"
+     x2="336.5148"
+     y2="81.795357"
+     class="links"
+     style="stroke:#363636;stroke-width:1.54007125;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line133" />
+  <line
+     x1="184.02385"
+     y1="254.9706"
+     x2="405.39899"
+     y2="265.07199"
+     class="links"
+     style="stroke:#363636;stroke-width:2.85969329;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line135" />
+  <line
+     x1="182.0209"
+     y1="240.52269"
+     x2="402.39938"
+     y2="167.22127"
+     class="links"
+     style="stroke:#363636;stroke-width:1.68503153;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line137" />
+  <line
+     x1="112.58853"
+     y1="228.46521"
+     x2="90.749245"
+     y2="211.34029"
+     class="links"
+     style="stroke:#363636;stroke-width:0.90742564;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line139" />
+  <line
+     x1="135.15221"
+     y1="292.1416"
+     x2="126.05865"
+     y2="331.9248"
+     class="links"
+     style="stroke:#363636;stroke-width:0.82389426;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line141" />
+  <line
+     x1="107.40805"
+     y1="269.15472"
+     x2="91.663559"
+     y2="276.02997"
+     class="links"
+     style="stroke:#363636;stroke-width:0.43257976;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line143" />
+  <line
+     x1="168.51562"
+     y1="284.80466"
+     x2="192.72844"
+     y2="316.15463"
+     class="links"
+     style="stroke:#363636;stroke-width:2.18011642;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line145" />
+  <line
+     x1="183.99042"
+     y1="250.69902"
+     x2="537.44214"
+     y2="229.0247"
+     class="links"
+     style="stroke:#363636;stroke-width:2.56602526;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line147" />
+  <line
+     x1="160.96321"
+     y1="216.89174"
+     x2="217.9744"
+     y2="94.569664"
+     class="links"
+     style="stroke:#363636;stroke-width:1.30361438;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line149" />
+  <line
+     x1="183.99042"
+     y1="250.69902"
+     x2="537.44214"
+     y2="229.0247"
+     class="links"
+     style="stroke:#363636;stroke-width:0.64527154;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line151" />
+  <line
+     x1="180.686"
+     y1="237.05589"
+     x2="211.21216"
+     y2="223.64241"
+     class="links"
+     style="stroke:#363636;stroke-width:2.30349398;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line153" />
+  <line
+     x1="294.95197"
+     y1="363.34515"
+     x2="503.8999"
+     y2="334.48315"
+     class="links"
+     style="stroke:#363636;stroke-width:0.50929135;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line155" />
+  <line
+     x1="277.99445"
+     y1="329.18042"
+     x2="416.85446"
+     y2="190.65895"
+     class="links"
+     style="stroke:#363636;stroke-width:1.98825443;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line157" />
+  <line
+     x1="253.56992"
+     y1="314.33554"
+     x2="266.52802"
+     y2="273.26596"
+     class="links"
+     style="stroke:#363636;stroke-width:1.47669923;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line159" />
+  <line
+     x1="295.31683"
+     y1="376.44348"
+     x2="319.3931"
+     y2="378.41162"
+     class="links"
+     style="stroke:#363636;stroke-width:1.92834485;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line161" />
+  <line
+     x1="290.95703"
+     y1="348.61322"
+     x2="541.14777"
+     y2="245.0825"
+     class="links"
+     style="stroke:#363636;stroke-width:1.11224198;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line163" />
+  <line
+     x1="236.18275"
+     y1="311.55872"
+     x2="238.54123"
+     y2="99.247147"
+     class="links"
+     style="stroke:#363636;stroke-width:2.51694393;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line165" />
+  <line
+     x1="274.76706"
+     y1="67.350548"
+     x2="542.76038"
+     y2="203.33897"
+     class="links"
+     style="stroke:#363636;stroke-width:0.40876055;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line167" />
+  <line
+     x1="267.26016"
+     y1="77.654747"
+     x2="420.14264"
+     y2="231.84546"
+     class="links"
+     style="stroke:#363636;stroke-width:2.39336658;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line169" />
+  <line
+     x1="253.77502"
+     y1="86.459702"
+     x2="260.58206"
+     y2="103.71544"
+     class="links"
+     style="stroke:#363636;stroke-width:1.24168181;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line171" />
+  <line
+     x1="279.0961"
+     y1="49.041264"
+     x2="323.8584"
+     y2="48.807411"
+     class="links"
+     style="stroke:#363636;stroke-width:1.41286838;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line173" />
+  <line
+     x1="275.57797"
+     y1="65.654892"
+     x2="404.61063"
+     y2="123.67737"
+     class="links"
+     style="stroke:#363636;stroke-width:0.76121372;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line175" />
+  <line
+     x1="222.19885"
+     y1="85.505783"
+     x2="165.18765"
+     y2="207.82785"
+     class="links"
+     style="stroke:#363636;stroke-width:1.24704015;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line177" />
+  <line
+     x1="206.54562"
+     y1="72.497421"
+     x2="185.22086"
+     y2="87.727081"
+     class="links"
+     style="stroke:#363636;stroke-width:1.0161202;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line179" />
+  <line
+     x1="238.65231"
+     y1="89.247765"
+     x2="236.29384"
+     y2="301.55933"
+     class="links"
+     style="stroke:#363636;stroke-width:1.32750833;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line181" />
+  <line
+     x1="256.31003"
+     y1="85.357002"
+     x2="364.70032"
+     y2="312.71603"
+     class="links"
+     style="stroke:#363636;stroke-width:1.01651144;stroke-linecap:square;marker-end:url(#arrowhead-end-width1)"
+     id="line183" />
+  <defs
+     id="defs185">
+    <filter
+       id="dropshadow"
+       height="130%">
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="3"
+         id="feGaussianBlur188" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="offsetblur"
+         id="feOffset190" />
+      <feComponentTransfer
+         id="feComponentTransfer192">
+        <feFuncA
+           type="linear"
+           slope="0.2"
+           id="feFuncA194" />
+      </feComponentTransfer>
+      <feMerge
+         id="feMerge196">
+        <feMergeNode
+           id="feMergeNode198" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode200" />
+      </feMerge>
+    </filter>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="0"
+       refY="5"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto"
+       viewBox="0 0 13 10"
+       id="arrowhead-end-width1"
+       style="overflow:visible">
+      <path
+         d="M 0,0 13,5 0,10 z"
+         id="arrowhead-end"
+         style="fill:#363636" />
+    </marker>
+  </defs>
+  <g
+     id="g204"
+     transform="translate(97.608466,4.4367484)">
+    <a xlink:href="http://ecb.270a.info/" target="_blank">
+    <circle
+       uri="http://ecb.270a.info/dataset/ecb"
+       r="80"
+       cx="196"
+       cy="183"
+       style="fill:#0000ee;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle206"
+       d="m 276,183 c 0,44.18278 -35.81722,80 -80,80 -44.18278,0 -80,-35.81722 -80,-80 0,-44.18278 35.81722,-80 80,-80 44.18278,0 80,35.81722 80,80 z"
+       sodipodi:cx="196"
+       sodipodi:cy="183"
+       sodipodi:rx="80"
+       sodipodi:ry="80" />
+    <text
+       cached-y="182"
+       cached-x="196"
+       x="196"
+       y="172"
+       style="font-size:19px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text208">European</text>
+    <text
+       cached-y="210"
+       cached-x="196"
+       x="196"
+       y="201"
+       style="font-size:19px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text210">Central Bank</text>
+  </a>
   </g>
-  <g id="layer-links">  <line x1="384.06403985023235" y1="273.7659091679853" x2="183.73201222082997" y2="349.4625696425287" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-world-bank-linked-data to-transparency-linked-data bidi"/>
-    <line x1="397.99803115885436" y1="295.9413928932898" x2="294.8960862994759" y2="394.0798767043761" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-world-bank-linked-data to-imf-linked-data bidi"/>
-    <line x1="426.15825556077965" y1="313.44566023381924" x2="414.1875616782135" y2="351.83920487325406" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-world-bank-linked-data to-bfs-linked-data bidi"/>
-    <line x1="379.9898475847815" y1="245.48246480689568" x2="235.550694536111" y2="234.60838139180055" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-world-bank-linked-data to-fao-linked-data bidi"/>
-    <line x1="382.7729506388612" y1="270.01113316875234" x2="363.71465190542165" y2="275.9296030947856" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-world-bank-linked-data to-ecb-linked-data bidi"/>
-    <line x1="481.2910713080576" y1="207.11704803967493" x2="487.7504530840845" y2="199.2319638432871" marker-end="url(#arrowhead-end-width1)" class="links width1 from-world-bank-linked-data to-dbpedia"/>
-    <line x1="435.4834431530307" y1="195.39640247021913" x2="425.3866049384507" y2="141.54659865912592" marker-end="url(#arrowhead-end-width1)" class="links width1 from-world-bank-linked-data to-nasa"/>
-    <line x1="483.1441132461513" y1="292.17075849594676" x2="496.1302684234101" y2="306.68469663523604" marker-end="url(#arrowhead-end-width1)" class="links width1 from-world-bank-linked-data to-geonames-semantic-web"/>
-    <line x1="389.9182353462645" y1="254.01857050327916" x2="126.1455931042355" y2="270.9220244564092" marker-end="url(#arrowhead-end-width1)" class="links width1 from-world-bank-linked-data to-the-eurostat-linked-data"/>
-    <line x1="396.9458958243115" y1="223.07075751969177" x2="233.07240076348018" y2="131.28089726928383" marker-end="url(#arrowhead-end-width1)" class="links width1 from-world-bank-linked-data to-humanitarian-response"/>
-    <line x1="412.97695657868576" y1="205.06752586919654" x2="325.2625896538705" y2="83.83746285681812" marker-end="url(#arrowhead-end-width1)" class="links width1 from-world-bank-linked-data to-iati"/>
-    <line x1="180.5002168694759" y1="388.78825663101713" x2="207.47258008480162" y2="404.42071038612664" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-transparency-linked-data to-imf-linked-data bidi"/>
-    <line x1="153.74926956728095" y1="321.61124759934853" x2="165.10519697247867" y2="283.22044522057996" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-transparency-linked-data to-fao-linked-data bidi"/>
-    <line x1="182.82276007655696" y1="347.23433025405217" x2="240.24901932635518" y2="322.02919467703765" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-transparency-linked-data to-ecb-linked-data bidi"/>
-    <line x1="171.97699483171095" y1="347.893937711776" x2="469.8857828371799" y2="178.0771653208205" marker-end="url(#arrowhead-end-width1)" class="links width1 from-transparency-linked-data to-dbpedia"/>
-    <line x1="115.1806188554909" y1="340.3312096168714" x2="104.17839158913975" y2="329.3850514460138" marker-end="url(#arrowhead-end-width1)" class="links width1 from-transparency-linked-data to-the-eurostat-linked-data"/>
-    <line x1="176.65283834943256" y1="363.85252423592453" x2="478.87375859871133" y2="348.1375145817633" marker-end="url(#arrowhead-end-width1)" class="links width1 from-transparency-linked-data to-geonames-semantic-web"/>
-    <line x1="148.25960272721213" y1="330.5243038870643" x2="186.52882016213746" y2="152.30896735062183" marker-end="url(#arrowhead-end-width1)" class="links width1 from-transparency-linked-data to-humanitarian-response"/>
-    <line x1="156.8817926850844" y1="333.563036522062" x2="280.7298466662257" y2="87.41202560678653" marker-end="url(#arrowhead-end-width1)" class="links width1 from-transparency-linked-data to-iati"/>
-    <line x1="308.4257315612719" y1="418.6997326561227" x2="355.8606142235871" y2="406.87802094847854" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-imf-linked-data to-bfs-linked-data bidi"/>
-    <line x1="236.02001976814907" y1="380.40008653611903" x2="199.74399149406608" y2="282.07931141264356" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-imf-linked-data to-fao-linked-data bidi"/>
-    <line x1="272.49433135577266" y1="379.83700323602585" x2="279.760537403899" y2="358.0990874417658" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-imf-linked-data to-ecb-linked-data bidi"/>
-    <line x1="286.27733250477564" y1="399.5907385216412" x2="483.1862240206633" y2="195.17590965986352" marker-end="url(#arrowhead-end-width1)" class="links width1 from-imf-linked-data to-dbpedia"/>
-    <line x1="219.2815749016673" y1="404.7045893818851" x2="110.72376299696401" y2="321.8813105762906" marker-end="url(#arrowhead-end-width1)" class="links width1 from-imf-linked-data to-the-eurostat-linked-data"/>
-    <line x1="297.9922848826015" y1="418.52199043582686" x2="481.19077835009386" y2="361.01183376825236" marker-end="url(#arrowhead-end-width1)" class="links width1 from-imf-linked-data to-geonames-semantic-web"/>
-    <line x1="246.8745563924068" y1="387.7503736908851" x2="203.3765041616651" y2="152.55032068074235" marker-end="url(#arrowhead-end-width1)" class="links width1 from-imf-linked-data to-humanitarian-response"/>
-    <line x1="260.30900184322553" y1="387.3074038696118" x2="295.0388985735407" y2="91.70625852459318" marker-end="url(#arrowhead-end-width1)" class="links width1 from-imf-linked-data to-iati"/>
-    <line x1="334.7411498259853" y1="218.27980771579482" x2="385.5562468821038" y2="355.43266344680137" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-bfs-linked-data"/>
-    <line x1="264.81683393607614" y1="190.03548497047592" x2="227.56972830368733" y2="207.9453883217447" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-fao-linked-data"/>
-    <line x1="309.02238021556855" y1="221.4167416002761" x2="307.7300923974346" y2="232.89875826066148" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-ecb-linked-data"/>
-    <line x1="370.920169588362" y1="159.38126197197178" x2="460.40792330161037" y2="149.10810607308827" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-dbpedia"/>
-    <line x1="263.56587516654696" y1="187.24069905137168" x2="120.49218551750542" y2="246.64099685048785" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-the-eurostat-linked-data"/>
-    <line x1="358.2990139142758" y1="201.62675464282776" x2="490.86254808430533" y2="312.13991347291096" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-geonames-semantic-web"/>
-    <line x1="360.09791143128825" y1="132.184548608682" x2="374.1921432470795" y2="121.62196193318913" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-nasa"/>
-    <line x1="264.47886854703967" y1="142.21646870281185" x2="234.56895306751238" y2="128.35162505915014" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-humanitarian-response"/>
-    <line x1="308.04326264150126" y1="110.23837764870912" x2="305.61747528604997" y2="91.63888626016882" marker-end="url(#arrowhead-end-width1)" class="links width1 from-oecd-linked-data to-iati"/>
-    <line x1="347.25045527435105" y1="342.27490755560495" x2="368.0399439139007" y2="363.1559011910542" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-ecb-linked-data to-bfs-linked-data bidi"/>
-    <line x1="242.6580156679113" y1="264.0553597983272" x2="229.06088806067018" y2="256.6861742209873" marker-end="url(#arrowhead-end-width2)" marker-start="url(#arrowhead-start-width2)" class="links width2 from-ecb-linked-data to-fao-linked-data bidi"/>
-    <line x1="347.4392336498155" y1="264.68226065642324" x2="472.4584903302284" y2="182.26908110217568" marker-end="url(#arrowhead-end-width1)" class="links width1 from-ecb-linked-data to-dbpedia"/>
-    <line x1="244.85690186307573" y1="291.1063383689685" x2="126.06651754137843" y2="281.7499595917351" marker-end="url(#arrowhead-end-width1)" class="links width1 from-ecb-linked-data to-the-eurostat-linked-data"/>
-    <line x1="355.4104276683287" y1="307.3786027354307" x2="479.98620532166035" y2="334.4103557717097" marker-end="url(#arrowhead-end-width1)" class="links width1 from-ecb-linked-data to-geonames-semantic-web"/>
-    <line x1="328.0969862649143" y1="246.67185954440473" x2="390.34868662483086" y2="135.7809030205195" marker-end="url(#arrowhead-end-width1)" class="links width1 from-ecb-linked-data to-nasa"/>
-    <line x1="273.0434228814337" y1="246.8003249229375" x2="216.78067844179395" y2="147.6644186313915" marker-end="url(#arrowhead-end-width1)" class="links width1 from-ecb-linked-data to-humanitarian-response"/>
-    <line x1="300.5414287598615" y1="239.5036728160572" x2="300.165891611929" y2="91.99986064079289" marker-end="url(#arrowhead-end-width1)" class="links width1 from-ecb-linked-data to-iati"/>
-    <line x1="224.32631782928996" y1="219.42231234629025" x2="462.241980649476" y2="159.1144570694775" marker-end="url(#arrowhead-end-width1)" class="links width1 from-fao-linked-data to-dbpedia"/>
-    <line x1="146.8305268290377" y1="200.85746186279786" x2="127.75606628488805" y2="184.17801601637558" marker-end="url(#arrowhead-end-width1)" class="links width1 from-fao-linked-data to-eunis"/>
-    <line x1="138.1979669258736" y1="245.2467820089371" x2="122.09234386629677" y2="250.84192400851305" marker-end="url(#arrowhead-end-width1)" class="links width1 from-fao-linked-data to-the-eurostat-linked-data"/>
-    <line x1="223.46001702750277" y1="244.51811124263313" x2="481.3988435773607" y2="329.2147317989575" marker-end="url(#arrowhead-end-width1)" class="links width1 from-fao-linked-data to-geonames-semantic-web"/>
-    <line x1="186.22317033366238" y1="185.81890391590838" x2="190.28460438308088" y2="152.94292761675985" marker-end="url(#arrowhead-end-width1)" class="links width1 from-fao-linked-data to-humanitarian-response"/>
-    <line x1="205.43230548083028" y1="192.8814609258047" x2="276.4289619740005" y2="84.92691759971532" marker-end="url(#arrowhead-end-width1)" class="links width1 from-fao-linked-data to-iati"/>
-    <line x1="371.7225619872131" y1="374.1179273884948" x2="222.2665953695744" y2="261.7317353704792" marker-end="url(#arrowhead-end-width1)" class="links width1 from-bfs-linked-data to-fao-linked-data"/>
-    <line x1="417.36367586400684" y1="363.9507080152367" x2="500.30111202249697" y2="207.58089099477456" marker-end="url(#arrowhead-end-width1)" class="links width1 from-bfs-linked-data to-dbpedia"/>
-    <line x1="366.4384692991759" y1="384.0867362812433" x2="122.19902979485778" y2="300.4136248024886" marker-end="url(#arrowhead-end-width1)" class="links width1 from-bfs-linked-data to-the-eurostat-linked-data"/>
-    <line x1="434.07863518508555" y1="382.7863919920458" x2="482.2944130504827" y2="364.16846682179533" marker-end="url(#arrowhead-end-width1)" class="links width1 from-bfs-linked-data to-geonames-semantic-web"/>
-    <line x1="379.5016783860295" y1="366.5092348588823" x2="220.63243856104063" y2="145.198783973096" marker-end="url(#arrowhead-end-width1)" class="links width1 from-bfs-linked-data to-humanitarian-response"/>
-    <line x1="390.4794886387863" y1="361.17551875973976" x2="312.01980749068343" y2="90.30226710615045" marker-end="url(#arrowhead-end-width1)" class="links width1 from-bfs-linked-data to-iati"/>
+  <g
+     id="g212"
+     transform="translate(97.608466,4.4367484)">
+    <a xlink:href="http://oecd.270a.info/">
+    <circle
+       uri="http://oecd.270a.info/dataset/oecd"
+       r="70"
+       cx="301.51865"
+       cy="380.4928"
+       style="fill:#0000ee;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle214"
+       d="m 371.51865,380.4928 c 0,38.65993 -31.34007,70 -70,70 -38.65994,0 -70,-31.34007 -70,-70 0,-38.65993 31.34006,-70 70,-70 38.65993,0 70,31.34007 70,70 z"
+       sodipodi:cx="301.51865"
+       sodipodi:cy="380.4928"
+       sodipodi:rx="70"
+       sodipodi:ry="70" />
+    <text
+       cached-y="313.9927994634385"
+       cached-x="305.5186538878211"
+       x="301.51865"
+       y="347.9928"
+       style="font-size:14px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text216">Organisation</text>
+    <text
+       cached-y="338.9927994634385"
+       cached-x="305.5186538878211"
+       x="301.51865"
+       y="372.9928"
+       style="font-size:14px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text218">for Economic</text>
+    <text
+       cached-y="363.9927994634385"
+       cached-x="305.5186538878211"
+       x="301.51865"
+       y="397.9928"
+       style="font-size:14px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text220">Co-operation and</text>
+    <text
+       cached-y="388.9927994634385"
+       cached-x="305.5186538878211"
+       x="304.51865"
+       y="419.9928"
+       style="font-size:14px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text224">Development</text>
+  </a>
   </g>
-  <g id="layer-datasets">  <a id="dataset-world-bank-linked-data" class="dataset eu" a14:href="http://worldbank.270a.info/" xmlns:a14="http://www.w3.org/1999/xlink" target="_blank" transform="translate(445.80360111584105 250.43724493854117)"><circle r="56"/><text class="label" x="0" y="-3" font-size="12">World</text><text class="label" x="0" y="10" font-size="12">Bank</text></a>
-    <a id="dataset-transparency-linked-data" class="dataset eu" a15:href="http://transparency.270a.info/" xmlns:a15="http://www.w3.org/1999/xlink" target="_blank" transform="translate(140.7014089144966 365.7219416812321)"><circle r="36"/><text class="label" x="0" y="-2.5" font-size="10">Transparency</text><text class="label" x="0" y="8.5" font-size="10">International</text></a>
-    <a id="dataset-imf-linked-data" class="dataset eu" a16:href="http://imf.270a.info/" xmlns:a16="http://www.w3.org/1999/xlink" target="_blank" transform="translate(255.05811133532035 432)"><circle r="45"/><text class="label" x="0" y="-9.5" font-size="12">International</text><text class="label" x="0" y="3.5" font-size="12">Monetary</text><text class="label" x="0" y="16.5" font-size="12">Fund</text></a>
-    <a id="dataset-ecb-linked-data" class="dataset eu" a17:href="http://ecb.270a.info/" xmlns:a17="http://www.w3.org/1999/xlink" target="_blank" transform="translate(300.6840014284418 295.5034913249968)"><circle r="56"/><text class="label" x="0" y="-9.5" font-size="12">European</text><text class="label" x="0" y="3.5" font-size="12">Central</text><text class="label" x="0" y="16.5" font-size="12">Bank</text></a>
-    <a id="dataset-bfs-linked-data" class="dataset eu" a18:href="http://bfs.270a.info/" xmlns:a18="http://www.w3.org/1999/xlink" target="_blank" transform="translate(400.49535113983745 395.7541609881448)"><circle r="36"/><text class="label" x="0" y="-14.75" font-size="11">Swiss</text><text class="label" x="0" y="-2.75" font-size="11">Federal</text><text class="label" x="0" y="9.25" font-size="11">Statistical</text><text class="label" x="0" y="21.25" font-size="11">Office</text></a>
-    <a id="dataset-fao-linked-data" class="dataset eu" a19:href="http://fao.270a.info/" xmlns:a19="http://www.w3.org/1999/xlink" target="_blank" transform="translate(180.70589992689477 230.4793979487626)"><circle r="45"/><text class="label" x="0" y="-9.5" font-size="12">Food and</text><text class="label" x="0" y="3.5" font-size="12">Agriculture</text><text class="label" x="0" y="16.5" font-size="12">Organization</text></a>
-    <a id="dataset-oecd-linked-data" class="dataset eu" a20:href="http://oecd.270a.info/" xmlns:a20="http://www.w3.org/1999/xlink" target="_blank" transform="translate(315.2855721880066 165.7680899875336)"><circle r="56"/><text class="label" x="0" y="-16" font-size="12">Organisation</text><text class="label" x="0" y="-3" font-size="12">for Economic</text><text class="label" x="0" y="10" font-size="12">Co-operation and</text><text class="label" x="0" y="23" font-size="12">Development</text></a>
-    <a id="dataset-dbpedia" class="dataset non-eu" a21:href="http://dbpedia.org/" xmlns:a21="http://www.w3.org/1999/xlink" target="_blank" transform="translate(535.9120197735213 140.44026805196864)"><circle r="69"/><text class="label" x="0" y="4.25" font-size="15">DBpedia</text></a>
-    <a id="dataset-nasa" class="dataset non-eu" a22:href="http://datahub.io/dataset/nasa" xmlns:a22="http://www.w3.org/1999/xlink" target="_blank" transform="translate(415.80360111584105 90.43724493854117)"><circle r="45"/><text class="label" x="0" y="3.75" font-size="13">NASA</text></a>
-    <a id="dataset-eunis" class="dataset non-eu" a23:href="http://eunis.eea.europa.eu/" xmlns:a23="http://www.w3.org/1999/xlink" target="_blank" transform="translate(95.38626532471346 155.8726104231204)"><circle r="36"/><text class="label" x="0" y="3.5" font-size="12">EUNIS</text></a>
-    <a id="dataset-the-eurostat-linked-data" class="dataset non-eu" a24:href="http://eurostat.linked-statistics.org/" xmlns:a24="http://www.w3.org/1999/xlink" target="_blank" transform="translate(50.30116813123882 275.7823948656967)"><circle r="69"/><text class="label" x="0" y="4.25" font-size="15">Eurostat</text></a>
-    <a id="dataset-geonames-semantic-web" class="dataset non-eu" a25:href="http://sws.geonames.org/" xmlns:a25="http://www.w3.org/1999/xlink" target="_blank" transform="translate(530.803601115841 345.4372449385412)"><circle r="45"/><text class="label" x="0" y="3.75" font-size="13">Geonames</text></a>
-    <a id="dataset-humanitarian-response" class="dataset non-eu" a26:href="http://hxl.humanitarianresponse.info/" xmlns:a26="http://www.w3.org/1999/xlink" target="_blank" transform="translate(195.55666277176988 110.26734442981028)"><circle r="36"/><text class="label" x="0" y="-2.5" font-size="10">Humanitarian</text><text class="label" x="0" y="8.5" font-size="10">Response</text></a>
-    <a id="dataset-iati" class="dataset non-eu" a27:href="http://eculture.cs.vu.nl:1987/iati/" xmlns:a27="http://www.w3.org/1999/xlink" target="_blank" transform="translate(300.0564161699834 49)"><circle r="36"/><text class="label" x="0" y="-12.25" font-size="9">International</text><text class="label" x="0" y="-2.25" font-size="9">Aid</text><text class="label" x="0" y="7.75" font-size="9">Transparency</text><text class="label" x="0" y="17.75" font-size="9">Initiative</text></a>
+  <g
+     id="g226"
+     transform="translate(97.608466,4.4367484)">
+    <a xlink:href="http://frb.270a.info/">
+    <circle
+       uri="http://frb.270a.info/dataset/frb"
+       r="60"
+       cx="137.90782"
+       cy="367.11823"
+       style="fill:#0000ee;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle228"
+       d="m 197.90782,367.11823 c 0,33.13708 -26.86291,60 -60,60 -33.13708,0 -59.999998,-26.86292 -59.999998,-60 0,-33.13709 26.862918,-60 59.999998,-60 33.13709,0 60,26.86291 60,60 z"
+       sodipodi:cx="137.90782"
+       sodipodi:cy="367.11823"
+       sodipodi:rx="60"
+       sodipodi:ry="60" />
+    <text
+       cached-y="356.6182358262927"
+       cached-x="131.90782827417013"
+       x="137.90782"
+       y="353.61823"
+       style="font-size:16px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text230">Federal</text>
+    <text
+       cached-y="377.6182358262927"
+       cached-x="131.90782827417013"
+       x="137.90782"
+       y="374.61823"
+       style="font-size:16px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text232">Reserve</text>
+    <text
+       cached-y="398.6182358262927"
+       cached-x="131.90782827417013"
+       x="137.90782"
+       y="395.61823"
+       style="font-size:16px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text234">Board</text>
+  </a>
   </g>
-  <g transform="translate(610.44206,700.06888)" id="layer-legend">
-    <g id="g21">
-      <text x="-43.539318" y="-262.08978" id="text23" style="font-size:10px;font-weight:bold;text-anchor:end;fill:#222222;font-family:sans-serif">Published by 270a.info</text>
-      <circle cx="-22" cy="-257" r="13" transform="translate(-0.5393184,-8.089781)" id="circle25" style="fill:#ffffff;stroke:#0000ee;stroke-width:2"/>
+  <g
+     id="g236"
+     transform="translate(97.608466,4.4367484)">
+    <a xlink:href="http://worldbank.270a.info/">
+    <circle
+       uri="http://worldbank.270a.info/dataset/worldbank"
+       r="50"
+       cx="361.72415"
+       cy="143.84761"
+       style="fill:#0000ee;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle238"
+       d="m 411.72415,143.84761 c 0,27.61424 -22.38576,50 -50,50 -27.61424,0 -50,-22.38576 -50,-50 0,-27.61424 22.38576,-50 50,-50 27.61424,0 50,22.38576 50,50 z"
+       sodipodi:cx="361.72415"
+       sodipodi:cy="143.84761"
+       sodipodi:rx="50"
+       sodipodi:ry="50" />
+    <text
+       cached-y="155.84761288876132"
+       cached-x="362.72415321033145"
+       x="361.72415"
+       y="152.84761"
+       style="font-size:14px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text240">World Bank</text>
+  </a>
+  </g>
+  <g
+     id="g242"
+     transform="translate(97.608466,4.4367484)">
+    <a xlink:href="http://fao.270a.info/">
+    <circle
+       uri="http://fao.270a.info/dataset/fao"
+       r="40"
+       cx="46.456959"
+       cy="248.71054"
+       style="fill:#0000ee;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle244"
+       d="m 86.456959,248.71054 c 0,22.09139 -17.90861,40 -40,40 -22.09139,0 -40.0000002,-17.90861 -40.0000002,-40 0,-22.09139 17.9086102,-40 40.0000002,-40 22.09139,0 40,17.90861 40,40 z"
+       sodipodi:cx="46.456959"
+       sodipodi:cy="248.71054"
+       sodipodi:rx="40"
+       sodipodi:ry="40" />
+    <text
+       cached-y="236.2105398472264"
+       cached-x="48.45695714450187"
+       x="46.456959"
+       y="235.21054"
+       style="font-size:12px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text246">Food and</text>
+    <text
+       cached-y="251.2105398472264"
+       cached-x="48.45695714450187"
+       x="46.456959"
+       y="250.21054"
+       style="font-size:11px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text248">Agriculture</text>
+    <text
+       cached-y="266.2105398472264"
+       cached-x="48.45695714450187"
+       x="46.456959"
+       y="265.21054"
+       style="font-size:11px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text250">Organization</text>
+  </a>
+  </g>
+  <g
+     id="g252"
+     transform="translate(97.608466,4.4367484)">
+    <a xlink:href="http://imf.270a.info/">
+    <circle
+       uri="http://imf.270a.info/dataset/imf"
+       r="40"
+       cx="276.24924"
+       cy="44.109451"
+       style="fill:#0000ee;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle254"
+       d="m 316.24924,44.109451 c 0,22.09139 -17.90861,40 -40,40 -22.09139,0 -40,-17.90861 -40,-40 0,-22.09139 17.90861,-39.9999997 40,-39.9999997 22.09139,0 40,17.9086097 40,39.9999997 z"
+       sodipodi:cx="276.24924"
+       sodipodi:cy="44.109451"
+       sodipodi:rx="40"
+       sodipodi:ry="40" />
+    <text
+       cached-y="42.60945032693621"
+       cached-x="276.2492495136148"
+       x="276.24924"
+       y="39.609451"
+       style="font-size:11px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text256">International</text>
+    <text
+       cached-y="57.60945032693621"
+       cached-x="276.2492495136148"
+       x="276.24924"
+       y="54.609451"
+       style="font-size:11px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text258">Monetary</text>
+    <text
+       cached-y="72.60945032693621"
+       cached-x="276.2492495136148"
+       x="276.24924"
+       y="69.609451"
+       style="font-size:11px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text260">Fund</text>
+  </a>
+  </g>
+  <g
+     id="g262"
+     transform="translate(97.608466,4.4367484)">
+    <a xlink:href="http://uis.270a.info/">
+    <circle
+       uri="http://uis.270a.info/dataset/uis"
+       r="40"
+       cx="141.48817"
+       cy="44.813488"
+       style="fill:#0000ee;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle264"
+       d="m 181.48817,44.813488 c 0,22.09139 -17.90861,40 -40,40 -22.09139,0 -40,-17.90861 -40,-40 0,-22.09139 17.90861,-40 40,-40 22.09139,0 40,17.90861 40,40 z"
+       sodipodi:cx="141.48817"
+       sodipodi:cy="44.813488"
+       sodipodi:rx="40"
+       sodipodi:ry="40" />
+    <text
+       cached-y="39.313486439514236"
+       cached-x="146.48816819663625"
+       x="141.48817"
+       y="35.313488"
+       style="font-size:12px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text266">UNESCO</text>
+    <text
+       cached-y="54.313486439514236"
+       cached-x="146.48816819663625"
+       x="141.48817"
+       y="50.313488"
+       style="font-size:12px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text268">Institute for</text>
+    <text
+       cached-y="69.31348643951424"
+       cached-x="146.48816819663625"
+       x="141.48817"
+       y="65.313484"
+       style="font-size:12px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text270">Statistics</text>
+  </a>
+  </g>
+  <g
+     id="g272"
+     transform="translate(97.608466,4.4367484)">
+    <a xlink:href="http://bfs.270a.info/">
+    <circle
+       uri="http://bfs.270a.info/dataset/bfs"
+       r="40"
+       cx="46.923637"
+       cy="112.34933"
+       style="fill:#0000ee;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle274"
+       d="m 86.923637,112.34933 c 0,22.09139 -17.90861,40 -40,40 -22.09139,0 -39.9999996,-17.90861 -39.9999996,-40 0,-22.091393 17.9086096,-40.000003 39.9999996,-40.000003 22.09139,0 40,17.90861 40,40.000003 z"
+       sodipodi:cx="46.923637"
+       sodipodi:cy="112.34933"
+       sodipodi:rx="40"
+       sodipodi:ry="40" />
+    <text
+       cached-y="105.84932754779504"
+       cached-x="46.9236365392826"
+       x="46.923637"
+       y="108.84933"
+       style="font-size:11px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text276">Swiss Federal</text>
+    <text
+       cached-y="120.84932754779504"
+       cached-x="46.9236365392826"
+       x="46.923637"
+       y="123.84933"
+       style="font-size:11px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text278">Statistics</text>
+    <text
+       cached-y="135.84932754779504"
+       cached-x="46.9236365392826"
+       x="46.923637"
+       y="138.84933"
+       style="font-size:11px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text280">Office</text>
+  </a>
+  </g>
+  <g
+     id="g282"
+     transform="translate(97.608466,4.4367484)">
+    <a xlink:href="http://transparency.270a.info/">
+    <circle
+       uri="http://transparency.270a.info/dataset/transparency"
+       r="40"
+       cx="357.73856"
+       cy="262.91434"
+       style="fill:#0000ee;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle284"
+       d="m 397.73856,262.91434 c 0,22.09139 -17.90861,40 -40,40 -22.09139,0 -40,-17.90861 -40,-40 0,-22.09139 17.90861,-40 40,-40 22.09139,0 40,17.90861 40,40 z"
+       sodipodi:cx="357.73856"
+       sodipodi:cy="262.91434"
+       sodipodi:rx="40"
+       sodipodi:ry="40" />
+    <text
+       cached-y="262.9143474269622"
+       cached-x="352.7385697317999"
+       x="357.73856"
+       y="262.91434"
+       style="font-size:11px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text286">Transparency</text>
+    <text
+       cached-y="277.9143474269622"
+       cached-x="352.7385697317999"
+       x="357.73856"
+       y="277.91434"
+       style="font-size:11px;text-anchor:middle;font-family:sans-serif;fill:#ffffff;"
+       id="text288">International</text>
+  </a>
+  </g>
+  <g
+     id="g290"
+     transform="translate(96.869008,10.352413)">
+    <a xlink:href="http://dbpedia.org/">
+    <circle
+       uri="http://dbpedia.org/void/Dataset"
+       r="40"
+       cx="489.7399"
+       cy="221.52762"
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle292"
+       d="m 529.7399,221.52762 c 0,22.09139 -17.90861,40 -40,40 -22.09139,0 -40,-17.90861 -40,-40 0,-22.09139 17.90861,-40 40,-40 22.09139,0 40,17.90861 40,40 z"
+       sodipodi:cx="489.7399"
+       sodipodi:cy="221.52762"
+       sodipodi:rx="40"
+       sodipodi:ry="40" />
+    <text
+       cached-y="229.02761414067095"
+       cached-x="494.7399094375046"
+       x="489.7399"
+       y="229.02762"
+       style="font-size:12px;text-anchor:middle;font-family:sans-serif;fill:#000000;"
+       id="text294">DBpedia</text>
+  </a>
+  </g>
+  <g
+     id="g296"
+     transform="translate(97.608466,4.4367484)">
+    <a xlink:href="http://sws.geonames.org/">
+    <circle
+       uri="http://sws.geonames.org/"
+       r="40"
+       cx="-51.766624"
+       cy="291.60248"
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle298"
+       d="m -11.766624,291.60248 c 0,22.09139 -17.90861,40 -40,40 -22.09139,0 -40,-17.90861 -40,-40 0,-22.09139 17.90861,-40 40,-40 22.09139,0 40,17.90861 40,40 z"
+       sodipodi:cx="-51.766624"
+       sodipodi:cy="291.60248"
+       sodipodi:rx="40"
+       sodipodi:ry="40" />
+    <text
+       cached-y="308.1024670238827"
+       cached-x="-52.76662271398936"
+       x="-51.766624"
+       y="296.10248"
+       style="font-size:12px;text-anchor:middle;font-family:sans-serif;fill:#000000;"
+       id="text300">Geonames</text>
+  </a>
+  </g>
+  <g
+     id="g302"
+     transform="translate(97.608466,4.4367484)">
+    <a xlink:href="http://eurostat.linked-statistics.org/">
+    <circle
+       uri="http://eurostat.linked-statistics.org/void.ttl#eurostat"
+       r="40"
+       cx="-46.20533"
+       cy="176.05092"
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle304"
+       d="m -6.2053299,176.05092 c 0,22.09139 -17.9086101,40 -40.0000001,40 -22.09139,0 -40,-17.90861 -40,-40 0,-22.09139 17.90861,-40 40,-40 22.09139,0 40.0000001,17.90861 40.0000001,40 z"
+       sodipodi:cx="-46.20533"
+       sodipodi:cy="176.05092"
+       sodipodi:rx="40"
+       sodipodi:ry="40" />
+    <text
+       cached-y="178.55092010274922"
+       cached-x="-46.205331492521395"
+       x="-46.20533"
+       y="181.55092"
+       style="font-size:12px;text-anchor:middle;font-family:sans-serif;fill:#000000;"
+       id="text306">Eurostat</text>
+  </a>
+  </g>
+  <g
+     id="g308"
+     transform="translate(97.608466,10.352413)">
+    <a xlink:href="http://semanticweb.cs.vu.nl/iati/home">
+    <circle
+       uri="http://purl.org/collections/iati/void.ttl#IATI"
+       r="40"
+       cx="472.85297"
+       cy="119.69068"
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle310"
+       d="m 512.85297,119.69068 c 0,22.09139 -17.90861,40 -40,40 -22.09139,0 -40,-17.90861 -40,-40 0,-22.091389 17.90861,-39.999999 40,-39.999999 22.09139,0 40,17.90861 40,39.999999 z"
+       sodipodi:cx="472.85297"
+       sodipodi:cy="119.69068"
+       sodipodi:rx="40"
+       sodipodi:ry="40" />
+    <text
+       cached-y="106.69067832243297"
+       cached-x="478.8529762766684"
+       x="472.85297"
+       y="104.69068"
+       style="font-size:10px;text-anchor:middle;font-family:sans-serif;fill:#000000;"
+       id="text312">International</text>
+    <text
+       cached-y="121.69067832243297"
+       cached-x="478.8529762766684"
+       x="472.85297"
+       y="119.69068"
+       style="font-size:10px;text-anchor:middle;font-family:sans-serif;fill:#000000;"
+       id="text314">Aid</text>
+    <text
+       cached-y="136.69067832243297"
+       cached-x="478.8529762766684"
+       x="472.85297"
+       y="134.69067"
+       style="font-size:10px;text-anchor:middle;font-family:sans-serif;fill:#000000;"
+       id="text316">Transparency</text>
+    <text
+       cached-y="151.69067832243297"
+       cached-x="478.8529762766684"
+       x="472.85297"
+       y="149.69067"
+       style="font-size:10px;text-anchor:middle;font-family:sans-serif;fill:#000000;"
+       id="text318">Initiative</text>
+  </a>
+  </g>
+  <g
+     id="g320"
+     transform="translate(97.608466,4.4367484)">
+    <a xlink:href="http://hxl.humanitarianresponse.info/">
+    <circle
+       uri="http://hxl.humanitarianresponse.info/"
+       r="40"
+       cx="408.29456"
+       cy="42.945938"
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle322"
+       d="m 448.29456,42.945938 c 0,22.09139 -17.90861,40 -40,40 -22.09139,0 -40,-17.90861 -40,-40 0,-22.09139 17.90861,-39.9999999 40,-39.9999999 22.09139,0 40,17.9086099 40,39.9999999 z"
+       sodipodi:cx="408.29456"
+       sodipodi:cy="42.945938"
+       sodipodi:rx="40"
+       sodipodi:ry="40" />
+    <text
+       cached-y="42.94593712922767"
+       cached-x="403.2945561232401"
+       x="408.29456"
+       y="42.945938"
+       style="font-size:11px;text-anchor:middle;font-family:sans-serif;fill:#000000;"
+       id="text324">Humanitarian</text>
+    <text
+       cached-y="57.94593712922767"
+       cached-x="403.2945561232401"
+       x="408.29456"
+       y="57.945938"
+       style="font-size:11px;text-anchor:middle;font-family:sans-serif;fill:#000000;"
+       id="text326">Response</text>
+  </a>
+  </g>
+  <g
+     id="g328"
+     transform="translate(97.608466,4.4367484)">
+    <a xlink:href="http://eunis.eea.europa.eu/">
+    <circle
+       uri="http://eunis.eea.europa.eu/"
+       r="40"
+       cx="17.308661"
+       cy="376.2309"
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle330"
+       d="m 57.308661,376.2309 c 0,22.09139 -17.90861,40 -40,40 -22.0913905,0 -40,-17.90861 -40,-40 0,-22.09139 17.9086095,-40 40,-40 22.09139,0 40,17.90861 40,40 z"
+       sodipodi:cx="17.308661"
+       sodipodi:cy="376.2309"
+       sodipodi:rx="40"
+       sodipodi:ry="40" />
+    <text
+       cached-y="373.73090569380963"
+       cached-x="20.308660144873556"
+       x="17.308661"
+       y="383.7309"
+       style="font-size:12px;text-anchor:middle;font-family:sans-serif;fill:#000000;"
+       id="text332">EUNIS</text>
+  </a>
+  </g>
+  <g
+     id="g334"
+     transform="translate(97.608466,4.4367484)">
+    <a xlink:href="http://data.nasa.gov/">
+    <circle
+       uri="http://data.nasa.gov/"
+       r="40"
+       cx="455.82117"
+       cy="323.20486"
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1.5px;filter:url(#dropshadow)"
+       id="circle336"
+       d="m 495.82117,323.20486 c 0,22.09139 -17.90861,40 -40,40 -22.09139,0 -40,-17.90861 -40,-40 0,-22.09139 17.90861,-40 40,-40 22.09139,0 40,17.90861 40,40 z"
+       sodipodi:cx="455.82117"
+       sodipodi:cy="323.20486"
+       sodipodi:rx="40"
+       sodipodi:ry="40" />
+    <text
+       cached-y="351.70485341482106"
+       cached-x="455.82116199835116"
+       x="455.82117"
+       y="330.70486"
+       style="font-size:12px;text-anchor:middle;font-family:sans-serif;fill:#000000;"
+       id="text338">NASA</text>
+  </a>
+  </g>
+  <g
+     transform="translate(645.61062,701.42001)"
+     id="layer-legend">
+    <g
+       id="g21">
+      <a xlink:href="http://270a.info/" target="_blank">
+      <text
+         x="-43.539318"
+         y="-262.08978"
+         id="text23"
+         style="font-size:10px;font-weight:bold;text-anchor:end;fill:#222222;font-family:sans-serif">Published by 270a.info</text>
+      <circle
+         sodipodi:ry="13"
+         sodipodi:rx="13"
+         sodipodi:cy="-257"
+         sodipodi:cx="-22"
+         cx="-22"
+         cy="-257"
+         r="13"
+         transform="translate(-0.5393184,-8.089781)"
+         id="circle25"
+         style="fill:#0000ee;stroke:#0000ee;stroke-width:2"
+         d="m -9,-257 c 0,7.1797 -5.820298,13 -13,13 -7.179702,0 -13,-5.8203 -13,-13 0,-7.1797 5.820298,-13 13,-13 7.179702,0 13,5.8203 13,13 z" />
+      </a>
     </g>
   </g>
-  <g transform="translate(562.91851,488.54194)" id="layer-footer">
-    <text x="-36.95591" y="-21.263573" id="date-text" style="font-size:10px;font-weight:bold;text-anchor:end;fill:#222222;font-family:sans-serif">2013-10</text>
-    <g transform="matrix(0.3,0,0,0.3,-29.71312,-33.966704)" id="cc-logo">
-      <circle cx="37.785" cy="28.500999" r="28.836" id="circle3662" style="fill:#ffffff"/>
-      <path d="m 37.441,-3.5 c 8.951,0 16.572,3.125 22.857,9.372 3.008,3.009 5.295,6.448 6.857,10.314 1.561,3.867 2.344,7.971 2.344,12.314 0,4.381 -0.773,8.486 -2.314,12.313 -1.543,3.828 -3.82,7.21 -6.828,10.143 -3.123,3.085 -6.666,5.448 -10.629,7.086 -3.961,1.638 -8.057,2.457 -12.285,2.457 -4.228,0 -8.276,-0.808 -12.143,-2.429 C 21.434,56.452 17.967,54.109 14.9,51.043 11.833,47.977 9.5,44.519 7.9,40.671 6.3,36.823 5.5,32.767 5.5,28.5 5.5,24.271 6.309,20.205 7.928,16.3 9.547,12.395 11.9,8.9 14.985,5.814 21.08,-0.394 28.565,-3.5 37.441,-3.5 z m 0.116,5.772 c -7.314,0 -13.467,2.553 -18.458,7.657 -2.515,2.553 -4.448,5.419 -5.8,8.6 -1.354,3.181 -2.029,6.505 -2.029,9.972 0,3.429 0.675,6.734 2.029,9.913 1.353,3.183 3.285,6.021 5.8,8.516 2.514,2.496 5.351,4.399 8.515,5.715 3.161,1.314 6.476,1.971 9.943,1.971 3.428,0 6.75,-0.665 9.973,-1.999 3.219,-1.335 6.121,-3.257 8.713,-5.771 4.99,-4.876 7.484,-10.99 7.484,-18.344 0,-3.543 -0.648,-6.895 -1.943,-10.057 C 60.491,15.283 58.604,12.465 56.13,9.987 50.984,4.844 44.795,2.272 37.557,2.272 z m -0.401,20.915 -4.287,2.229 c -0.458,-0.951 -1.019,-1.619 -1.685,-2 -0.667,-0.38 -1.286,-0.571 -1.858,-0.571 -2.856,0 -4.286,1.885 -4.286,5.657 0,1.714 0.362,3.084 1.085,4.113 0.724,1.029 1.791,1.544 3.201,1.544 1.867,0 3.181,-0.915 3.944,-2.743 l 3.942,2 c -0.838,1.563 -2,2.791 -3.486,3.686 -1.484,0.896 -3.123,1.343 -4.914,1.343 -2.857,0 -5.163,-0.875 -6.915,-2.629 -1.752,-1.752 -2.628,-4.19 -2.628,-7.313 0,-3.048 0.886,-5.466 2.657,-7.257 1.771,-1.79 4.009,-2.686 6.715,-2.686 3.963,-0.002 6.8,1.541 8.515,4.627 z m 18.457,0 -4.229,2.229 c -0.457,-0.951 -1.02,-1.619 -1.686,-2 -0.668,-0.38 -1.307,-0.571 -1.914,-0.571 -2.857,0 -4.287,1.885 -4.287,5.657 0,1.714 0.363,3.084 1.086,4.113 0.723,1.029 1.789,1.544 3.201,1.544 1.865,0 3.18,-0.915 3.941,-2.743 l 4,2 c -0.875,1.563 -2.057,2.791 -3.541,3.686 -1.486,0.896 -3.105,1.343 -4.857,1.343 -2.896,0 -5.209,-0.875 -6.941,-2.629 -1.736,-1.752 -2.602,-4.19 -2.602,-7.313 0,-3.048 0.885,-5.466 2.658,-7.257 1.77,-1.79 4.008,-2.686 6.713,-2.686 3.962,-0.002 6.783,1.541 8.458,4.627 z" id="path3664"/>
+  <g
+     transform="translate(598.08707,489.89308)"
+     id="layer-footer">
+    <a xlink:href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+    <text
+       x="-36.95591"
+       y="-21.263573"
+       id="date-text"
+       style="font-size:10px;font-weight:bold;text-anchor:end;fill:#222222;font-family:sans-serif">2013-10</text>
+    <g
+       transform="matrix(0.3,0,0,0.3,-29.71312,-33.966704)"
+       id="cc-logo">
+      <circle
+         sodipodi:ry="28.836"
+         sodipodi:rx="28.836"
+         sodipodi:cy="28.500999"
+         sodipodi:cx="37.785"
+         cx="37.785"
+         cy="28.500999"
+         r="28.836"
+         id="circle3662"
+         style="fill:#ffffff"
+         d="M 66.621,28.500999 C 66.621,44.426683 53.710683,57.337 37.785,57.337 21.859317,57.337 8.9489994,44.426683 8.9489994,28.500999 c 0,-15.925683 12.9103176,-28.83599999 28.8360006,-28.83599999 15.925683,0 28.836,12.91031699 28.836,28.83599999 z" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 37.441,-3.5 c 8.951,0 16.572,3.125 22.857,9.372 3.008,3.009 5.295,6.448 6.857,10.314 1.561,3.867 2.344,7.971 2.344,12.314 0,4.381 -0.773,8.486 -2.314,12.313 -1.543,3.828 -3.82,7.21 -6.828,10.143 -3.123,3.085 -6.666,5.448 -10.629,7.086 -3.961,1.638 -8.057,2.457 -12.285,2.457 -4.228,0 -8.276,-0.808 -12.143,-2.429 C 21.434,56.452 17.967,54.109 14.9,51.043 11.833,47.977 9.5,44.519 7.9,40.671 6.3,36.823 5.5,32.767 5.5,28.5 5.5,24.271 6.309,20.205 7.928,16.3 9.547,12.395 11.9,8.9 14.985,5.814 21.08,-0.394 28.565,-3.5 37.441,-3.5 z m 0.116,5.772 c -7.314,0 -13.467,2.553 -18.458,7.657 -2.515,2.553 -4.448,5.419 -5.8,8.6 -1.354,3.181 -2.029,6.505 -2.029,9.972 0,3.429 0.675,6.734 2.029,9.913 1.353,3.183 3.285,6.021 5.8,8.516 2.514,2.496 5.351,4.399 8.515,5.715 3.161,1.314 6.476,1.971 9.943,1.971 3.428,0 6.75,-0.665 9.973,-1.999 3.219,-1.335 6.121,-3.257 8.713,-5.771 4.99,-4.876 7.484,-10.99 7.484,-18.344 0,-3.543 -0.648,-6.895 -1.943,-10.057 C 60.491,15.283 58.604,12.465 56.13,9.987 50.984,4.844 44.795,2.272 37.557,2.272 z m -0.401,20.915 -4.287,2.229 c -0.458,-0.951 -1.019,-1.619 -1.685,-2 -0.667,-0.38 -1.286,-0.571 -1.858,-0.571 -2.856,0 -4.286,1.885 -4.286,5.657 0,1.714 0.362,3.084 1.085,4.113 0.724,1.029 1.791,1.544 3.201,1.544 1.867,0 3.181,-0.915 3.944,-2.743 l 3.942,2 c -0.838,1.563 -2,2.791 -3.486,3.686 -1.484,0.896 -3.123,1.343 -4.914,1.343 -2.857,0 -5.163,-0.875 -6.915,-2.629 -1.752,-1.752 -2.628,-4.19 -2.628,-7.313 0,-3.048 0.886,-5.466 2.657,-7.257 1.771,-1.79 4.009,-2.686 6.715,-2.686 3.963,-0.002 6.8,1.541 8.515,4.627 z m 18.457,0 -4.229,2.229 c -0.457,-0.951 -1.02,-1.619 -1.686,-2 -0.668,-0.38 -1.307,-0.571 -1.914,-0.571 -2.857,0 -4.287,1.885 -4.287,5.657 0,1.714 0.363,3.084 1.086,4.113 0.723,1.029 1.789,1.544 3.201,1.544 1.865,0 3.18,-0.915 3.941,-2.743 l 4,2 c -0.875,1.563 -2.057,2.791 -3.541,3.686 -1.486,0.896 -3.105,1.343 -4.857,1.343 -2.896,0 -5.209,-0.875 -6.941,-2.629 -1.736,-1.752 -2.602,-4.19 -2.602,-7.313 0,-3.048 0.885,-5.466 2.658,-7.257 1.77,-1.79 4.008,-2.686 6.713,-2.686 3.962,-0.002 6.783,1.541 8.458,4.627 z"
+         id="path3664" />
     </g>
-    <g transform="matrix(0.3,0,0,0.3,-7.71312,-33.966704)" id="by-logo">
-      <circle cx="37.637001" cy="28.806" r="28.275999" id="circle3667" style="fill:#ffffff"/>
-      <path d="m 37.443,-3.5 c 8.988,0 16.57,3.085 22.742,9.257 6.208,6.21 9.315,13.791 9.315,22.743 0,8.991 -3.049,16.476 -9.145,22.456 C 53.879,57.319 46.242,60.5 37.443,60.5 28.794,60.5 21.29,57.356 14.929,51.07 8.644,44.784 5.5,37.262 5.5,28.5 5.5,19.739 8.644,12.158 14.929,5.758 21.101,-0.415 28.604,-3.5 37.443,-3.5 z m 0.114,5.772 c -7.276,0 -13.428,2.553 -18.457,7.657 -5.22,5.334 -7.829,11.525 -7.829,18.572 0,7.086 2.59,13.22 7.77,18.398 5.181,5.182 11.352,7.771 18.514,7.771 7.123,0 13.334,-2.607 18.629,-7.828 5.029,-4.838 7.543,-10.952 7.543,-18.343 0,-7.276 -2.553,-13.465 -7.656,-18.571 C 50.967,4.824 44.795,2.272 37.557,2.272 z m 8.572,18.285 V 33.642 H 42.473 V 49.184 H 32.529 V 33.643 H 28.873 V 20.557 c 0,-0.572 0.2,-1.057 0.599,-1.457 0.401,-0.399 0.887,-0.6 1.457,-0.6 h 13.144 c 0.533,0 1.01,0.2 1.428,0.6 0.417,0.4 0.628,0.886 0.628,1.457 z M 33.042,12.329 c 0,-3.008 1.485,-4.514 4.458,-4.514 2.973,0 4.457,1.504 4.457,4.514 0,2.971 -1.486,4.457 -4.457,4.457 -2.971,0 -4.458,-1.486 -4.458,-4.457 z" id="path3669"/>
+    <g
+       transform="matrix(0.3,0,0,0.3,-7.71312,-33.966704)"
+       id="by-logo">
+      <circle
+         sodipodi:ry="28.275999"
+         sodipodi:rx="28.275999"
+         sodipodi:cy="28.806"
+         sodipodi:cx="37.637001"
+         cx="37.637001"
+         cy="28.806"
+         r="28.275999"
+         id="circle3667"
+         style="fill:#ffffff"
+         d="m 65.913,28.806 c 0,15.616403 -12.659596,28.275999 -28.275999,28.275999 C 22.020598,57.081999 9.361002,44.422403 9.361002,28.806 9.361002,13.189597 22.020598,0.53000069 37.637001,0.53000069 53.253404,0.53000069 65.913,13.189597 65.913,28.806 z" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 37.443,-3.5 c 8.988,0 16.57,3.085 22.742,9.257 6.208,6.21 9.315,13.791 9.315,22.743 0,8.991 -3.049,16.476 -9.145,22.456 C 53.879,57.319 46.242,60.5 37.443,60.5 28.794,60.5 21.29,57.356 14.929,51.07 8.644,44.784 5.5,37.262 5.5,28.5 5.5,19.739 8.644,12.158 14.929,5.758 21.101,-0.415 28.604,-3.5 37.443,-3.5 z m 0.114,5.772 c -7.276,0 -13.428,2.553 -18.457,7.657 -5.22,5.334 -7.829,11.525 -7.829,18.572 0,7.086 2.59,13.22 7.77,18.398 5.181,5.182 11.352,7.771 18.514,7.771 7.123,0 13.334,-2.607 18.629,-7.828 5.029,-4.838 7.543,-10.952 7.543,-18.343 0,-7.276 -2.553,-13.465 -7.656,-18.571 C 50.967,4.824 44.795,2.272 37.557,2.272 z m 8.572,18.285 V 33.642 H 42.473 V 49.184 H 32.529 V 33.643 H 28.873 V 20.557 c 0,-0.572 0.2,-1.057 0.599,-1.457 0.401,-0.399 0.887,-0.6 1.457,-0.6 h 13.144 c 0.533,0 1.01,0.2 1.428,0.6 0.417,0.4 0.628,0.886 0.628,1.457 z M 33.042,12.329 c 0,-3.008 1.485,-4.514 4.458,-4.514 2.973,0 4.457,1.504 4.457,4.514 0,2.971 -1.486,4.457 -4.457,4.457 -2.971,0 -4.458,-1.486 -4.458,-4.457 z"
+         id="path3669" />
     </g>
-    <g transform="matrix(0.3,0,0,0.3,14.28688,-33.966704)" id="sa-logo">
-      <circle cx="36.944" cy="28.631001" r="29.105" id="circle3672" style="fill:#ffffff"/>
-      <path d="m 37.443,-3.5 c 8.951,0 16.531,3.105 22.742,9.315 6.208,6.172 9.315,13.733 9.315,22.685 0,8.954 -3.049,16.457 -9.145,22.514 C 53.918,57.338 46.279,60.5 37.443,60.5 28.794,60.5 21.29,57.357 14.929,51.071 8.644,44.786 5.5,37.264 5.5,28.501 5.5,19.778 8.644,12.216 14.929,5.816 21.138,-0.395 28.643,-3.5 37.443,-3.5 z m 0.114,5.772 c -7.276,0 -13.428,2.572 -18.457,7.715 -5.22,5.296 -7.829,11.467 -7.829,18.513 0,7.125 2.59,13.257 7.77,18.4 5.181,5.182 11.352,7.771 18.514,7.771 7.123,0 13.334,-2.609 18.629,-7.828 5.029,-4.876 7.543,-10.99 7.543,-18.343 0,-7.313 -2.553,-13.485 -7.656,-18.513 C 51.004,4.842 44.832,2.272 37.557,2.272 z M 23.271,23.985 c 0.609,-3.924 2.189,-6.962 4.742,-9.114 2.552,-2.152 5.656,-3.228 9.314,-3.228 5.027,0 9.029,1.62 12,4.856 2.971,3.238 4.457,7.391 4.457,12.457 0,4.915 -1.543,9 -4.627,12.256 -3.088,3.256 -7.086,4.886 -12.002,4.886 -3.619,0 -6.743,-1.085 -9.371,-3.257 -2.629,-2.172 -4.209,-5.257 -4.743,-9.257 H 31.1 c 0.19,3.886 2.533,5.829 7.029,5.829 2.246,0 4.057,-0.972 5.428,-2.914 1.373,-1.942 2.059,-4.534 2.059,-7.771 0,-3.391 -0.629,-5.971 -1.885,-7.743 -1.258,-1.771 -3.066,-2.657 -5.43,-2.657 -4.268,0 -6.667,1.885 -7.2,5.656 h 2.343 l -6.342,6.343 -6.343,-6.343 2.512,10e-4 0,0 z" id="path3674"/>
+    <g
+       transform="matrix(0.3,0,0,0.3,14.28688,-33.966704)"
+       id="sa-logo">
+      <circle
+         sodipodi:ry="29.105"
+         sodipodi:rx="29.105"
+         sodipodi:cy="28.631001"
+         sodipodi:cx="36.944"
+         cx="36.944"
+         cy="28.631001"
+         r="29.105"
+         id="circle3672"
+         style="fill:#ffffff"
+         d="M 66.049,28.631001 C 66.049,44.705248 53.018248,57.736 36.944,57.736 20.869753,57.736 7.8390007,44.705248 7.8390007,28.631001 c 0,-16.074248 13.0307523,-29.10500002 29.1049993,-29.10500002 16.074248,0 29.105,13.03075202 29.105,29.10500002 z" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 37.443,-3.5 c 8.951,0 16.531,3.105 22.742,9.315 6.208,6.172 9.315,13.733 9.315,22.685 0,8.954 -3.049,16.457 -9.145,22.514 C 53.918,57.338 46.279,60.5 37.443,60.5 28.794,60.5 21.29,57.357 14.929,51.071 8.644,44.786 5.5,37.264 5.5,28.501 5.5,19.778 8.644,12.216 14.929,5.816 21.138,-0.395 28.643,-3.5 37.443,-3.5 z m 0.114,5.772 c -7.276,0 -13.428,2.572 -18.457,7.715 -5.22,5.296 -7.829,11.467 -7.829,18.513 0,7.125 2.59,13.257 7.77,18.4 5.181,5.182 11.352,7.771 18.514,7.771 7.123,0 13.334,-2.609 18.629,-7.828 5.029,-4.876 7.543,-10.99 7.543,-18.343 0,-7.313 -2.553,-13.485 -7.656,-18.513 C 51.004,4.842 44.832,2.272 37.557,2.272 z M 23.271,23.985 c 0.609,-3.924 2.189,-6.962 4.742,-9.114 2.552,-2.152 5.656,-3.228 9.314,-3.228 5.027,0 9.029,1.62 12,4.856 2.971,3.238 4.457,7.391 4.457,12.457 0,4.915 -1.543,9 -4.627,12.256 -3.088,3.256 -7.086,4.886 -12.002,4.886 -3.619,0 -6.743,-1.085 -9.371,-3.257 -2.629,-2.172 -4.209,-5.257 -4.743,-9.257 H 31.1 c 0.19,3.886 2.533,5.829 7.029,5.829 2.246,0 4.057,-0.972 5.428,-2.914 1.373,-1.942 2.059,-4.534 2.059,-7.771 0,-3.391 -0.629,-5.971 -1.885,-7.743 -1.258,-1.771 -3.066,-2.657 -5.43,-2.657 -4.268,0 -6.667,1.885 -7.2,5.656 h 2.343 l -6.342,6.343 -6.343,-6.343 2.512,10e-4 0,0 z"
+         id="path3674" />
     </g>
+    </a>
   </g>
 </svg>
