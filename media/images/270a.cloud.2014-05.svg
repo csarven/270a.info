@@ -916,7 +916,7 @@ font-family:sans-serif;
   <g
      id="g212"
      transform="translate(97.608466,4.4367484)">
-    <a xlink:href="http://oecd.270a.info/">
+    <a xlink:href="http://oecd.270a.info/" target="_blank">
     <circle
        uri="http://oecd.270a.info/dataset/oecd"
        r="70"
@@ -962,7 +962,7 @@ font-family:sans-serif;
   <g
      id="g226"
      transform="translate(97.608466,4.4367484)">
-    <a xlink:href="http://frb.270a.info/">
+    <a xlink:href="http://frb.270a.info/" target="_blank">
     <circle
        uri="http://frb.270a.info/dataset/frb"
        r="60"
@@ -1001,7 +1001,7 @@ font-family:sans-serif;
   <g
      id="g236"
      transform="translate(97.608466,4.4367484)">
-    <a xlink:href="http://worldbank.270a.info/">
+    <a xlink:href="http://worldbank.270a.info/" target="_blank">
     <circle
        uri="http://worldbank.270a.info/dataset/worldbank"
        r="50"
@@ -1026,7 +1026,7 @@ font-family:sans-serif;
   <g
      id="g242"
      transform="translate(97.608466,4.4367484)">
-    <a xlink:href="http://fao.270a.info/">
+    <a xlink:href="http://fao.270a.info/" target="_blank">
     <circle
        uri="http://fao.270a.info/dataset/fao"
        r="40"
@@ -1065,7 +1065,7 @@ font-family:sans-serif;
   <g
      id="g252"
      transform="translate(97.608466,4.4367484)">
-    <a xlink:href="http://imf.270a.info/">
+    <a xlink:href="http://imf.270a.info/" target="_blank">
     <circle
        uri="http://imf.270a.info/dataset/imf"
        r="40"
@@ -1104,7 +1104,7 @@ font-family:sans-serif;
   <g
      id="g262"
      transform="translate(97.608466,4.4367484)">
-    <a xlink:href="http://uis.270a.info/">
+    <a xlink:href="http://uis.270a.info/" target="_blank">
     <circle
        uri="http://uis.270a.info/dataset/uis"
        r="40"
@@ -1143,7 +1143,7 @@ font-family:sans-serif;
   <g
      id="g272"
      transform="translate(97.608466,4.4367484)">
-    <a xlink:href="http://bfs.270a.info/">
+    <a xlink:href="http://bfs.270a.info/" target="_blank">
     <circle
        uri="http://bfs.270a.info/dataset/bfs"
        r="40"
@@ -1182,7 +1182,7 @@ font-family:sans-serif;
   <g
      id="g282"
      transform="translate(97.608466,4.4367484)">
-    <a xlink:href="http://transparency.270a.info/">
+    <a xlink:href="http://transparency.270a.info/" target="_blank">
     <circle
        uri="http://transparency.270a.info/dataset/transparency"
        r="40"
@@ -1214,7 +1214,7 @@ font-family:sans-serif;
   <g
      id="g290"
      transform="translate(96.869008,10.352413)">
-    <a xlink:href="http://dbpedia.org/">
+    <a xlink:href="http://dbpedia.org/" target="_blank">
     <circle
        uri="http://dbpedia.org/void/Dataset"
        r="40"
@@ -1239,7 +1239,7 @@ font-family:sans-serif;
   <g
      id="g296"
      transform="translate(97.608466,4.4367484)">
-    <a xlink:href="http://sws.geonames.org/">
+    <a xlink:href="http://sws.geonames.org/" target="_blank">
     <circle
        uri="http://sws.geonames.org/"
        r="40"
@@ -1264,7 +1264,7 @@ font-family:sans-serif;
   <g
      id="g302"
      transform="translate(97.608466,4.4367484)">
-    <a xlink:href="http://eurostat.linked-statistics.org/">
+    <a xlink:href="http://eurostat.linked-statistics.org/" target="_blank">
     <circle
        uri="http://eurostat.linked-statistics.org/void.ttl#eurostat"
        r="40"
@@ -1335,7 +1335,7 @@ font-family:sans-serif;
   <g
      id="g320"
      transform="translate(97.608466,4.4367484)">
-    <a xlink:href="http://hxl.humanitarianresponse.info/">
+    <a xlink:href="http://hxl.humanitarianresponse.info/" target="_blank">
     <circle
        uri="http://hxl.humanitarianresponse.info/"
        r="40"
@@ -1367,7 +1367,7 @@ font-family:sans-serif;
   <g
      id="g328"
      transform="translate(97.608466,4.4367484)">
-    <a xlink:href="http://eunis.eea.europa.eu/">
+    <a xlink:href="http://eunis.eea.europa.eu/" target="_blank">
     <circle
        uri="http://eunis.eea.europa.eu/"
        r="40"
@@ -1392,7 +1392,7 @@ font-family:sans-serif;
   <g
      id="g334"
      transform="translate(97.608466,4.4367484)">
-    <a xlink:href="http://data.nasa.gov/">
+    <a xlink:href="http://data.nasa.gov/" target="_blank">
     <circle
        uri="http://data.nasa.gov/"
        r="40"
