@@ -137,6 +137,7 @@ worldbank-dataset:worldbank
         <http://dbpedia.org/resource/Statistical_survey> ,
         <http://dbpedia.org/resource/Finance> ,
         <http://dbpedia.org/resource/Climate_change> ,
+        <http://dbpedia.org/resource/Education> ,
         <http://dbpedia.org/resource/Environment> ;
     .
 transparency-dataset:transparency
@@ -163,6 +164,7 @@ oecd-dataset:oecd
         <http://dbpedia.org/resource/Statistical_survey> ,
         <http://dbpedia.org/resource/Finance> ,
         <http://dbpedia.org/resource/Economics> ,
+        <http://dbpedia.org/resource/Education> ,
         <http://dbpedia.org/resource/Regional_science> ;
     .
 fao-dataset:fao
