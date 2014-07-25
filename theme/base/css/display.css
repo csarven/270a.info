@@ -131,7 +131,8 @@ margin-right:0;
 address .fn {
 font-weight:bold;
 }
-address img + .fn {
+address img + .fn,
+address object + .fn {
 /*display:none;*/
 margin-top:11px;
 }
@@ -140,11 +141,13 @@ text-decoration:none;
 }
 
 address img,
+address object,
 address span {
 float:left;
 }
 
-address img {
+address img,
+address object {
 margin-right:18px;
 }
 address span {
