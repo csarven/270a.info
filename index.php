@@ -11,26 +11,28 @@ echo '<?xml version="1.0" encoding="utf-8"?>'."\n";
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+
+  xmlns:this="http://270a.info/">
     <head>
         <title>270a Linked Dataspaces</title>
 
         <link rel="shortcut icon" href="http://270a.info/favicon.ico"/>
-        <link rel="stylesheet" type="text/css" href="http://270a.info/theme/default/css/display.css?version=0.0.3" media="all"/>
+        <link rel="stylesheet" type="text/css" href="http://270a.info/theme/default/css/display.css" media="all"/>
 
         <meta name="description" content="270a Linked Dataspaces"/>
         <meta name="author" content="http://csarven.ca/#i"/>
     </head>
 
-    <body id="site_home" about="http://270a.info/" typeof="foaf:Document">
+    <body id="site_home" about="[this:]" typeof="foaf:Document">
         <div id="wrap">
             <div id="header">
-                <address id="site_contact" class="vcard">
-                    <a href="http://270a.info/" class="url home bookmark">
-                        <object type="image/svg+xml" data="/media/images/270a.svg" width="48" height="48"/>
-                        <span class="fn org">270a Linked Dataspaces</span>
+                <address about="[this:#i]" typeof="foaf:Organization" id="site_contact" class="vcard">
+                    <a rel="foaf:homepage" href="http://270a.info/" class="url home bookmark">
+                        <object about="[this:media/images/270a.svg]" typeof="foaf:Image" property="rdfs:label" content="270a logo" type="image/svg+xml" data="/media/images/270a.svg" width="48" height="48"/>
+                        <span property="foaf:name rdfs:label" class="fn org">270a</span>
                     </a>
-                </address>
+                </address><span about="[this:#i]" rel="foaf:img" resource="/media/images/270a.svg"></span>
             </div>
 
             <div id="core">
@@ -72,9 +74,6 @@ echo '<?xml version="1.0" encoding="utf-8"?>'."\n";
                         </ul>
                     </dd>
                 </dl>
-            </div>
-
-            <div id="footer">
             </div>
 
         </div>
