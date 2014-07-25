@@ -27,7 +27,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'."\n";
             <div id="header">
                 <address id="site_contact" class="vcard">
                     <a href="http://270a.info/" class="url home bookmark">
-                        <img src="/theme/default/images/logos/logo_270a-linked-data.png" width="48" height="48" alt=""/>
+                        <object type="image/svg+xml" data="/media/images/270a.svg" width="48" height="48"/>
                         <span class="fn org">270a Linked Dataspaces</span>
                     </a>
                 </address>
