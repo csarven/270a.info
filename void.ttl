@@ -244,6 +244,18 @@ frb-dataset:frb
         <http://dbpedia.org/resource/Regional_science> ,
         <http://dbpedia.org/resource/Central_bank> ;
     .
+bis-dataset:bis
+    a void:Dataset ;
+    dcterms:title "Bank for International Settlements datasets"@en ;
+    foaf:homepage <http://bis.270a.info/> ;
+    void:triples 54197482 ;
+    void:sparqlEndpoint <http://bis.270a.info/sparql> ;
+    dcterms:subject
+        <http://dbpedia.org/resource/Statistical_survey> ,
+        <http://dbpedia.org/resource/Finance> ,
+        <http://dbpedia.org/resource/Economics> ,
+        <http://dbpedia.org/resource/Central_bank> ;
+
 
 <http://dbpedia.org/void/Dataset>
     rdf:type void:Dataset ;
@@ -755,3 +767,68 @@ frb-dataset:frb
 <http://bfs.270a.info/void.ttl#linkset-bfs-eurostat> <http://rdfs.org/ns/void#objectsTarget> <http://eurostat.linked-statistics.org/void.ttl#eurostat> .
 <http://bfs.270a.info/void.ttl#linkset-bfs-eurostat> <http://rdfs.org/ns/void#subjectsTarget> <http://bfs.270a.info/dataset/bfs> .
 <http://bfs.270a.info/void.ttl#linkset-bfs-eurostat> <http://rdfs.org/ns/void#triples> "185"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bis.270a.info/void.ttl#linkset-bis-frb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bis.270a.info/void.ttl#linkset-bis-frb> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bis.270a.info/void.ttl#linkset-bis-frb> <http://rdfs.org/ns/void#objectsTarget> <http://frb.270a.info/dataset/frb> .
+<http://bis.270a.info/void.ttl#linkset-bis-frb> <http://rdfs.org/ns/void#subjectsTarget> <http://bis.270a.info/dataset/bis> .
+<http://bis.270a.info/void.ttl#linkset-bis-frb> <http://rdfs.org/ns/void#triples> "54"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bis.270a.info/void.ttl#linkset-bis-fao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bis.270a.info/void.ttl#linkset-bis-fao> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bis.270a.info/void.ttl#linkset-bis-fao> <http://rdfs.org/ns/void#objectsTarget> <http://fao.270a.info/dataset/fao> .
+<http://bis.270a.info/void.ttl#linkset-bis-fao> <http://rdfs.org/ns/void#subjectsTarget> <http://bis.270a.info/dataset/bis> .
+<http://bis.270a.info/void.ttl#linkset-bis-fao> <http://rdfs.org/ns/void#triples> "472"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bis.270a.info/void.ttl#linkset-bis-imf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bis.270a.info/void.ttl#linkset-bis-imf> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bis.270a.info/void.ttl#linkset-bis-imf> <http://rdfs.org/ns/void#objectsTarget> <http://imf.270a.info/dataset/imf> .
+<http://bis.270a.info/void.ttl#linkset-bis-imf> <http://rdfs.org/ns/void#subjectsTarget> <http://bis.270a.info/dataset/bis> .
+<http://bis.270a.info/void.ttl#linkset-bis-imf> <http://rdfs.org/ns/void#triples> "72"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bis.270a.info/void.ttl#linkset-vis-eurostat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bis.270a.info/void.ttl#linkset-vis-eurostat> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bis.270a.info/void.ttl#linkset-vis-eurostat> <http://rdfs.org/ns/void#objectsTarget> <http://eurostat.linked-statistics.org/void.ttl#eurostat> .
+<http://bis.270a.info/void.ttl#linkset-vis-eurostat> <http://rdfs.org/ns/void#subjectsTarget> <http://bis.270a.info/dataset/bis> .
+<http://bis.270a.info/void.ttl#linkset-vis-eurostat> <http://rdfs.org/ns/void#triples> "489"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bis.270a.info/void.ttl#linkset-bis-nasa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bis.270a.info/void.ttl#linkset-bis-nasa> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bis.270a.info/void.ttl#linkset-bis-nasa> <http://rdfs.org/ns/void#objectsTarget> <http://data.nasa.gov/> .
+<http://bis.270a.info/void.ttl#linkset-bis-nasa> <http://rdfs.org/ns/void#subjectsTarget> <http://bis.270a.info/dataset/bis> .
+<http://bis.270a.info/void.ttl#linkset-bis-nasa> <http://rdfs.org/ns/void#triples> "46"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bis.270a.info/void.ttl#linkset-bis-oecd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bis.270a.info/void.ttl#linkset-bis-oecd> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bis.270a.info/void.ttl#linkset-bis-oecd> <http://rdfs.org/ns/void#objectsTarget> <http://oecd.270a.info/dataset/oecd> .
+<http://bis.270a.info/void.ttl#linkset-bis-oecd> <http://rdfs.org/ns/void#subjectsTarget> <http://bis.270a.info/dataset/bis> .
+<http://bis.270a.info/void.ttl#linkset-bis-oecd> <http://rdfs.org/ns/void#triples> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bis.270a.info/void.ttl#linkset-bis-transparency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bis.270a.info/void.ttl#linkset-bis-transparency> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bis.270a.info/void.ttl#linkset-bis-transparency> <http://rdfs.org/ns/void#objectsTarget> <http://transparency.270a.info/dataset/transparency> .
+<http://bis.270a.info/void.ttl#linkset-bis-transparency> <http://rdfs.org/ns/void#subjectsTarget> <http://bis.270a.info/dataset/bis> .
+<http://bis.270a.info/void.ttl#linkset-bis-transparency> <http://rdfs.org/ns/void#triples> "406"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bis.270a.info/void.ttl#linkset-bis-geonames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bis.270a.info/void.ttl#linkset-bis-geonames> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bis.270a.info/void.ttl#linkset-bis-geonames> <http://rdfs.org/ns/void#objectsTarget> <http://sws.geonames.org/> .
+<http://bis.270a.info/void.ttl#linkset-bis-geonames> <http://rdfs.org/ns/void#subjectsTarget> <http://bis.270a.info/dataset/bis> .
+<http://bis.270a.info/void.ttl#linkset-bis-geonames> <http://rdfs.org/ns/void#triples> "515"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bis.270a.info/void.ttl#linkset-bis-ecb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bis.270a.info/void.ttl#linkset-bis-ecb> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bis.270a.info/void.ttl#linkset-bis-ecb> <http://rdfs.org/ns/void#objectsTarget> <http://ecb.270a.info/dataset/ecb> .
+<http://bis.270a.info/void.ttl#linkset-bis-ecb> <http://rdfs.org/ns/void#subjectsTarget> <http://bis.270a.info/dataset/bis> .
+<http://bis.270a.info/void.ttl#linkset-bis-ecb> <http://rdfs.org/ns/void#triples> "574"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bis.270a.info/void.ttl#linkset-bis-worldbank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bis.270a.info/void.ttl#linkset-bis-worldbank> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bis.270a.info/void.ttl#linkset-bis-worldbank> <http://rdfs.org/ns/void#objectsTarget> <http://worldbank.270a.info/dataset/worldbank> .
+<http://bis.270a.info/void.ttl#linkset-bis-worldbank> <http://rdfs.org/ns/void#subjectsTarget> <http://bis.270a.info/dataset/bis> .
+<http://bis.270a.info/void.ttl#linkset-bis-worldbank> <http://rdfs.org/ns/void#triples> "487"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bis.270a.info/void.ttl#linkset-bis-uis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bis.270a.info/void.ttl#linkset-bis-uis> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bis.270a.info/void.ttl#linkset-bis-uis> <http://rdfs.org/ns/void#objectsTarget> <http://uis.270a.info/dataset/uis> .
+<http://bis.270a.info/void.ttl#linkset-bis-uis> <http://rdfs.org/ns/void#subjectsTarget> <http://bis.270a.info/dataset/bis> .
+<http://bis.270a.info/void.ttl#linkset-bis-uis> <http://rdfs.org/ns/void#triples> "2310"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bis.270a.info/void.ttl#linkset-bis-dbpedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bis.270a.info/void.ttl#linkset-bis-dbpedia> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bis.270a.info/void.ttl#linkset-bis-dbpedia> <http://rdfs.org/ns/void#objectsTarget> <http://dbpedia.org/void/Dataset> .
+<http://bis.270a.info/void.ttl#linkset-bis-dbpedia> <http://rdfs.org/ns/void#subjectsTarget> <http://bis.270a.info/dataset/bis> .
+<http://bis.270a.info/void.ttl#linkset-bis-dbpedia> <http://rdfs.org/ns/void#triples> "534"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://bis.270a.info/void.ttl#linkset-bis-bfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Linkset> .
+<http://bis.270a.info/void.ttl#linkset-bis-bfs> <http://rdfs.org/ns/void#linkPredicate> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+<http://bis.270a.info/void.ttl#linkset-bis-bfs> <http://rdfs.org/ns/void#objectsTarget> <http://bfs.270a.info/dataset/bfs> .
+<http://bis.270a.info/void.ttl#linkset-bis-bfs> <http://rdfs.org/ns/void#subjectsTarget> <http://bis.270a.info/dataset/bis> .
+<http://bis.270a.info/void.ttl#linkset-bis-bfs> <http://rdfs.org/ns/void#triples> "466"^^<http://www.w3.org/2001/XMLSchema#integer> .
