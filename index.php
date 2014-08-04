@@ -71,7 +71,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'."\n";
                     <dd>
                         <ul>
                             <li>Creator: <a rel="dcterms:creator foaf:maker" href="http://csarven.ca/#i"><span property="rdfs:label foaf:name">Sarven Capadisli</span></a></li>
-                            <li class="notice_updated">Last updated: <abbr property="dcterms:issued" datatype="xsd:dateTime" content="2014-04-23T00:00:00Z" class="published updated" title="2014-04-23T00:00:00Z">2014-04-23</abbr></li>
+                            <li class="notice_updated">Last updated: <abbr property="dcterms:issued" datatype="xsd:dateTime" content="2014-08-04T00:00:00Z" class="published updated" title="2014-08-04T00:00:00Z">2014-08-04</abbr></li>
                         </ul>
                     </dd>
                 </dl>
