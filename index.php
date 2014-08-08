@@ -57,6 +57,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'."\n";
                                 <li><a rel="rdfs:seeAlso" property="rdfs:label" href="http://uis.270a.info/">UNESCO Institute for Statistics</a></li>
                                 <li><a rel="rdfs:seeAlso" property="rdfs:label" href="http://frb.270a.info/">Federal Reserve Board</a></li>
                                 <li><a rel="rdfs:seeAlso" property="rdfs:label" href="http://bis.270a.info/">Bank for International Settlements</a></li>
+                                <li><a rel="rdfs:seeAlso" property="rdfs:label" href="http://abs.270a.info/">Australian Bureau of Statistics</a></li>
                             </ul>
 
                             <p id="stats-analysis"><a rel="rdfs:seeAlso" property="rdfs:label" href="http://stats.270a.info/">Stats Analysis</a> is a human and machine-friendly Web based application which uses the statistical data from above linked dataspaces, makes federated queries and generates analysis. You can read more about it at <a rel="rdfs:seeAlso" property="rdfs:label" href="http://csarven.ca/linked-statistical-data-analysis">Linked Statistical Data Analysis</a>.</p>
