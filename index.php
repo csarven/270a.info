@@ -3,7 +3,6 @@ header ("Content-Type: application/xhtml+xml; charset=utf-8");
 header ("Content-Language: en");
 echo '<?xml version="1.0" encoding="utf-8"?>'."\n";
 ?>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
   xmlns:xsd ="http://www.w3.org/2001/XMLSchema#"
