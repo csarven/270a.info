@@ -295,7 +295,6 @@ margin-right:18px;
 #wrap {
 margin:0 auto;
 width:100%;
-min-width:760px;
 max-width:1003px;
 overflow:hidden;
 }
