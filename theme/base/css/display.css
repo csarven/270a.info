@@ -41,7 +41,7 @@ ol { list-style-position:inside; }
 body {
 background-color:#FFFFFF;
 color:#000000;
-font-family: "CMU Sans Serif", sans-serif !important;
+font-family: "CMU Sans Serif Medium", sans-serif !important;
 font-size:1.3em !important;
 line-height:1.65;
 position:relative;
@@ -295,6 +295,7 @@ margin-right:18px;
 #wrap {
 margin:0 auto;
 width:100%;
+min-width:760px;
 max-width:1003px;
 overflow:hidden;
 }
