@@ -57,7 +57,8 @@
         imf-dataset:imf ,
         uis-dataset:uis ,
         frb-dataset:frb ;
-    void:triples 0 ;
+        bis-dataset:bis ;
+        abs-dataset:abs ;
     dcterms:subject
         <http://dbpedia.org/resource/Central_bank> ,
         <http://dbpedia.org/resource/Census> ,
