@@ -6,7 +6,6 @@
 
 @import url(../../base/css/display.css);
 
-@media screen, projection, tv {
 body,
 a:active {
 background-color:#E5E5E5;
@@ -100,5 +99,3 @@ border-color:#AAAAAA;
 #datasets-from-source tbody td:first-child {
 width:45%;
 }
-
-} /*end of @media screen, projection, tv*/

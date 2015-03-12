@@ -30,7 +30,6 @@ src: local("CMU Sans Serif Monospace"), url("http://linked-research.270a.info/me
 }
 
 
-@media screen, projection, tv {
 * { margin:0; padding:0; }
 img { display:block; border:0; }
 a abbr { cursor: pointer; border-bottom:0; }
@@ -705,17 +704,7 @@ clear:both;
 }
 
 
-
-} /*end of screen, projection, tv*/
-
-
-
 @media print {
-a:after { background-color:#FFFFFF; }
-a:not([href^="#"]):after { content:" <"attr(href)"> "; }
-img { border:none; }
-p { orphans: 2; widows: 1; }
-
 #site_nav_global_primary,
 #site_nav_local_sections,
 #site_nav_global_secondary,
