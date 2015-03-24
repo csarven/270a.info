@@ -11,6 +11,8 @@ Consists of:
 * http://imf.270a.info/
 * http://uis.270a.info/
 * http://frb.270a.info/
+* http://bis.270a.info/
+* http://abs.270a.info/
 
 See also:
 * 270a.info's VoID: http://270a.info/.well-known/void
