@@ -4,32 +4,6 @@
  * @license   http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 Unported
  */
 
-@font-face {
-font-family: "CMU Sans Serif Medium";
-src: local("CMU Sans Serif Medium"), url("https://dokie.li/media/fonts/cmunss.otf");
-}
-@font-face {
-font-family: "CMU Sans Serif Bold";
-src: local("CMU Sans Serif Bold"), url("https://dokie.li/media/fonts/cmunsx.otf");
-font-weight: bold !important;
-}
-@font-face {
-font-family: "CMU Sans Serif Italic";
-src: local("CMU Sans Serif Italic"), url("https://dokie.li/media/fonts/cmunsi.otf");
-font-style: italic, oblique !important;
-}
-@font-face {
-font-family: "CMU Sans Serif Bold Italic";
-src: local("CMU Sans Serif Bold Italic"), url("https://dokie.li/media/fonts/cmunbxo.otf");
-font-weight: bold;
-font-style: italic, oblique;
-}
-@font-face {
-font-family: "CMU Sans Serif Monospace";
-src: local("CMU Sans Serif Monospace"), url("https://dokie.li/media/fonts/cmuntt.otf");
-}
-
-
 * { margin:0; padding:0; }
 img { display:block; border:0; }
 a abbr { cursor: pointer; border-bottom:0; }
@@ -40,7 +14,7 @@ ol { list-style-position:inside; }
 body {
 background-color:#FFFFFF;
 color:#000000;
-font-family: "CMU Sans Serif Medium", sans-serif !important;
+font-family: sans-serif !important;
 font-size:1.3em !important;
 line-height:1.65;
 position:relative;
@@ -60,18 +34,6 @@ h5 { font-size:1em; }
 h6 { font-size:0.9em; }
 
 code { font-size:1.2em; }
-
-h1,h2,h3,h4,h5,h6,b,strong, input[type="submit"], dt {
-font-family: "CMU Sans Serif Bold", sans-serif !important;
-}
-i, em, address {
-font-family: "CMU Sans Serif Italic", sans-serif !important;
-font-style:normal !important;
-}
-
-code, pre, kbd {
-font-family: "CMU Sans Serif Monospace", monospace !important;
-}
 
 legend {
 font-weight:bold;
