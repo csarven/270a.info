@@ -56,8 +56,8 @@
         ecb-dataset:ecb ,
         imf-dataset:imf ,
         uis-dataset:uis ,
-        frb-dataset:frb ;
-        bis-dataset:bis ;
+        frb-dataset:frb ,
+        bis-dataset:bis ,
         abs-dataset:abs ;
     dcterms:subject
         <http://dbpedia.org/resource/Central_bank> ,
