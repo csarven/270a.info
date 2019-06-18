@@ -17,7 +17,7 @@
             <div id="header">
                 <address about="[this:#i]" typeof="foaf:Organization" id="site_contact" class="vcard">
                     <a rel="foaf:homepage" href="http://270a.info/" class="url home bookmark">
-                        <object about="[this:media/images/270a.svg]" typeof="foaf:Image" property="rdfs:label" content="270a logo" type="image/svg+xml" data="/media/images/270a.svg" width="48" height="48"/>
+                        <object about="[this:media/images/270a.svg]" typeof="foaf:Image" property="rdfs:label" content="270a logo" type="image/svg+xml" data="/media/images/270a.svg" width="48" height="48"></object>
                         <span property="foaf:name rdfs:label" class="fn org">270a</span>
                     </a>
                 </address><span about="[this:#i]" rel="foaf:img" resource="/media/images/270a.svg"></span>
@@ -28,7 +28,7 @@
                     <h1 property="dcterms:title" class="entry-title">270a Linked Dataspaces</h1>
 
                     <div id="content_inner">
-                        <div class="entry-content" property="dcterms:description" datatype="">
+                        <div class="entry-content" property="dcterms:description">
                             <p rel="rdfs:seeAlso"><a about="http://csarven.ca/statistical-linked-dataspaces" property="rdfs:label"  href="http://csarven.ca/statistical-linked-dataspaces">Statistical Linked Dataspaces</a>, where some are based on <a about="http://csarven.ca/linked-sdmx-data" property="rdfs:label" href="http://csarven.ca/linked-sdmx-data">Linked SDMX Data</a>:</p>
 
                             <p id="figure_270a-dataspaces" about="[this:#i]" rel="foaf:depiction"><object about="[this:media/images/270a.cloud.svg]" typeof="foaf:Image" property="rdfs:label" content="270a Cloud" type="image/svg+xml" data="/media/images/270a.cloud.svg" width="640" height="480"/></p>
