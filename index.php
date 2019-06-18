@@ -1,30 +1,18 @@
-<?php
-header ("Content-Type: application/xhtml+xml; charset=utf-8");
-header ("Content-Language: en");
-echo '<?xml version="1.0" encoding="utf-8"?>'."\n";
-?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"
-  xmlns:xsd ="http://www.w3.org/2001/XMLSchema#"
-  xmlns:owl="http://www.w3.org/2002/07/owl#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>270a Linked Dataspaces</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-  xml:lang="en"
-  xmlns:this="http://270a.info/">
-    <head>
-        <title>270a Linked Dataspaces</title>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="/theme/default/css/display.css" media="all"/>
 
-        <link rel="shortcut icon" href="http://270a.info/favicon.ico"/>
-        <link rel="stylesheet" type="text/css" href="http://270a.info/theme/default/css/display.css" media="all"/>
+    <meta name="description" content="270a Linked Dataspaces"/>
+    <meta name="author" content="http://csarven.ca/#i"/>
+  </head>
 
-        <meta name="description" content="270a Linked Dataspaces"/>
-        <meta name="author" content="http://csarven.ca/#i"/>
-    </head>
-
-    <body id="site_home" about="[this:]" typeof="foaf:Document">
+    <body id="site_home" about="[this:]" typeof="foaf:Document" prefix="xsd: http://www.w3.org/2001/XMLSchema# rdfs: http://www.w3.org/2000/01/rdf-schema# rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# dcterms:http://purl.org/dc/terms/ foaf=http://xmlns.com/foaf/0.1/ this: http://270a.info/">
         <div id="wrap">
             <div id="header">
                 <address about="[this:#i]" typeof="foaf:Organization" id="site_contact" class="vcard">
