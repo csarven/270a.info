@@ -5,8 +5,8 @@
     <title>270a Linked Dataspaces</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-    <link rel="shortcut icon" href="/favicon.ico"/>
-    <link rel="stylesheet" type="text/css" href="/theme/default/css/display.css" media="all"/>
+    <link rel="shortcut icon" href="http://270a.info/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="http://270a.info/theme/default/css/display.css" media="all"/>
 
     <meta name="description" content="270a Linked Dataspaces"/>
     <meta name="author" content="http://csarven.ca/#i"/>
