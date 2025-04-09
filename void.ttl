@@ -24,7 +24,7 @@
 @prefix transparency-dataset: <http://transparency.270a.info/dataset/> .
 
 
-<http://csarven.ca/#i>
+<https://csarven.ca/#i>
     rdfs:label "Sarven Capadisli"@en ;
     .
 
@@ -35,7 +35,7 @@
 <http://270a.info/void.ttl>
     a void:DatasetDescription ;
     dcterms:title "270a.info Linked Dataspaces"@en ;
-    dcterms:creator <http://csarven.ca/#i> ;
+    dcterms:creator <https://csarven.ca/#i> ;
     foaf:primaryTopic :270a-dataset .
 
 
@@ -43,7 +43,7 @@
     a void:Dataset ;
     dcterms:title "270a.info"@en ;
     foaf:homepage <http://270a.info/> ;
-    dcterms:publisher <http://csarven.ca/#i> ;
+    dcterms:publisher <https://csarven.ca/#i> ;
     dcterms:modified "2014-04-23"^^xsd:date ;
     dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     void:subset
